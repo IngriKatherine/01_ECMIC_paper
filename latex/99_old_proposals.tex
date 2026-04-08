@@ -1,0 +1,167 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip} % spacing between paragraphs
+\usepackage{amsmath, amssymb}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\setlength{\emergencystretch}{3em}
+\usepackage{xurl}
+\setlength{\emergencystretch}{3em}
+
+\onehalfspacing
+\sloppy
+\sloppy
+
+\title{\vspace{-1.2cm}Paper Ideas Proposal}
+\author{Ingri Katherine Quevedo Rocha}
+\date{\today}
+
+\begin{document}
+\maketitle
+\section{Idea 1 (PREFERRED): Female-Owned Firm Survival in Concentrated Industries}
+
+\subsection*{Research Question}
+
+Does increased competition discipline firms differently depending on who is in charge?
+
+\subsection*{Motivation}
+Market concentration may create barriers to entry and survival that are especially binding for women-owned firms, due to unequal access to finance, networks, and bargaining power. Women in directive positions could shape firm behavior through: Risk preferences, Governance and monitoring, Strategic pricing responses. If concentrated industries are systematically harsher environments for women entrepreneurs, this has important implications for competition policy and gender equality.
+
+\subsection*{Data}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Source:} Colombia Manufacturing Survery
+  \item \textbf{Level:} Firm--year
+  \item \text{Variables:} This is rich dataset at the firm level with the number owners, white-collar employees, production employees by gender and type of contract (full-time, part-time, etc). It also includes a wide rich set of variables for the firm to untangle costs, production and investment which will help for the markups estimations following \cite{loecker_markups_2012} methodology.
+  \item \textbf{Tariff Data}: WITS - hs code 6 digit tariffs for Colombia aggregated at the industry level using HS-ISIC correlation by WITS.
+\end{itemize}
+
+\subsection*{Empirical Strategy}
+The baseline regression relates firm's markup with a dummy of 1 and 0 if the firm has a women in directive positions:
+\begin{equation} 
+\text{Markup}_{ft} = \alpha + \beta \, \text{Dummy\_Female\_Owner}_{ft} + \delta Z_{ft} + u_{ft}
+\end{equation}
+where $\text{Markup}_{ft}$ measures the difference between prices and marginal cost and $Z_{ft}$ includes firm controls and time fixed effects.
+
+\textbf{How markups would be estimated}: I would take a production  approach to markups, estimating them using data on firm-level revenue and input expenditures.  The  idea  is  that, when firms face competition, their output should grow proportionally with their input use. If it doesn't, and prices rise faster than costs, the difference reflects pricing power. I would use Materials as inputs since Markups must be based on a flexible input-one that firms can adjust freely because the estimation relies on how input costs influence firms' production decisions. In Colombia, labor is particularly rigit which makes it costly to adjust and not appropiate for markups estimation. Possible concerns that will be ne be addressed in the execution of this idea is how to manage the timing as inputs are selected before revenues are revealed, thus there would need to be a correction for this.
+
+Other possible complications will appear on the function approach to production, nonetheless I would follow the literature and use a Translog Production Function as in (De Loecker and Warzynski, 2012)
+
+To strengthen identification, the project exploits competition shock in Colombia 2011 when the signature of Colombia and the Unites States FTA reduced significantly trade barriers. This enables an event study style analysis comparing industries differentially exposed to changes in competitive pressure using tariffs.
+
+\begin{equation}
+\begin{aligned}
+\text{Markup}_{ft} ={}& \alpha + \beta_{1} \, \text{Dummy\_Female\_Owner}_{ft} + \beta_{2} \, \text{Tariffs}_{it} \\
+&+ \beta_{3}\,\bigl(\text{Dummy\_Female\_Owner}_{ft} \times \text{Tariffs}_{it}\bigr) + \delta Z_{ft} + u_{ft}.
+\end{aligned}
+\end{equation}
+
+$\beta_{1}$: Effect of competition on markups for firms without women in leadership
+
+$\beta_{2}$: Level difference in markups by gender leadership
+
+$\beta_{3}$: Differential competitive response when women are in directive positions. MAIN COEFFICIENT
+
+\subsection*{Contribution}
+This project links market structure to gender gaps in firm ownership and survival, contributing to the intersection of industrial organization, entrepreneurship, and gender economics.
+
+\subsection*{Related Literature}
+This paper relates to several strands of the literature on market power, trade liberalization, and gender in firm leadership.
+
+The closest work is the recent working paper by \cite{bracco_globalization_2025}, which studies the evolution of market power in Latin America using firm-level data for Chile and Colombia. That paper applies the \cite{loecker_markups_2012} methodology to estimate markups and proposes a credible strategy to measure the competitive effects of Colombia's 2011 trade liberalization. Their analysis documents how globalization and technological change shape markup dynamics in the region. The present paper builds on this framework by extending the analysis to examine whether firms' markup responses to trade-induced competition vary systematically with gender ownership or leadership composition.
+
+A large body of research has examined firm performance when women occupy leadership or ownership positions. Using data on the 2,500 largest Danish firms, \cite{smith_women_2006} find that a higher proportion of women in top management is associated with improved firm performance. In contrast, \cite{shwetlena___2008}, using firm-level data from 26 Eastern Europe and Central Asia countries, show that female-owned firms tend to operate at a smaller scale and exhibit lower total factor productivity than male-owned firms. Together, these studies highlight that gender composition in leadership is correlated with firm outcomes, though the direction and magnitude of the effects vary across contexts and institutional environments.
+
+However, relatively few studies consider how market structure and competitive conditions interact with gender ownership or leadership to shape firm performance. An exception is \cite{wang_industrial_2013}, who uses confidential survey data on ethnic minority- and women-owned businesses in the United States to study industrial concentration patterns. The author shows that women-owned firms—particularly those owned by women from ethnic minority groups—are disproportionately concentrated in a limited set of industries. While this concentration does not necessarily translate into worse performance in terms of sales, employment, or payrolls, these industries tend to offer lower margins and weaker profit opportunities, especially for smaller firms.
+
+The present paper contributes to this literature in several important ways. First, it shifts the focus to a Latin American context, where labor markets, firm dynamics, and competitive conditions differ substantially from those in advanced economies. Second, it exploits rich panel data at the firm level, allowing for a comprehensive set of controls and fixed effects to address unobserved heterogeneity. Third, it incorporates the 2011 Colombia-United States Free Trade Agreement as an exogenous competition shock, enabling a causal assessment of how increased trade exposure affects markups differently across firms with distinct gender ownership or leadership structures. Finally, by relying on production-function-based markup estimation rather than concentration measures such as the Herfindahl-Hirschman Index, the paper overcomes a key limitation of much of the existing literature, namely the sensitivity of concentration measures to market definition.
+
+By integrating insights from the market power, trade, and gender economics literatures, this paper provides new evidence on how competition reshapes pricing power within firms and whether leadership composition plays a systematic role in these dynamics.
+
+\vspace{0.6cm}
+
+\section{Idea 2: The Mental Health Burden of the COVID-19 Pandemic on Care Workers}
+
+\subsection*{Research Question}
+Did the COVID-19 pandemic disproportionately worsen mental health outcomes among paid and unpaid caregivers in Colombia?
+
+\subsection*{Motivation}
+The COVID-19 pandemic brought the care economy into sharp focus. Caregiving---both paid and unpaid---is disproportionately carried out by women and remained largely invisible until the crisis dramatically increased care demands. At the same time, healthcare and social support services became among the fastest-growing and most critical sectors globally. This project examines whether caregivers experienced a higher mental health burden during the pandemic, as measured by self-reported depressive symptoms.
+
+\subsection*{Data}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Source:} Colombia Great Integrated Household Survey (GEIH)
+  \item \textbf{Survery Key Question:}  "Debido a la situación que se presenta en el país con la pandemia de COVID - 19, ¿Cuáles de las siguientes dificultades se le han presentado a ...? (p60801)" - Translation: ("Due to the situation in the country with the COVID-19 pandemic, which of the following difficulties have you experienced...? (p60801)") Among the options for answer I would use "Se siente solo(a), estresado, preocupado, deprimido"  Transaltion: He/She feels lonely, stressed, worried, depressed.
+  \item \textbf{Frequency and years:} Monthly cross-sections, 2018--2025
+  \item \textbf{Level:} Individual observations with nationally representative survey weights
+\end{itemize}
+
+\subsection*{Empirical Strategy}
+The main specification estimates the probability of reporting depressive feelings using a logit model:
+\begin{equation}
+\Pr(\text{Depression}_{i}=1) =
+\Lambda\left(
+\alpha + \beta_1 \text{PaidCaregiver}_{i} + \beta_2 \text{UnpaidCaregiver}_{i} + X_i\gamma
+\right),
+\end{equation}
+where $X_i$ includes gender, age, and educational attainment. The analysis compares outcomes before and during the pandemic period.
+
+\subsection*{Contribution}
+This project contributes to the care economy literature by quantifying mental health costs borne by caregivers during a major aggregate shock, with particular attention to gendered impacts.
+
+\subsection*{Related Literature}
+\cite{ervin_unpaid_2024} provide a systematic review of the mental health burden of COVID-19 on unpaid caregivers and identify an important empirical challenge: informal caregivers already exhibited worse mental health outcomes than non-caregivers prior to the pandemic. This pre-existing gap complicates causal interpretation. The proposed study for Colombia seeks to address this limitation by exploiting representative household survey data and controlling for a rich set of socio-demographic characteristics, allowing for a cleaner identification of the pandemic's incremental impact on caregivers' mental health.
+
+\cite{power_covid-19_2020} expands the scope of analysis beyond paid health care workers to include unpaid caregivers, a group that is disproportionately composed of women. The article emphasizes how the pandemic intensified existing gender inequalities in care responsibilities and raises concerns about the potential mental health consequences for women bearing increased unpaid care burdens. While largely conceptual, this work directly motivates the present study by underscoring the need for empirical evidence on the mental health effects of caregiving during COVID-19, particularly in developing country contexts and over longer time horizons.
+
+Moreover, most papers have focused on health workers. For instance, \cite{sanghera_impact_2020} provide a systematic review of the mental health impacts of COVID-19 on health care workers with direct exposure to SARS-CoV-2 patients. The authors find substantial evidence of increased rates of depression, anxiety, acute stress reactions, post-traumatic stress disorder, insomnia, and occupational burnout. This literature highlights the severe psychological toll of frontline care work during the pandemic.
+
+\cite{labrague_psychological_2021} synthesize evidence on resilience, coping behaviors, and social support among health care workers during the COVID-19 pandemic. Their review documents consistent evidence that effective coping mechanisms and strong social support networks play a critical role in mitigating adverse mental health outcomes among health professionals facing pandemic-related stressors.
+
+The proposed paper would separate itself from the current literature by providing new empirical evidence with detailed data that allows to difference between paid care workers, and unpaid careworkers, and control for a large set of demographic characteristics.
+
+\vspace{0.6cm}
+
+
+\section{Idea 3: Market Power, and Gender Employment Composition}
+
+\subsection*{Research Question}
+Does workforce gender composition affect firms' pricing behavior and their response to increased competition?
+
+\subsection*{Motivation}
+This idea builds on the preferred idea 1. It aims to include Becker's taste-based discrimination framework and explore whether firms' market power and pricing decisions deviate from profit maximization when discriminatory preferences are present. If discrimination is costly, firms that employ more women may behave differently in competitive environments, particularly following trade liberalization.
+
+\subsection*{Data}
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Source:} Colombia Manufacturing Survery
+  \item \textbf{Level:} Firm--year
+  \item \text{Variables:} This is rich dataset at the firm level with the number owners, white-collar employees, production employees by gender and type of contract (full-time, part-time, etc). It also includes a wide rich set of variables for the firm to untangle costs, production and investment which will help for the markups estimations following \cite{loecker_markups_2012} methodology.
+  \item \textbf{Tariff Data}: WITS - hs code 6 digit tariffs for Colombia aggregated at the industry level using HS-ISIC correlation by WITS.
+\end{itemize}
+
+\subsection*{Empirical Strategy}
+The main regression relates firm markups to gender composition:
+\begin{equation}
+\text{Markup}_{ft} =
+\alpha + \beta \text{ShareWomen}_{ft} + X_{ft}\gamma + u_{ft}.
+\end{equation}
+The analysis incorporates the 2011 tariff reduction in Colombia as an exogenous competition shock, allowing for heterogeneous markup responses by workforce composition (e.g., interactions between $\text{ShareWomen}_{ft}$ and exposure to tariff cuts).
+
+\subsection*{Expected Results}
+I expect firms with a higher share of women employees to exhibit lower markups and a stronger pass-through of input tariff reductions to prices, consistent with lower market power and reduced tolerance for inefficiencies driven by discriminatory preferences.
+
+\subsection*{Related Work and Methodological Anchor}
+The closer work is the working paper by \cite{bracco_globalization_2025} Globalization, Technological Change and Market Power in Latin America: Evidence for Chile and Colombia, which also uses \cite{loecker_markups_2012} approach to markup estimation, and proposes how to measure the Colombia 2011 trade shock. In the new proposed paper, it will extending the analysis to test whether markup dynamics vary systematically with gender ownsership composition.
+
+\subsection*{Contribution}
+This project extends the literature on market power and trade liberalization by introducing a gender-based perspective on firm behavior and competition responses.
+
+\vspace{0.4cm}
+
+\bibliographystyle{apalike}
+\bibliography{references.bib}
+
+\end{document}

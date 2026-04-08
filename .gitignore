@@ -1,0 +1,929 @@
+data/raw/EAM_full/EAM_1995.csv
+data/raw/EAM_full/EAM_1996.csv
+data/raw/EAM_full/EAM_1997.csv
+data/raw/EAM_full/EAM_1998.csv
+data/raw/EAM_full/EAM_1999.csv
+data/raw/EAM_full/EAM_2000.csv
+data/raw/EAM_full/EAM_2001.csv
+data/raw/EAM_full/EAM_2002.csv
+data/raw/EAM_full/EAM_2003.CSV
+data/raw/EAM_full/EAM_2004.csv
+data/raw/EAM_full/EAM_2005.csv
+data/raw/EAM_full/EAM_2006.csv
+data/raw/EAM_full/EAM_2007.csv
+data/raw/EAM_full/EAM_2008.csv
+data/raw/EAM_full/EAM_2009.csv
+data/raw/EAM_full/EAM_2010.csv
+data/raw/EAM_full/EAM_2011.csv
+data/raw/EAM_full/EAM_2012.csv
+data/raw/EAM_full/EAM_2013.csv
+data/raw/EAM_full/EAM_2014.csv
+data/raw/EAM_full/EAM_2015.csv
+data/raw/EAM_full/EAM_2016.csv
+data/raw/EAM_full/EAM_2017.csv
+data/raw/EAM_full/EAM_2018.csv
+data/raw/EAM_full/EAM_2019.csv
+data/raw/EAM_full/EAM_2020.csv
+data/raw/EAM_full/EAM_2021.csv
+data/raw/EAM_full/EAM_2022.csv
+data/raw/EAM_full/EAM_2023.txt
+data/raw/industry_markdown/md_16_Manufacture_of_wood_and_wood_products_except_furniture.csv
+data/raw/EAM_full/EAM_2024.xlsx
+data/raw/EAM_anex/Anexos EAM 2001/C101.xls
+data/raw/EAM_anex/Anexos EAM 1999/C1-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C2-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C4-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C5-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C6-99.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C2100.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C2200.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C2300.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C2400.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C2500.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C2600.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C4100.xls
+data/raw/EAM_anex/Anexos EAM 2000/C4200.xls
+data/raw/EAM_anex/Anexos EAM 2000/C4300.xls
+data/raw/EAM_anex/Anexos EAM 2000/C4400.xls
+data/raw/EAM_anex/Anexos EAM 2000/C4500.xls
+data/raw/EAM_anex/Anexos EAM 2000/C4600.xls
+data/raw/EAM_anex/Anexos EAM 2000/C4700.xls
+data/raw/EAM_anex/Anexos EAM 2000/C4800.xls
+data/raw/EAM_anex/Anexos EAM 2000/C4900.xls
+data/raw/EAM_anex/Anexos EAM 2000/C5100.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C5200.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C5300.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C5400.xls
+data/raw/EAM_anex/Anexos EAM 2000/C5500.xls
+data/raw/EAM_anex/Anexos EAM 2000/C5600.xls
+data/raw/EAM_anex/Anexos EAM 2000/C5700.xls
+data/raw/EAM_anex/Anexos EAM 2000/C5800.xls
+data/raw/EAM_anex/Anexos EAM 2000/C5900.xls
+data/raw/EAM_anex/Anexos EAM 2000/C6100.xls
+data/raw/EAM_anex/Anexos EAM 2000/C6200.xls
+data/raw/EAM_anex/Anexos EAM 2001/C2101.XLS
+data/raw/EAM_anex/Anexos EAM 2001/C2201.XLS
+data/raw/EAM_anex/Anexos EAM 2001/C2301.XLS
+data/raw/EAM_anex/Anexos EAM 2001/C2401.XLS
+data/raw/EAM_anex/Anexos EAM 2001/C2501.XLS
+data/raw/EAM_anex/Anexos EAM 2001/C2601.XLS
+data/raw/EAM_anex/Anexos EAM 2001/C3101.xls
+data/raw/EAM_anex/Anexos EAM 2001/C3201.xls
+data/raw/EAM_anex/Anexos EAM 2001/C3301.xls
+data/raw/EAM_anex/Anexos EAM 2001/C3401.xls
+data/raw/EAM_anex/Anexos EAM 2001/C3501.xls
+data/raw/EAM_anex/Anexos EAM 2001/C3601.xls
+data/raw/EAM_anex/Anexos EAM 2001/C3701.xls
+data/raw/EAM_anex/Anexos EAM 2001/C3801.xls
+data/raw/EAM_anex/Anexos EAM 2001/C3901.xls
+data/raw/EAM_anex/Anexos EAM 2001/C4101.xls
+data/raw/EAM_anex/Anexos EAM 2001/C4201.xls
+data/raw/EAM_anex/Anexos EAM 2001/C4301.xls
+data/raw/EAM_anex/Anexos EAM 2001/C4401.xls
+data/raw/EAM_anex/Anexos EAM 2001/C4501.xls
+data/raw/EAM_anex/Anexos EAM 2001/C4601.xls
+data/raw/EAM_anex/Anexos EAM 2001/C4701.xls
+data/raw/EAM_anex/Anexos EAM 2001/C4801.xls
+data/raw/EAM_anex/Anexos EAM 2001/C4901.xls
+data/raw/EAM_anex/Anexos EAM 2001/C5101.xls
+data/raw/EAM_anex/Anexos EAM 2001/C5201.XLS
+data/raw/EAM_anex/Anexos EAM 2001/C5301.XLS
+data/raw/EAM_anex/Anexos EAM 2001/C5401.xls
+data/raw/EAM_anex/Anexos EAM 2001/C5501.xls
+data/raw/EAM_anex/Anexos EAM 2001/C5601.xls
+data/raw/EAM_anex/Anexos EAM 2001/C5701.xls
+data/raw/EAM_anex/Anexos EAM 2001/C5801.xls
+data/raw/EAM_anex/Anexos EAM 2001/C5901.xls
+data/raw/EAM_anex/Anexos EAM 2001/C6101.xls
+data/raw/EAM_anex/Anexos EAM 2001/C6201.xls
+data/raw/EAM_anex/Anexos EAM 1999/C11-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C71-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C72-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C73-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C74-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C75-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C76-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C77-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C78-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C81-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C82-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C83-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C91-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C92-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C93-99.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C41100.xls
+data/raw/EAM_anex/Anexos EAM 2000/C41200.xls
+data/raw/EAM_anex/Anexos EAM 2000/C51000.xls
+data/raw/EAM_anex/Anexos EAM 2000/C51100.xls
+data/raw/EAM_anex/Anexos EAM 2000/C51200.xls
+data/raw/EAM_anex/Anexos EAM 2000/C51300.xls
+data/raw/EAM_anex/Anexos EAM 2000/C51400.xls
+data/raw/EAM_anex/Anexos EAM 2000/C51500.xls
+data/raw/EAM_anex/Anexos EAM 2000/C51600.xls
+data/raw/EAM_anex/Anexos EAM 2000/C51700.xls
+data/raw/EAM_anex/Anexos EAM 2000/C51800.xls
+data/raw/EAM_anex/Anexos EAM 2000/C51900.xls
+data/raw/EAM_anex/Anexos EAM 2000/C52000.xls
+data/raw/EAM_anex/Anexos EAM 2000/C52100.xls
+data/raw/EAM_anex/Anexos EAM 2001/C41001.xls
+data/raw/EAM_anex/Anexos EAM 2001/C41101.xls
+data/raw/EAM_anex/Anexos EAM 2001/C41201.xls
+data/raw/EAM_anex/Anexos EAM 2001/C51001.xls
+data/raw/EAM_anex/Anexos EAM 2001/C51101.xls
+data/raw/EAM_anex/Anexos EAM 2001/C51201.xls
+data/raw/EAM_anex/Anexos EAM 2001/C51301.xls
+data/raw/EAM_anex/Anexos EAM 2001/C51401.xls
+data/raw/EAM_anex/Anexos EAM 2001/C51501.xls
+data/raw/EAM_anex/Anexos EAM 2001/C51601.xls
+data/raw/EAM_anex/Anexos EAM 2001/C51701.xls
+data/raw/EAM_anex/Anexos EAM 2001/C51801.xls
+data/raw/EAM_anex/Anexos EAM 2001/C51901.xls
+data/raw/EAM_anex/Anexos EAM 2001/C52001.xls
+data/raw/EAM_anex/Anexos EAM 2001/C52101.xls
+data/raw/EAM_anex/Anexos EAM 1999/1-POR99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C101-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C102-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C103-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C12-99M.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C12-99P.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C311-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C312-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C321-99.XLS
+data/raw/EAM_anex/Anexos EAM 1999/C322-99.XLS
+data/raw/EAM_anex/Anexos EAM 2000/C41000a.xls
+data/raw/EAM_anex/Anexos EAM 2002/C1-2002.xls
+data/raw/EAM_anex/Anexos EAM 2003/C1-2003.xls
+data/raw/EAM_anex/Anexos EAM 2004/C1-2004.xls
+data/raw/EAM_anex/Anexos EAM 2005/c1.1_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c1.2_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c1.3_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c1.4_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c1.5_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c1.6_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c2.1_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c2.2_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c2.3_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c2.4_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c2.5_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c2.6_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c3.1_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c3.2_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c3.3_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c3.4_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c3.5_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c3.6_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c3.7_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c3.8_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c3.9_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.1_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.2_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.3_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.4_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.5_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.6_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.7_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.8_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.9_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.1_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.2_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.3_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.4_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.5_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.6_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.7_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.8_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.9_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c6.1_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c6.2_05.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_1_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_2_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_3_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_4_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_5_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_6_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_7_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_8_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_9_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_3_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_4_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_5_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_6_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_7_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_8_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_9_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c6_1_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c6_2_06.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c1_1_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c1_2_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c1_3_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c1_4_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c1_5_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c1_6_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c3_2_07.xls
+data/raw/EAM_anex/Anexos EAM 2007/c3_3_07.xls
+data/raw/EAM_anex/Anexos EAM 2007/c3_4_07.xls
+data/raw/EAM_anex/Anexos EAM 2007/c3_5_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c3_6_07.xls
+data/raw/EAM_anex/Anexos EAM 2007/c3_7_07.xls
+data/raw/EAM_anex/Anexos EAM 2007/c3_8_07.xls
+data/raw/EAM_anex/Anexos EAM 2007/c3_9_07.xls
+data/raw/EAM_anex/Anexos EAM 2007/c4_1_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c4_2_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c4_3_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c4_4_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c4_5_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c4_6_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c4_7_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c4_8_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c4_9_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_1_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_2_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_3_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_4_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_5_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_6_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_7_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_8_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_9_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c6_1_07.xls
+data/raw/EAM_anex/Anexos EAM 2007/c6_2_07.xls
+data/raw/EAM_anex/Anexos EAM 2009/c6_1_09.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c6_2_09.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c6_1_11.xls
+data/raw/EAM_anex/Anexos EAM 2011/c6_2_11.xls
+data/raw/EAM_anex/Anexos EAM 2013/c1_1_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c1_2_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c1_3_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c1_4_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c1_5_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/C1_6_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c2_1_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c2_2_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c2_3_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c2_4_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c2_5_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c2_6_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c3_1_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c3_2_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c3_3_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c3_4_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c3_6_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c3_7_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c3_8_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c3_9_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_1_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_2_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_3_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_4_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_5_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_6_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_7_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_8_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_9_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_1_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_2_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_3_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_4_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_5_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_6_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_8_13.xls
+data/raw/EAM_anex/Anexos EAM 2014/c1_1_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c1_2_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c1_3_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c1_4_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c1_5_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/C1_6_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c2_1_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c2_2_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c2_3_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c2_4_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c2_5_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c2_6_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c3_1_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c3_2_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c3_3_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c3_4_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c3_6_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c3_7_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c3_8_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c3_9_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_1_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_2_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_3_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_4_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_5_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_6_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_7_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_8_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_9_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_1_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_2_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_3_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_4_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_5_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_6_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_8_14.xls
+data/raw/EAM_anex/Anexos EAM 1998/01-POR98.XLS
+data/raw/EAM_anex/Anexos EAM 1998/02-C1-98.XLS
+data/raw/EAM_anex/Anexos EAM 1998/03-C2-98.XLS
+data/raw/EAM_anex/Anexos EAM 1998/04-C31~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/05-C31~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/06-C32~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/07-C32~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/08-C4-98.XLS
+data/raw/EAM_anex/Anexos EAM 1998/09-C5-98.XLS
+data/raw/EAM_anex/Anexos EAM 1998/10-C6-98.XLS
+data/raw/EAM_anex/Anexos EAM 1998/11-C71~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/12-C72~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/13-C73~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/14-C74~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/15-C75~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/16-C76~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/17-C77~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/18-C78~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/19-C81~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/20-C82~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/21-C83~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/22-C91~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/23-C92~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/24-C93~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/25-C10~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/26-C10~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/27-C10~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/28-C11~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/29-C12~1.XLS
+data/raw/EAM_anex/Anexos EAM 1998/30-C12~1.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.10_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.11_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c4.12_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.10_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.11_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.12_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.13_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.14_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.15_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.16_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.17_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.18_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.19_05.XLS
+data/raw/EAM_anex/Anexos EAM 2005/c5.20_05.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_10_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_11_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c4_12_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_10_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_11_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_12_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_13_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_14_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_15_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_16_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_17_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_18_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_19_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_20_06.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_21_06.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c2_1_07..XLS
+data/raw/EAM_anex/Anexos EAM 2007/c2_2_07..XLS
+data/raw/EAM_anex/Anexos EAM 2007/c2_3_07..XLS
+data/raw/EAM_anex/Anexos EAM 2007/c2_4_07..XLS
+data/raw/EAM_anex/Anexos EAM 2007/c2_5_07..XLS
+data/raw/EAM_anex/Anexos EAM 2007/c2_6_07..XLS
+data/raw/EAM_anex/Anexos EAM 2007/c3_1_07_.xls
+data/raw/EAM_anex/Anexos EAM 2007/c4_10_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c4_11_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c4_12_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_10_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_11_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_12_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_13_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_14_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_15_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_16_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_17_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_18_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_19_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_20_07.XLS
+data/raw/EAM_anex/Anexos EAM 2007/c5_21_07.XLS
+data/raw/EAM_anex/Anexos EAM 2013/c3_5_ 13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_10_13.XLS
+data/raw/EAM_anex/Anexos EAM 2013/c4_11_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c4_12_13.XLS
+data/raw/EAM_anex/Anexos EAM 2013/c5_10_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_11_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_12_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_13_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_15_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_16_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_17_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_18_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_19_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_20_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c5_21_13.xls
+data/raw/EAM_anex/Anexos EAM 2013/c6_1_13.xlsx
+data/raw/EAM_anex/Anexos EAM 2013/c6_2_13.xlsx
+data/raw/EAM_anex/Anexos EAM 2014/c3_5_ 14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_10_14.XLS
+data/raw/EAM_anex/Anexos EAM 2014/c4_11_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c4_12_14.XLS
+data/raw/EAM_anex/Anexos EAM 2014/c5_10_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_11_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_12_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_13_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_15_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_16_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_17_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_18_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_19_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_20_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c5_21_14.xls
+data/raw/EAM_anex/Anexos EAM 2014/c6_1_14.xlsx
+data/raw/EAM_anex/Anexos EAM 2014/c6_2_14.xlsx
+data/raw/EAM_anex/Anexos EAM 2002/C2-1-2002.XLS
+data/raw/EAM_anex/Anexos EAM 2002/C2-2-2002.XLS
+data/raw/EAM_anex/Anexos EAM 2002/C2-3-2002.XLS
+data/raw/EAM_anex/Anexos EAM 2002/C2-4-2002.XLS
+data/raw/EAM_anex/Anexos EAM 2002/C2-5-2002.XLS
+data/raw/EAM_anex/Anexos EAM 2002/C2-6-2002.XLS
+data/raw/EAM_anex/Anexos EAM 2002/C3-1-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C3-2-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C3-3-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C3-4-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C3-5-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C3-6-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C3-7-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C3-8-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C3-9-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-1-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-2-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-3-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-4-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-5-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-6-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-7-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-8-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-9-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-1-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-2-2002.XLS
+data/raw/EAM_anex/Anexos EAM 2002/C5-3-2002.XLS
+data/raw/EAM_anex/Anexos EAM 2002/C5-4-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-5-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-6-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-7-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-8-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-9-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C6-1-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C6-2-2002.XLS
+data/raw/EAM_anex/Anexos EAM 2003/C2-1-2003.XLS
+data/raw/EAM_anex/Anexos EAM 2003/C2-2-2003.XLS
+data/raw/EAM_anex/Anexos EAM 2003/C2-3-2003.XLS
+data/raw/EAM_anex/Anexos EAM 2003/C2-4-2003.XLS
+data/raw/EAM_anex/Anexos EAM 2003/C2-5-2003.XLS
+data/raw/EAM_anex/Anexos EAM 2003/C2-6-2003.XLS
+data/raw/EAM_anex/Anexos EAM 2003/C3-1-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C3-2-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C3-3-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C3-4-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C3-5-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C3-6-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C3-7-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C3-8-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C3-9-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-1-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-2-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-3-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-4-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-5-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-6-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-7-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-8-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-9-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-1-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-2-2003.XLS
+data/raw/EAM_anex/Anexos EAM 2003/C5-3-2003.XLS
+data/raw/EAM_anex/Anexos EAM 2003/C5-4-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-5-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-6-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-7-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-8-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-9-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C6-2-2003.XLS
+data/raw/EAM_anex/Anexos EAM 2004/C2-1-2004.XLS
+data/raw/EAM_anex/Anexos EAM 2004/C2-2-2004.XLS
+data/raw/EAM_anex/Anexos EAM 2004/C2-3-2004.XLS
+data/raw/EAM_anex/Anexos EAM 2004/C2-4-2004.XLS
+data/raw/EAM_anex/Anexos EAM 2004/C2-5-2004.XLS
+data/raw/EAM_anex/Anexos EAM 2004/C3-1-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C3-2-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C3-3-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C3-4-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C3-5-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C3-6-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C3-7-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C3-8-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C3-9-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-1-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-2-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-3-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-4-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-5-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-6-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-7-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-8-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-9-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-1-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-2-2004.XLS
+data/raw/EAM_anex/Anexos EAM 2004/C5-3-2004.XLS
+data/raw/EAM_anex/Anexos EAM 2004/C5-4-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-5-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-6-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-7-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-8-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-9-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C6-1-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C6-2-2004.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c1_1_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c1_2_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c1_3_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c1_4_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c1_5_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c1_6_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c2_1_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c2_2_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c2_3_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c2_4_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c2_5_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c2_6_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c3_1_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c3_2_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c3_3_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c3_4_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c3_5_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c3_6_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c3_7_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c3_8_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c3_9_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_1_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2006/c5_2_06_c.XLS
+data/raw/EAM_anex/Anexos EAM 2013/c5_14_13.xlsx
+data/raw/EAM_anex/Anexos EAM 2014/c5_14_14.xlsx
+data/raw/EAM_anex/Anexos EAM 2000/C3100ciiu3.xls
+data/raw/EAM_anex/Anexos EAM 2000/C3200ciiu3.xls
+data/raw/EAM_anex/Anexos EAM 2000/C3300ciiu3.xls
+data/raw/EAM_anex/Anexos EAM 2000/C3400ciiu3.xls
+data/raw/EAM_anex/Anexos EAM 2000/C3500ciiu3.xls
+data/raw/EAM_anex/Anexos EAM 2000/C3700ciiu3.xls
+data/raw/EAM_anex/Anexos EAM 2000/C3900ciiu3.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-10-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-11-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C4-12-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-10-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-11-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-12-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-13-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-14-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-15-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-16-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-17-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-18-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-19-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-20-2002.xls
+data/raw/EAM_anex/Anexos EAM 2002/C5-21-2002.xls
+data/raw/EAM_anex/Anexos EAM 2003/C 6-1-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-10-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-11-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C4-12-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-10-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-18-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-19-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-20-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C5-21-2003.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-10-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-11-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C4-12-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-10-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-11-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-12-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-13-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-18-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-19-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-20-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C5-21-2004.xls
+data/raw/EAM_anex/Anexos EAM 2000/C3800ciiiu3.xls
+data/raw/EAM_anex/Anexos EAM 2003/C 5-11-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C 5-12-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C 5-13-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C 5-14-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C 5-15-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C 5-16-2003.xls
+data/raw/EAM_anex/Anexos EAM 2003/C 5-17-2003.xls
+data/raw/EAM_anex/Anexos EAM 2004/C 5-14-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C 5-15-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C 5-16-2004.xls
+data/raw/EAM_anex/Anexos EAM 2004/C 5-17-2004.xls
+data/raw/EAM_anex/Anexos EAM 2000/C3600ciiu3_2000.xls
+data/raw/EAM_anex/Anexos EAM 2012/c2_1_12 - CIIU4.xls
+data/raw/industry_markdown/md_32_Other_Manufacturing.csv
+data/raw/EAM_anex/Anexos EAM 2008/c1_1_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c1_2_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c1_3_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c1_4_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c2_1_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c2_5_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c2_6_08_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2008/c3_1_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c3_2_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c3_3_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c3_4_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c3_5_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c3_6_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c3_7_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c3_8_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c3_9_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_1_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_2_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_3_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_4_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_5_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_6_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_7_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_8_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_9_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_19_08_conreserva.xls
+data/raw/EAM_anex/Anexos EAM 2008/c5_1_08_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2008/c5_2_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_3_08_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2008/c5_4_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_5_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_6_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_7_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_8_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_9_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c6_1_08_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2008/c6_2_08_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2009/c1_1_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c1_2_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c1_3_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c1_4_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c1_5_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c1_6_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c2_1_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c2_2_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c2_3_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c2_4_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c2_5_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c2_6_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c3_1_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c3_2_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c3_3_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c3_4_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c3_5_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c3_6_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c3_7_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c3_8_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c3_9_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c4_1_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c4_2_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c4_3_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c4_4_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c4_5_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c4_6_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c4_7_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c4_8_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c4_9_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_1_09_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2009/c5_2_09_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2009/c5_3_09_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2009/c5_4_09_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2009/c5_5_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_6_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_7_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_8_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_9_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c1_1_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c1_2_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c1_3_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c1_4_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c1_5_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c1_6_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c2_1_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c2_2_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c2_3_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c2_4_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c2_5_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c2_6_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c3_1_10_con reserva.XLS
+data/raw/industry_markdown/md_29_Manufacture_of_motor_vehicles_trailers_semi_trailers.csv
+data/raw/industry_markdown/md_23_Manufacture_of_other_non_methalic_mineral_products.csv
+data/raw/industry_markdown/md_25_Manufacture_of_metal_products_nomachinery.csv
+data/raw/industry_markdown/md_18_Printing_and_reproduction_recorded_media.csv
+data/raw/industry_markdown/md_28_Manufacture_of_machinery_and_equipment.csv
+data/raw/industry_markdown/md_19_Manufacture_of_coke_refined_petrolium.csv
+data/raw/industry_markdown/md_27_Manufacture_of_electrical_equipment.csv
+data/raw/industry_markdown/md_15_Manufacture_of_leather_and_related.csv
+data/raw/industry_markdown/md_22_Manufacture_of_rubber_and_plastic.csv
+data/raw/industry_markdown/md_14_Manufacture_of_wearing_apparel.csv
+data/raw/industry_markdown/md_10_Manufacture_of_food_products.csv
+data/raw/EAM_anex/Anexos EAM 2014/Anexos - contenido EAM 2014.xls
+data/raw/EAM_anex/Anexos EAM 2013/Anexos - contenido EAM 2013.xls
+data/raw/industry_markdown/md_24_Manufacture_of_basic_metals.csv
+data/raw/industry_markdown/md_21_Manufacture_of_basic_pharma.csv
+data/raw/EAM_anex/Anexos_EAM_desagregacion_variables_2021.xlsx
+data/raw/industry_markdown/md_31_Manufacture_of_furniture.csv
+data/raw/industry_markdown/md_20_Manufacture_of_chemicals.csv
+data/raw/industry_markdown/md_11_Manufacture_of_beverages.csv
+data/raw/EAM_anex/Anexos_EAM_desagregacion_variables_2020.xls
+data/raw/EAM_anex/Anexos_EAM_desagregacion_variables_2019.xls
+data/raw/EAM_anex/Anexos_EAM_desagregacion_variables_2018.xls
+data/raw/EAM_anex/Anexos_EAM_desagregacion_variables_2017.xls
+data/raw/EAM_anex/Anexos_EAM_desagregacion_variables_2016.xls
+data/raw/EAM_anex/Anexos_EAM_desagregacion_variables_2015.xls
+data/raw/industry_markdown/md_13_Manufacture_of_textiles.csv
+data/raw/EAM_anex/Anexos EAM 2008/Lista_Cuadros_EAM_2008.doc
+data/raw/EAM_anex/Anexos EAM 2008/c2_4_08_ con  reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c2_3_08_ con  reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2012/c5_21_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_20_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_19_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_18_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_17_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_16_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_15_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_14_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_13_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_12_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_11_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_10_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c4_5_12_con reserva.xlsx
+data/raw/EAM_anex/Anexos EAM 2012/c4_3_12_con reserva.xlsx
+data/raw/EAM_anex/Anexos EAM 2012/c4_12_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c4_11_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c4_10_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c5_21_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_20_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c5_19_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_18_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_17_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c5_16_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_15_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_14_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c5_13_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_12_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c5_11_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c4_12_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c4_11_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c4_10_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_21_10_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2010/c5_20_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_19_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_18_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_17_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_16_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_15_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_14_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_13_10_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2010/c5_12_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_11_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_10_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c4_12_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c4_11_10_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2010/c4_10_10_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2009/c5_21_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_20_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_19_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_18_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_17_09_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2009/c5_16_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_15_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_14_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_13_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_12_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_11_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c5_10_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2009/c4_12_09_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2009/c4_11_09_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2009/c4_10_09_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_21_08_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2008/c5_20_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_18_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_17_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_16_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_15_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_14_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_13_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_12_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_11_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c5_10_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_12_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_11_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c4_10_08_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c2_2_08_ con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2008/c1_6_08_con reserva..xls
+data/raw/EAM_anex/Anexos EAM 2008/c1_5_08_con reserva..xls
+data/raw/industry_markdown/md_17_Manufacture_of_paper.csv
+data/raw/EAM_anex/Anexos EAM 2012/c6_2_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c6_1_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_8_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_6_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_5_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_4_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_3_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_2_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c5_1_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c4_9_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c4_8_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c4_7_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c4_6_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c4_4_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c4_2_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c4_1_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c3_9_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c3_8_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c3_7_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c3_6_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c3_5_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c3_4_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c3_3_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c3_2_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c3_1_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c2_6_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c2_5_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c2_4_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c2_3_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c2_2_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c2_1_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c1_6_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c1_5_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c1_4_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c1_3_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c1_2_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2012/c1_1_12_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c5_8_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_7_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_6_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_5_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c5_4_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_3_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_2_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_1_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c5_10_11con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c4_9_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c4_8_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c4_7_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c4_6_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c4_5_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c4_4_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c4_3_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c4_2_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c4_1_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c3_9_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c3_8_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c3_7_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c3_6_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c3_5_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/C3_4_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c3_3_11_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2011/c3_2_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c3_1_11_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c2_6_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c2_5_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c2_4_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c2_3_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c2_2_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c2_1_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c1_6_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c1_5_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c1_4_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/C1_3_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/C1_2_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2011/c1_1_11 con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2010/c6_2_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c6_1_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_9_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_8_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_7_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_6_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_5_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_4_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_3_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_2_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c5_1_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c4_9_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c4_8_10_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2010/c4_7_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c4_6_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c4_5_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c4_4_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c4_3_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c4_2_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c4_1_10_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2010/c3_9_10_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2010/c3_8_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c3_7_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c3_6_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c3_5_10_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2010/c3_4_10_con reserva.xls
+data/raw/EAM_anex/Anexos EAM 2010/c3_3_10_con reserva.XLS
+data/raw/EAM_anex/Anexos EAM 2010/c3_2_10_con reserva.xls
+data/proc/EAM_own.dta
+data/proc/work_EAM.parquet
+data/proc/EAM.parquet
