@@ -332,27 +332,37 @@ This expression shows that the markdown can be estimated using the ratio of the 
 
 \section{Data}
 
-This paper uses firm-level data from the Annual Manufacturing Survey (Encuesta Anual Manufacturera, EAM) conducted by the National Administrative Department of Statistics (DANE) in Colombia. The original dataset spans 1995-2024, covering approximately 7,000 manufacturing firms per year. The EAM is a census of medium and large manufacturing establishments and provides detailed and standardized information on firms' production, input use, employment composition, and financial accounts. I restrict the analysis to the period 2000-2019 to ensure data consistency and avoid disruptions from the COVID-19 pandemic. The data is collected at the plant level, nonetheless, I aggregate to the firm level by summing across all plants owned by the same firm in a given year, using the unique firm identifier provided in the dataset.
+This paper uses firm-level data from the Annual Manufacturing Survey (\textit{Encuesta Anual Manufacturera}, EAM) conducted by Colombia's National Administrative Department of Statistics (DANE). The EAM is a census of medium and large manufacturing establishments that provides detailed and standardized information on firms' production, input use, employment composition, and financial accounts. The original dataset spans 1995--2024 and covers approximately 7,000 manufacturing establishments per year. I restrict the analysis to the period 2000--2019 to ensure data consistency and to avoid disruptions associated with the COVID-19 pandemic. Although the data are collected at the establishment level, I aggregate to the firm level by summing across all plants belonging to the same firm in a given year, using the unique firm identifier provided in the survey.
 
-The data is organized as an unbalanced panel, reflecting firm entry and exit over time. Following DANE's technical guidelines, the sample is restricted to firms with at least 10 employees, which ensures consistency in reporting standards and improves the reliability of firm-level measures. Observations with missing or implausible values (e.g., negative output or extreme input ratios) are excluded (~0.2\% of total observations). 
-
-The main explanatory variable is the share of female ownership at the firm level. This measure is constructed using variables c4r4c1t (number of male owners) and c4r4c2t (number of female owners)\footnote{In the form, these variables represent the total number of owners, partners, and unpaid family members. They are disaggregated by gender as well as by occupational category—professionals; technicians and technologists; production workers (foreign and local); operators and producers; and managers and sales personnel. I use the sum of all owner types to construct the total ownership variable.}. The female ownership share is defined as:
+The resulting dataset is an unbalanced panel that reflects firm entry and exit over time. Following DANE's technical guidelines, the sample is restricted to firms with at least 10 employees, which ensures consistency in reporting standards and improves the reliability of firm-level measures. Observations with missing or implausible values---such as negative output or extreme input ratios---are excluded, affecting approximately 0.2 percent of total observations.
+ 
+\paragraph{Main Explanatory Variable.}
+The main explanatory variable is the firm-level share of female ownership, constructed from variables recording the number of male owners (\texttt{c4r4c1t}) and female owners (\texttt{c4r4c2t}) reported in the survey.\footnote{In the form, these variables represent the total number of owners, partners, and unpaid family members. They are disaggregated by gender as well as by occupational category---professionals; technicians and technologists; production workers (foreign and local); operators and producers; and managers and sales personnel. I use the sum of all owner types to construct the total ownership variable.} The female ownership share is defined as:
+ 
 \begin{equation}
-    \text{Female Ownership Share}_{it} = \frac{\text{Number of female owners}_{it}}{\text{Total number of owners}_{it}}.
+    \text{Female Ownership Share}_{it} =
+    \frac{\text{Number of female owners}_{it}}
+         {\text{Total number of owners}_{it}}.
 \end{equation}
-This variable ranges from 0 to 1 and captures the gender composition of firm ownership. Ownership is measured annually and may vary over time; firms with zero reported owners are excluded. One data limitation of this variable is that for only 30\% of firms, the number of owners is different from zero, which may reflect non-response or reporting issues. These observations are excluded from the analysis, which may introduce selection bias if the missingness is systematically related to firm characteristics or ownership structure. I will explore the extent of this potential bias in the data and consider robustness checks to address it.
+ 
+This variable ranges from 0 to 1 and captures the gender composition of firm ownership. Ownership is measured annually and may vary over time; observations with zero reported owners are excluded from the analysis. One limitation of this variable is that a nonzero ownership count is reported for only approximately 30 percent of firm-year observations, which may reflect genuine non-reporting or survey design issues. Since the analysis is restricted to observations with nonzero ownership counts, the results should be interpreted with caution, as firms with missing ownership data may differ systematically from those for which ownership is observed. I discuss potential robustness checks to address this concern in the empirical section of this paper.
+ 
+\paragraph{Main Outcome Variable.}
+The main outcome variable is the firm-level labor markdown, defined as the ratio of a worker's marginal revenue product of labor to the wage paid by the firm. Markdown estimates are derived from the production function framework described in Section~4, which combines estimated output elasticities with observed input cost shares.\footnote{I improved upon \cite{de_loecker_rise_2020} estimation procedure by using a Nelder-Mead primary optimizer, since the GMM surface can be non-smooth and non-convex, especially for the translog specification with its many cross-terms. Rvmmin (Variable metric nonlinear function minimization) provides a gradient-based refinement when Nelder-Mead stalls near the minimum. The estimation is run in a loop iterating over every distinct 4-digit ISIC sector in the data, with elasticities recovered at the firm level. For firms where the model did not converge, I follow \cite{ackerberg_identification_2015} and use a Cobb-Douglas specification at the sector level, imputing the median sector-specific elasticities.}
 
-The main outcome variable is the firm-level markdown, defined as the wedge between the marginal product of labor and the wage paid by the firm. Markdown estimates are obtained from the production function framework that combines estimated output elasticities with observed input shares; the construction is described in detail in the economic theoterical framework\footnote{I improved upon \cite{de_loecker_rise_2020} estimation procedure by using a Nelder-Mead primary optimizer, since the GMM surface can be non-smooth and non-convex, especially for the translog specification with its many cross-terms. Rvmmin (Variable metric nonlinear function minimization) provides a gradient-based refinement when Nelder-Mead stalls near the minimum. The estimation is run in a loop iterating over every distinct 4-digit ISIC sector in the data, with elasticities recovered at the firm level. For firms where the model did not converge, I follow  \cite{ackerberg_identification_2015} and use a Cobb-Douglas specification at the sector level, imputing the median sector-specific elasticities.}.
+The dataset provides the inputs required to implement the production function methodology of \cite{de_loecker_rise_2020}. Labor is measured as total employment, defined as the sum of permanent employees, firm owners, and temporary workers, both directly hired and outsourced. The wage bill corresponds to total remuneration paid to permanent and temporary employees. Capital is proxied by the book value of fixed assets, with its cost approximated using a user-cost formula that incorporates depreciation rates, interest rates, and inflation. Materials are measured as total expenditure on raw materials, intermediate inputs, and packaging; consistent with the requirements of the proxy-variable estimator, materials are treated as the flexible input in production. Gross output is proxied by firm level total sales at factory prices, net of direct taxes, as reported in the survey. The price of materials is calculated as the ratio of total materials expenditure to the quantity of materials used.
 
-The dataset provides the necessary information to construct production function using the methodology by \cite{de_loecker_rise_2020}. Labor is measured as total employment, defined as the sum of permanent employees, firm owners, and temporary workers, both directly hired and outsourced. Capital is proxied by the book value of fixed assets, while the wage bill corresponds to total remuneration paid to permanent and temporary employees. Materials are measured as total expenditure on raw materials, intermediate inputs, and packaging, and are treated as the flexible input in production which also allows to control for unobservables (\cite{levinsohn_estimating_2003}). Gross output is proxied by firm-level total sales at factory's price without direct taxes as reported in the survey. The cost of capital is approximated using the user cost of capital formula, which incorporates the depreciation rate, interest rate, and inflation rate. The price of materials is calculated as the ratio of total material expenditure to the quantity of materials used.
+\paragraph{Outlier Treatment and Sample Restrictions.}
 
-All monetary variables are expressed in nominal Colombian pesos. The empirical analysis relies primarily on ratios and input shares constructed from these variables, which mitigates concerns related to price-level variation. In addition, the dynamic structure of the production function estimation implies that rescaling variables through deflation would not materially affect the estimation of key parameters.
+Administrative firm-level data frequently contain extreme values that arise from measurement error, coding mistakes, or genuine but highly influential outliers. Left uncorrected, such values can severely bias the production-function estimates that underpin the markdown calculations. Following \cite{yeh_monopsony_2022}, I apply three filters. First, I winsorize key variables---output, labor, capital, and materials---at the top and bottom 1 percent of their respective distributions to mitigate the influence of extreme observations. Second, I exclude observations with non-positive values for output or any input, as these are inconsistent with the production framework. Third, to ensure that materials satisfy the flexible-input assumptions required for identification, I compute each firm's materials cost share---defined as materials expenditure as a share of total costs---and exclude observations whose materials cost share falls below one quarter of the sector-year median. Plants with anomalously low materials cost shares are unlikely to satisfy the conditions of no adjustment costs, static input choice, and the absence of input market power, and their inclusion could contaminate the proxy-variable estimator.
 
-Finally, the dataset includes detailed identifiers for industry (sector) and geographic location (region), which are used to control for heterogeneity in production technologies, input markets, and regional economic conditions.
+\paragraph{Descriptive Statistics.}
 
-The table \ref{tab:desc_stats} presents the descriptive statistics for the final dataset used in this analysis, it comprises of 7,849 Colombian manufacturing firms observed over 20 years (not balanced), covering 35,399 firm-year observations across 23 geographies and 104 industries. At the firm level, the average number of female owners is 0.66, with a mean female ownership share of 34.85\%, while male owners average 1.06 per firm. Firms employ an average of 37 workers, with wages per employee averaging \$1.87 thousand USD and mean gross output of \$1.61 million USD, though all these variables exhibit substantial dispersion, reflecting heterogeneity in firm size and performance. Production function estimates show that labor, capital, and materials have median output elasticities of 0.411, 0.074, and 0.545, respectively, with corresponding median output shares of 0.119, 0.043, and 0.478. Total Factor Productivity (TFP) has a median of 4.093, and pricing measures indicate a median markup of 1.124, a markdown of 3.029, and an inverse markdown of 0.330, suggesting variation in market power across firms. Overall, the data illustrate a diverse manufacturing sector with notable differences in ownership, size, productivity, and pricing behavior.
+The final dataset comprises of an unbalanced panel of 6,323 Colombian manufacturing firms observed over the period 2000--2019, yielding 29,942 firm-year observations spanning 92 industries and 23 geographic regions. Table~\ref{tab:desc_stats} presents descriptive statistics for the key variables. At the firm level, the average number of female owners is 0.67, with a mean female ownership share of 35.3~percent. Firms employ an average of 34 workers, with annual wages per employee averaging \$1.83 thousand USD and mean gross output of \$1.22 millionUSD; all of these variables exhibit substantial dispersion, reflecting the heterogeneity in firm size and performance that is typical of manufacturing surveys of this type.
 
-\begin{table}[!ht]
+The estimated production-function parameters are broadly consistent with the existing  literature and lend credibility to the markdown estimates. The mean output elasticity of labor is 0.36, with a median of 0.39, while the output elasticity of materials averages 0.62 and the elasticity of capital averages 0.08. These figures are in line with estimates reported for other manufacturing settings using the same methodology \cite{de_loecker_rise_2020, yeh_monopsony_2022}. The dominance of materials over labor in the cost structure is consistent with the capital-light, assembly-intensive nature of much Colombian manufacturing, which supports the use of materials as the flexible input. The mean product markup is 1.23, implying that the average firm prices output approximately 23 percent above marginal cost; the median markup of 1.31 falls within the range estimated by \cite{de_loecker_rise_2020} for U.S.\ manufacturing and by \cite{inter-american_development_bank_competelac_2025} for the broader Latin American and Caribbean region, where the average manufacturing markup is reported to be 87 percent above marginal cost. Turning to the markdown estimates, the median firm-level markdown is 1.93, implying that the median worker produces nearly twice as much as they are paid---or equivalently, receives approximately 52 cents on each dollar generated at the margin. The mean inverse markdown of 0.59 indicates that, on average, workers receive about 59 percent of their marginal revenue product, a figure that is close to the 50 percent reported for Latin America and the Caribbean by the Inter-American Development Bank \cite{inter-american_development_bank_competelac_2025} and to the 65 percent implied by the average markdown of 1.53 estimated for U.S. manufacturing by \cite{yeh_monopsony_2022}. These estimates also align with the findings of \cite{amodio_measuring_2024} for Colombia, who report a labor supply elasticity of approximately 2.5---implying workers produce about 40 percent more than their wage---a degree of monopsony broadly consistent with the markdown distribution documented here. The substantial dispersion in markdowns across firms, with the  interquartile range spanning from 1.04 to 3.41, is also consistent with the  heterogeneity documented in the literature \cite{yeh_monopsony_2022} and motivates the firm-level regression analysis.
+
+\begin{table}[H]
 \centering
 \caption{\label{tab:desc_stats}Descriptive Statistics}
 
@@ -361,37 +371,37 @@ The table \ref{tab:desc_stats} presents the descriptive statistics for the final
 \multicolumn{5}{l}{\textbf{Overall}}\\
 \midrule
 \textit{Variable} & \textit{Value} & & & \\
-\hspace{1em}Observations & 35,399 & & & \\
+\hspace{1em}Observations & 29,942 & & & \\
 \hspace{1em}Years & 20 & & & \\
-\hspace{1em}Firms & 7,849 & & & \\
+\hspace{1em}Firms & 6,323 & & & \\
 \hspace{1em}Geographies & 23 & & & \\
-\hspace{1em}Industries & 104 & & & \\
+\hspace{1em}Industries & 92 & & & \\
 \midrule
 
 \multicolumn{5}{l}{\textbf{By Firm}}\\
 \textit{Variable} & \textit{Mean} & \textit{Min} & \textit{Max} & \textit{Std. Dev.}\\
 \addlinespace[0.3em]
-\hspace{1em}Female owners (N) & 0.66 & 0.00 & 58.00 & 0.89\\
-\hspace{1em}Male owners (N) & 1.06 & 0.00 & 30.00 & 0.83\\
-\hspace{1em}Female ownership share (\%) & 34.85 & 0.00 & 100.00 & 37.49 \\
-\hspace{1em}Employees (N) & 37 & 1 & 4,025 & 108 \\
-\hspace{1em}Wage per employee (\$ thousands USD) & 1.87 & 0.00 & 349.16 & 2.18\\
-\hspace{1em}Gross output (\$ millions USD) & 1.61 & 0.00 & 3.21 & 21.49 \\
+\hspace{1em}Female owners (N) & 0.667 & 0 & 58 & 0.900\\
+\hspace{1em}Male owners (N) & 1.054 & 0 & 30 & 0.809\\
+\hspace{1em}Female ownership share (\%) & 35.319 & 0 & 100 & 37.579 \\
+\hspace{1em}Employees (N) & 34 & 1 & 4,025 & 99 \\
+\hspace{1em}Wage per employee (\$ thousands USD) & 1.827 & 0 & 349.180 & 2.296\\
+\hspace{1em}Gross output (\$ millions USD) & 1.219 & 0 & 756.959 & 11.356 \\
 \midrule
 
 \multicolumn{5}{l}{\textbf{By Firm -- Estimation Parameters}}\\
-\textit{Variable} & \textit{p25} & \textit{Median} & \textit{p75} & \\
+\textit{Variable}& \textit{Mean} & \textit{p25}  & \textit{Median} & \textit{p75} \\
 \addlinespace[0.3em]
-\hspace{1em}Output elasticity of labor & 0.278 & 0.411 & 0.558 & \\
-\hspace{1em}Output elasticity of capital & 0.037 & 0.074 & 0.118 & \\
-\hspace{1em}Output elasticity of materials & 0.388 & 0.545 & 0.704 & \\
-\hspace{1em}Total Factor Productivity (TFP) & 2.900 & 4.093 & 5.821 & \\
-\hspace{1em}Labor output share & 0.070 & 0.119 & 0.190 & \\
-\hspace{1em}Materials output share & 0.336 & 0.478 & 0.632 & \\
-\hspace{1em}Capital output share & 0.020 & 0.043 & 0.088 & \\
-\hspace{1em}Markup & 0.816 & 1.124 & 1.535 & \\
-\hspace{1em}Markdown & 1.574 & 3.029 & 5.471 & \\
-\hspace{1em}Inverse markdown & 0.183 & 0.330 & 0.635 & \\
+\hspace{1em}Output elasticity of labor & 0.358 & 0.239 & 0.386 & 0.433 \\
+\hspace{1em}Output elasticity of capital & 0.081 & 0.033 & 0.064 & 0.106 \\
+\hspace{1em}Output elasticity of materials & 0.624 & 0.528 & 0.641 & 0.693\\
+\hspace{1em}Total Factor Productivity (TFP) & 0.500 & 2.879 & 3.494 & 4.402 \\
+\hspace{1em}Labor output share & 0.150 & 0.072 & 0.122 & 0.193 \\
+\hspace{1em}Materials output share & 0.479 & 0.336  & 0.474 & 0.624\\
+\hspace{1em}Capital output share & 0.073 & 0.019 & 0.042 & 0.087\\
+\hspace{1em}Markup & 1.231 & 1.026 & 1.310 & 1.736\\
+\hspace{1em}Markdown & 1.059 & 1.043 & 1.933 & 3.406\\
+\hspace{1em}Inverse markdown & 0.594 & 0.294 & 0.517 & 0.959\\
 \bottomrule
 \end{tabular}
 
@@ -399,10 +409,19 @@ The table \ref{tab:desc_stats} presents the descriptive statistics for the final
 Note: The wage variable corresponds to the total wage bill of the firm divided by the number of employees, while gross output is proxied by total sales at factory price without direct taxes. The dollar values are calculated using an exchange rate of 1 USD = 3,670 COP. Output elasticities and input shares are estimated using the production function approach by \cite{de_loecker_rise_2020}. Markup and markdown estimates follow \cite{yeh_monopsony_2022}.}
 \end{table}
 
+In Figure~\ref{fig:nu_l_inv_femshareovertime}, I present how the inverse markdown and female ownership share have evolved over time. The inverse markdown is defined as $\nu_{it}^{-1} = w_{it}(L_{it}) / \text{MRPL}_{it}$, so that higher values correspond to lower degrees of monopsony power, ranging from 0 to 100 where 100 indicates perfect competition. Over the sample period, both series trend modestly upward: the inverse markdown rises from approximately 42.7 cents per dollar of worker contribution in 2000 to 59.6 cents in 2019, while the female ownership share increases from 31.1~percent to 39.5~percent. This co-movement offers preliminary suggestive evidence of a positive association between female ownership and worker compensation relative to productivity. The upward trend in the inverse markdown is also consistent with the increased competitive pressure that Colombian manufacturing firms faced following free trade agreements signed with the United States and the European Union during the 2000s, which may have reduced firms' ability to exercise monopsony power over workers.
 
-In Figure \ref{fig:median_nu_l_inv}, I present the distribution of the inverse markdown by female ownership share, companies where the share is above 0, vs companies where there is no female ownership. The inverse markdown is defined as $\nu_{it}^{-1} = \frac{w_{it}(L_{it})}{\text{MRPL}_{it}}$. This transformation allows for a more intuitive interpretation, as higher values of the inverse markdown correspond to lower degrees of monopsony power. The figure shows that firms without female ownership (dummy=0) have a distribution more concentrated around lower values of the inverse markdown, suggesting that they tend to have pay employees with lower wages below their productivity compared to firms with at least one female owner (dummy=1).
+\begin{figure}[H]
+\centering
+\caption{Inverse Markdown and Female Ownership Share Overtime}
+\includegraphics[width=1\textwidth]{median_nu_linv_overtime_femsh.png}
+\source{Author's calculations based on the Colombian Manufacturing Survey (EAM) 2000--2019.}
+\label{fig:nu_l_inv_femshareovertime}
+\end{figure}
 
-\begin{figure}[!ht]
+In Figure~\ref{fig:median_nu_l_inv}, I present the distribution of the inverse markdown separately for firms with no female ownership and firms with at least one female owner. Firms without any female ownership exhibit a distribution more concentrated at lower values of the inverse markdown, suggesting that they tend to pay workers a larger share below their marginal productivity compared to firms with at least partial female ownership.
+
+\begin{figure}[H]
 \centering
 \caption{Distribution of Inverse Markdown by Female Ownership}
 \includegraphics[width=1\textwidth]{distribution_nu_linv_female_dummy.png}
@@ -410,27 +429,55 @@ In Figure \ref{fig:median_nu_l_inv}, I present the distribution of the inverse m
 \label{fig:median_nu_l_inv}
 \end{figure}
 
+This result is consistent with Figure~\ref{fig:corrplot} and provides preliminary evidence of a positive association between the share of female ownership and the inverse markdown, suggesting that firms with greater female ownership tend to pay workers a higher share of their marginal revenue product. However, these descriptive patterns are purely correlational and do not account for potential confounding factors that may drive both female ownership and markdowns, such as industry composition, firm size, or regional labor market conditions. The regression analysis in the next section will provide a more rigorous examination of this relationship while controlling for these factors.
+
+\begin{figure}[H]
+\centering
+\caption{Correlation plot of Inverse Markdown and Female Share of Ownership}
+\includegraphics[width=1\textwidth]{scatter_nu_linv_ownwshare.png}
+\source{Author's calculations based on the Colombian Manufacturing Survey (EAM) 2000--2019.}
+\label{fig:corrplot}
+\end{figure}
+
 \section{Empirical Framework}
 
 To examine the relationship between female ownership and labor market power, I estimate the following linear regression:
 
 \begin{equation}
-\nu_{it} = \beta \, \text{Female}_{it} + \mathbf{X}_{it}'\boldsymbol{\gamma} + \alpha_t + \alpha_s + \alpha_r + \varepsilon_{it},
+\nu^{-1}_{it} = \beta \, \text{Female}_{it} + \mathbf{X}_{it}'\boldsymbol{\gamma} + \alpha_t + \alpha_s + \alpha_r + \varepsilon_{it},
 \label{eq:main}
 \end{equation}
 
-where $\nu_{it}$ is the inverse markdown for firm $i$ in year $t$. The outcome is expressed in levels so that $\beta$ has the interpretation of a absolute difference in markdowns between female-owned and male-owned firms, conditional on controls.
+where $\nu^{-1}_{it}$ is the inverse markdown for firm $i$ in year $t$. The outcome is expressed in levels so that $\beta$ has the interpretation of a absolute difference in what employees receive in terms of their marginal revenue product between female-owned and male-owned firms, conditional on controls.
 
-The main variable of interest, $\text{Female}_{it}$, measures the share of female ownership of the firm. The coefficient $\beta$ therefore captures the conditional association between female ownership and the firm's degree of monopsony power.
+The main variable of interest, $\text{Female}_{it}$, measures the share of female ownership of the firm. The coefficient $\beta$ therefore captures the conditional association between female ownership and the firm's degree of monopsony power. I expect $\beta$ to be positive based on the theoretical and empirical literature suggesting that female-owned firms may be more likely to prioritize worker welfare and pay higher wages relative to productivity, which would correspond to a lower markdown and thus a higher inverse markdown.
 
 The vector $\mathbf{X}_{it}$ includes a set of firm-level controls. Firm age accounts for the possibility that older firms have had longer to build labor market power through reputation or search frictions. Firm size, measured by gross output, controls for scale effects on both the production side and the firm's capacity to set wages. Finally, I include the share of female workers and the share of skilled workers in the firm's workforce to account for differences in employment composition that may independently affect markdowns.
 
 The specification includes three sets of fixed effects. Year fixed effects $\alpha_t$ absorb common macroeconomic shocks and aggregate trends in markdowns over time. Sector fixed effects $\alpha_s$ account for permanent differences across industries in production technology, product market structure, and average labor market competitiveness. Region fixed effects $\alpha_r$ control for local labor market conditions, including differences in the outside options available to workers. Standard errors are robust to account for heteroskedasticity.
 
-The coefficient $\beta$ is identified from within-sector, within-region, within-year variation in female ownership across firms. The expected sign for the coefficient is $\beta < 0$ which would indicate that greater female ownership is associated with lower markdowns, consistent with female-owned firms exercising less monopsony power over their workers, conditional on observable firm characteristics.
-
 \section{Preliminary Results}
 
+\begin{table}[H]
+\centering
+\caption{Regression Results}
+\label{tab:regression}
+\begin{tabular}{l ccc}
+\hline\hline
+ & (1) & (2) & (3) \\
+\hline
+\texttt{own\_w\_share} & 0.066$^{***}$ & 0.010$^{*}$ & 0.012$^{**}$ \\
+ & (0.007) & (0.006) & (0.006) \\
+\hline
+Fixed Effects & Year & Year-Industry & Year-Industry \& Geography \\
+\hline\hline
+\multicolumn{4}{l}{\textit{Note:} $^{*}$p$<$0.10; $^{**}$p$<$0.05; $^{***}$p$<$0.01. Standard errors in parentheses.} \\
+\end{tabular}
+\end{table}
+
+Table \ref{tab:regression} presents the results of the regression analysis. In the baseline specification (Column 1), which includes only year fixed effects, the coefficient on the female  ownership share is positive and statistically significant at the 1 percent level, suggesting that a higher share of female ownership is associated with a higher inverse markdown, or equivalently, a lower degree of monopsony power. Specifically, a 10 percentage point increase in the share of female ownership is associated with a 0.66 percentage point increase in the inverse markdown, implying that for every 100 dollars of marginal revenue product, workers receive approximately 0.66 dollars more in wages.
+
+When industry fixed effects are added in Column 2, the coefficient on female ownership share remains positive but its magnitude decreases substantially to 0.010 and is only significant at the 10 percent level. This suggests that part of the association observed in the baseline may be driven by industry composition, as certain industries with higher female ownership may also have more competitive labor markets. Finally, in Column 3, which includes both industry and geography fixed effects, the coefficient on female ownership share remains positive and becomes statistically significant at the 5 percent level, with a magnitude of 0.012. This indicates that even after controlling for both industry and regional factors, there is still a positive association between female ownership and the inverse markdown, although the effect size is smaller than in the baseline specification.
 
 \printbibliography
 \end{document}

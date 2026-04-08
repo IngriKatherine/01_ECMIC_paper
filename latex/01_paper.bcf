@@ -3094,11 +3094,19 @@
     <bcf:citekey order="33" intorder="1">de_loecker_rise_2020</bcf:citekey>
     <bcf:citekey order="34" intorder="1">ackerberg_identification_2015</bcf:citekey>
     <bcf:citekey order="35" intorder="1">de_loecker_rise_2020</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">levinsohn_estimating_2003</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">yeh_monopsony_2022</bcf:citekey>
     <bcf:citekey order="37" intorder="1">de_loecker_rise_2020</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">yeh_monopsony_2022</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">de_loecker_rise_2020</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="37" intorder="2">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">inter-american_development_bank_competelac_2025</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">inter-american_development_bank_competelac_2025</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">amodio_measuring_2024</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">yeh_monopsony_2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

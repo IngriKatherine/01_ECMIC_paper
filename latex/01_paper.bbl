@@ -946,60 +946,6 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0929119913001120
       \endverb
     \endentry
-    \entry{levinsohn_estimating_2003}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=482d9b8712705a27fa4e150cb662cfeb}{%
-           family={Levinsohn},
-           familyi={L\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd3b05febc0efc314cb149250e5eebbf}{%
-           family={Petrin},
-           familyi={P\bibinitperiod},
-           given={Amil},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \strng{fullhash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \strng{bibnamehash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \strng{authorbibnamehash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \strng{authornamehash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \strng{authorfullhash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0034-6527, 1467-937X}
-      \field{journaltitle}{Review of Economic Studies}
-      \field{month}{4}
-      \field{number}{2}
-      \field{title}{Estimating {Production} {Functions} {Using} {Inputs} to {Control} for {Unobservables}}
-      \field{urlday}{19}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{volume}{70}
-      \field{year}{2003}
-      \field{urldateera}{ce}
-      \field{pages}{317\bibrangedash 341}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1111/1467-937X.00246
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/restud/article-lookup/doi/10.1111/1467-937X.00246
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/restud/article-lookup/doi/10.1111/1467-937X.00246
-      \endverb
-    \endentry
     \entry{manning_elusive_2021}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2d348adb11692d69e12aef759f4c55f0}{%
@@ -2514,60 +2460,6 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0929119913001120
-      \endverb
-    \endentry
-    \entry{levinsohn_estimating_2003}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=482d9b8712705a27fa4e150cb662cfeb}{%
-           family={Levinsohn},
-           familyi={L\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd3b05febc0efc314cb149250e5eebbf}{%
-           family={Petrin},
-           familyi={P\bibinitperiod},
-           given={Amil},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \strng{fullhash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \strng{bibnamehash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \strng{authorbibnamehash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \strng{authornamehash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \strng{authorfullhash}{54c8964b0113ef34e3af4d8a9bbbcea9}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0034-6527, 1467-937X}
-      \field{journaltitle}{Review of Economic Studies}
-      \field{month}{4}
-      \field{number}{2}
-      \field{title}{Estimating {Production} {Functions} {Using} {Inputs} to {Control} for {Unobservables}}
-      \field{urlday}{19}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{volume}{70}
-      \field{year}{2003}
-      \field{urldateera}{ce}
-      \field{pages}{317\bibrangedash 341}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1111/1467-937X.00246
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/restud/article-lookup/doi/10.1111/1467-937X.00246
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/restud/article-lookup/doi/10.1111/1467-937X.00246
       \endverb
     \endentry
     \entry{manning_elusive_2021}{article}{}

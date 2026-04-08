@@ -37,8 +37,7 @@ df$w <- df$WB/df$L
 df <- df %>% filter(!is.na(nu_l_inv))
 
 summary(df$nu_l_inv)
-summary(df$nu_l_inv[df$nu_l_inv < 5], rm.na=TRUE)
-sum(df$nu_l_inv[df$nu_l_inv < 5], rm.na=TRUE)
+
 
 # ============================================================
 # SECTION 1: Overall
@@ -91,6 +90,16 @@ firm_stats <- bind_rows(
 )
 
 # ============================================================
+# WINSORIZE HELPER
+# ============================================================
+winsorize <- function(x, lower = 0.01, upper = 0.99) {
+  x <- x[!is.na(x) & is.finite(x)]
+  bounds <- quantile(x, probs = c(lower, upper), na.rm = TRUE)
+  x <- pmax(pmin(x, bounds[2]), bounds[1])
+  x
+}
+
+# ============================================================
 # SECTION 3: By Firm - Estimation Parameters (winsorized)
 # ============================================================
 est_vars <- list(
@@ -114,8 +123,7 @@ est_stats <- map_dfr(names(est_vars), function(v) {
     label    = est_vars[[v]],
     p25      = quantile(x, 0.25, na.rm = TRUE),
     median   = median(x, na.rm = TRUE),
-    p75      = quantile(x, 0.75, na.rm = TRUE),
-    mean   = mean(x[x <2], na.rm = TRUE),
+    p75      = quantile(x, 0.75, na.rm = TRUE)
   )
 })
 
@@ -127,8 +135,8 @@ fmt <- function(x, digits = 3) formatC(as.numeric(x), format = "f", digits = dig
 firm_stats[, c("Mean","Min","Max","SD")] <-
   lapply(firm_stats[, c("Mean","Min","Max","SD")], fmt)
 
-est_stats[, c("p25","Median","p75","mean")] <-
-  lapply(est_stats[, c("p25","median","p75","mean")], fmt)
+est_stats[, c("p25","Median","p75")] <-
+  lapply(est_stats[, c("p25","median","p75")], fmt)
 
 # ============================================================
 # BUILD COMBINED TABLE
@@ -196,7 +204,7 @@ cat(latex_table)
 # Ensure year is treated as a date (Jan 1 of each year)
 df_plot <- df %>%
   group_by(year) %>%
-  summarize(median_nu_l_inv = median(nu_l_inv[nu_l_inv < 2], na.rm = TRUE)) %>%
+  summarize(median_nu_l_inv = median(nu_l_inv, na.rm = TRUE)) %>%
   ungroup() %>%
   mutate(year_date = as.Date(paste0(year, "-01-01")))
 
@@ -229,7 +237,7 @@ ts_theme <- function() {
 }
 
 # Plot
-ggplot(df_plot, aes(x = year_date, y = median_nu_l_inv)) +
+g1<-ggplot(df_plot, aes(x = year_date, y = median_nu_l_inv)) +
   geom_line(color = "#187864", linewidth = 1) +
   geom_point(color = "#187864", size = 2) +
   labs(
@@ -254,6 +262,7 @@ ts_theme <- function() {
       date_labels  = "%Y",
       expand       = expansion(mult = c(0.01, 0.01))
     ),
+    scale_y_continuous(expand = expansion(mult = c(0.02, 0.02))),
     theme_minimal(base_size = 14),
     theme(
       axis.text.x        = element_text(angle = 45, hjust = 1, size = 12),
@@ -274,32 +283,28 @@ ts_theme <- function() {
 }
 
 df_plot <- df %>%
-  filter(year != 2000) %>%
   group_by(year) %>%
   summarize(
-    median_nu_l_inv = median(nu_l_inv[nu_l_inv < 2], na.rm = TRUE),
+    median_nu_l_inv = median(nu_l_inv, na.rm = TRUE),
     mean_fem        = mean(own_w_share, na.rm = TRUE)
   ) %>%
   ungroup() %>%
   mutate(
     year_date = as.Date(paste0(year, "-01-01")),
-    median_nu_l_inv = median_nu_l_inv * 100
+    median_nu_l_inv = median_nu_l_inv *100
   )
 
+
 g2<-ggplot(df_plot, aes(x = year_date)) +
-  geom_line(aes(y = median_nu_l_inv, color = "Median Inverse Markdown: Employees take home dollars per $100 contributed"), linewidth = 1) +
-  geom_point(aes(y = median_nu_l_inv, color = "Median Inverse Markdown: Employees take home dollars per $100 contributed"), size = 2) +
+  geom_line(aes(y = median_nu_l_inv, color = "Inverse Markdown: Employees take home dollars per $100 contributed"), linewidth = 1) +
+  geom_point(aes(y = median_nu_l_inv, color = "Inverse Markdown: Employees take home dollars per $100 contributed"), size = 2) +
   
-  geom_line(aes(y = mean_fem, color = "Average Female Ownership Share %"), 
+  geom_line(aes(y = mean_fem, color = "Female Ownership Share %"), 
             linewidth = 1, linetype = "dashed") +
-  geom_point(aes(y = mean_fem, color = "Average Female Ownership Share %"), size = 2) + 
+  geom_point(aes(y = mean_fem, color = "Female Ownership Share %"), size = 2) + 
   scale_color_manual(
     values = c("#187864", "#C44E52"),
     guide = guide_legend(ncol = 1)
-  ) +
-  scale_y_continuous(
-    limits = c(0, 100),
-    breaks = seq(0, 100, by = 10)
   ) +
   labs(
     x = "Year",
@@ -381,62 +386,6 @@ g_violin <- ggplot(df_dist, aes(x = factor(female_dummy), y = nu_l_inv, fill = f
 # Save plot
 ggsave("latex/violin_nu_linv_female_dummy.png",
        plot = g_violin, width = 6, height = 4, dpi = 150)
-
-######### CORRELATION FIRM-LEVEL
-
-df_scatter <- df %>%
-  mutate(
-    female_dummy = ifelse(own_w_share > 0, 1, 0),
-    GO_mil = GO / 3670000
-  ) %>%
-  filter(
-    is.finite(nu_l_inv),
-    is.finite(own_w_share),
-    nu_l_inv <= 2
-  )
-
-ct <- cor.test(df_scatter$own_w_share, df_scatter$nu_l_inv)
-lab <- paste0("Corr = ", round(ct$estimate, 3),
-              "\nP-value = ", format.pval(ct$p.value, digits = 3, eps = 0.001))
-
-# Scatter plot
-g_scatter<-ggplot(df_scatter, aes(x = nu_l_inv, y = own_w_share)) +
-  geom_point(aes(size = GO_mil), alpha = 0.2, color = "#187864") +
-  
-  scale_size_continuous(range = c(0.5, 4)) +  # adjust as needed
-  
-  geom_smooth(method = "lm", se = TRUE, color = "#781830", linewidth = 1.5) +  
-  
-  labs(
-    x = "Inverse Markdown",
-    y = "Female Ownership Share",
-    size = "Firm's Gross Output Millions USD"
-  ) +
-  
-  annotate("label", x = Inf, y = Inf, label = lab,
-           hjust = 1.1, vjust = 1.5,
-           size = 4.5,
-           fill = "white",      # background color
-           color = "black",     # text color
-           linewidth = 0.5,     # border thickness
-           alpha = 0.8) +       # optional transparency
-  
-  theme_minimal(base_size = 14) +
-  theme(
-    legend.position    = "bottom",
-    legend.text        = element_text(size = 12),
-    axis.text          = element_text(color = "black", size = 12),
-    axis.title         = element_text(size = 14, face = "bold"),
-    axis.line          = element_line(color = "black", linewidth = 0.5),
-    panel.border       = element_rect(color = "black", fill = NA, linewidth = 0.5)
-  )
-
-ggsave("latex/scatter_nu_linv_ownwshare.png",
-       plot = g_scatter, width = 8, height = 4, dpi = 150)
-
-
-############## NOT USED!!!!!!!!!!!!!!!!!!!
-
 
 #######################################
 # Add graph of scatter plot median markdown 
@@ -589,6 +538,25 @@ ggplot(dens_df, aes(y = y)) +
     axis.line = element_line(color = "black")
   )
 
+######### CORRELATION FIRM-LEVEL
+ct <- cor.test(pdat$own_w_share, pdat$nu_l_inv)
+lab <- paste0("Corr = ", round(ct$estimate, 3),
+              "\nP-value = ", format.pval(ct$p.value, digits = 3, eps = 0.001))
+
+ggplot(pdat, aes(own_w_share, nu_l_inv)) +
+  geom_point(size = 0.5, alpha = .1, color= "#187864") +
+  geom_smooth(method = "lm", se = TRUE, color = "#781830", linewidth = 1.5) +
+  scale_x_continuous(labels = label_percent(scale = 1),
+                     name = "Own tariff share (%)") +
+  labs(y = "Markdown: marginal revenue product of labor / wage") +
+  annotate("text", x = Inf, y = Inf, label = lab,
+           hjust = 1.1, vjust = 1.5, size = 4.5) +
+  theme_minimal(base_size = 16, base_family = "cmunsi") +
+  theme(axis.text.x = element_text(hjust = 1),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        axis.text = element_text(color = "black"),
+        axis.line = element_line(color = "black"))
 
 ######### CORRELATION SECTOR-LEVEL WEIGHTED
 pdat_sector <- pdat %>%
@@ -604,7 +572,7 @@ pdat_sector <- pdat %>%
 ct <- cor.test(pdat_sector$own_w_share, pdat_sector$nu_l_inv)
 
 lab <- paste0("Corr = ", round(ct$estimate, 3),
-  "\nP-value = ", format.pval(ct$p.value, digits = 3, eps = 0.001))
+              "\nP-value = ", format.pval(ct$p.value, digits = 3, eps = 0.001))
 
 # Plot
 ggplot(pdat_sector, aes(own_w_share, nu_l_inv)) +

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.3)  7 APR 2026 20:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.3)  8 APR 2026 19:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -674,17 +674,37 @@ Overfull \hbox (236.03117pt too wide) detected at line 248
 []\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 GO\OT1/lmr/m/n/10 )[] = \OML/lmm/m/it/10 ^^L[] \OT1/lmr/m/n/10 + \OML/lmm/m/it/10 ^^L[] []\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 K\OT1/lmr/m/n/10 )[] + \OML/lmm/m/it/10 ^^L[] []\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 L\OT1/lmr/m/n/10 )[] + \OML/lmm/m/it/10 ^^L[] []\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 M\OT1/lmr/m/n/10 )[] + \OML/lmm/m/it/10 ^^L[] []\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 K\OT1/lmr/m/n/10 )[] + \OML/lmm/m/it/10 ^^L[] []\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 L\OT1/lmr/m/n/10 )[] + \OML/lmm/m/it/10 ^^L[] []\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 M\OT1/lmr/m/n/10 )[] + \OML/lmm/m/it/10 ^^L[] []\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 K\OT1/lmr/m/n/10 )[] [](\OML/lmm/m/it/10 L\OT1/lmr/m/n/10 )[] + \OML/lmm/m/it/10 ^^L[] []\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 K\OT1/lmr/m/n/10 )[] [](\OML/lmm/m/it/10 M\OT1/lmr/m/n/10 )[] + \OML/lmm/m/it/10 ^^L[] []\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 L\OT1/lmr/m/n/10 )[] [](\OML/lmm/m/it/10 M\OT1/lmr/m/n/10 )[] + \OML/lmm/m/it/10 t \OT1/lmr/m/n/10 + \OML/lmm/m/it/10 e:
  []
 
-[6] [7] [8]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 353.
+[6] [7]
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 340.
+ (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [8{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}]
+Overfull \hbox (2.61154pt too wide) in paragraph at lines 357--358
+ \OT1/lmr/bx/n/12 Out-lier Treat-ment and Sam-ple Re-stric-tions.[] \OT1/lmr/m/n/12 Ad-min-is-tra-tive firm-level data fre-quently
+ []
+
+[9]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 361.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [9]
-<distribution_nu_linv_female_dummy.png, id=54, 578.16pt x 289.08pt>
+) [10{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [11] [12]
+<median_nu_linv_overtime_femsh.png, id=66, 578.16pt x 289.08pt>
+File: median_nu_linv_overtime_femsh.png Graphic file (type png)
+<use median_nu_linv_overtime_femsh.png>
+Package pdftex.def Info: median_nu_linv_overtime_femsh.png  used on input line 417.
+(pdftex.def)             Requested size: 469.75502pt x 234.8769pt.
+<distribution_nu_linv_female_dummy.png, id=67, 578.16pt x 289.08pt>
 File: distribution_nu_linv_female_dummy.png Graphic file (type png)
 <use distribution_nu_linv_female_dummy.png>
-Package pdftex.def Info: distribution_nu_linv_female_dummy.png  used on input line 408.
+Package pdftex.def Info: distribution_nu_linv_female_dummy.png  used on input line 427.
 (pdftex.def)             Requested size: 469.75502pt x 234.8769pt.
- [10{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./distribution_nu_linv_female_dummy.png>] [11] [12] [13] [14] (01_paper.aux)
+ [13 <./median_nu_linv_overtime_femsh.png>]
+<scatter_nu_linv_ownwshare.png, id=71, 578.16pt x 289.08pt>
+File: scatter_nu_linv_ownwshare.png Graphic file (type png)
+<use scatter_nu_linv_ownwshare.png>
+Package pdftex.def Info: scatter_nu_linv_ownwshare.png  used on input line 437.
+(pdftex.def)             Requested size: 469.75502pt x 234.8769pt.
+ [14 <./distribution_nu_linv_female_dummy.png>] [15 <./scatter_nu_linv_ownwshare.png>] [16] [17] [18] [19] (01_paper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -694,17 +714,17 @@ Package logreq Info: Writing requests to '01_paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14032 strings out of 474486
- 267069 string characters out of 5743756
+ 14097 strings out of 474486
+ 268259 string characters out of 5743756
  1941542 words of memory out of 5000000
- 36136 multiletter control sequences out of 15000+600000
- 618708 words of font info for 86 fonts, out of 8000000 for 9000
+ 36196 multiletter control sequences out of 15000+600000
+ 619018 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,10n,81p,2199b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 01_paper.pdf (15 pages, 465319 bytes).
+ 66i,10n,81p,2516b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on 01_paper.pdf (20 pages, 690330 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 174 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

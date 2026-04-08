@@ -927,3 +927,4 @@ data/raw/EAM_anex/Anexos EAM 2010/c3_2_10_con reserva.xls
 data/proc/EAM_own.dta
 data/proc/work_EAM.parquet
 data/proc/EAM.parquet
+data/proc/work_EAM_filt.parquet
