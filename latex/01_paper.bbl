@@ -40,9 +40,6 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{21b82ba613eed40e67960587a3c85200}
       \strng{fullhash}{b5ed4913f180284ab69eab1d1de2c0fe}
       \strng{bibnamehash}{b5ed4913f180284ab69eab1d1de2c0fe}
@@ -58,93 +55,29 @@
       \field{labeltitlesource}{title}
       \field{issn}{0012-9682}
       \field{journaltitle}{Econometrica}
+      \field{langid}{english}
       \field{number}{6}
-      \field{title}{Identification {Properties} of {Recent} {Production} {Function} {Estimators}}
+      \field{title}{Identification Properties of Recent Production Function Estimators}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{83}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{2411\bibrangedash 2451}
       \range{pages}{41}
       \verb{doi}
       \verb 10.3982/ECTA13408
       \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\k_the\\Zotero\\storage\\VG4B2ICY\\Ackerberg et al. - 2015 - Identification Properties of Recent Production Function Estimators.pdf:application/pdf
+      \endverb
       \verb{urlraw}
       \verb https://www.econometricsociety.org/doi/10.3982/ECTA13408
       \endverb
       \verb{url}
       \verb https://www.econometricsociety.org/doi/10.3982/ECTA13408
-      \endverb
-    \endentry
-    \entry{alviarez_markets_2025}{book}{}
-      \name{editor}{5}{}{%
-        {{un=0,uniquepart=base,hash=109dd235c4724301f3273dac33400741}{%
-           family={Alviarez},
-           familyi={A\bibinitperiod},
-           given={Vanessa},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=42b307565ea07915fb9b13c639def7ad}{%
-           family={Busso},
-           familyi={B\bibinitperiod},
-           given={Matías},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9048e9c5d191f0d9b7443b16dbbff54d}{%
-           family={Keefer},
-           familyi={K\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=edd74ca8b04b951e3ce318a1e394b08f}{%
-           family={Santos},
-           familyi={S\bibinitperiod},
-           given={Cezar},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2b524960e4279c7048fa6f6ca1b1fd86}{%
-           family={Stucchi},
-           familyi={S\bibinitperiod},
-           given={Rodolfo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Inter-American Development Bank}%
-      }
-      \strng{namehash}{c72571ed5fdee782f04a08df44bb1c0c}
-      \strng{fullhash}{dc751572d8858e323171d14af56e0ea4}
-      \strng{bibnamehash}{dc751572d8858e323171d14af56e0ea4}
-      \strng{editorbibnamehash}{dc751572d8858e323171d14af56e0ea4}
-      \strng{editornamehash}{c72571ed5fdee782f04a08df44bb1c0c}
-      \strng{editorfullhash}{dc751572d8858e323171d14af56e0ea4}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{editor}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Latin America and the Caribbean has made major social and macroeconomic strides, yet growth and productivity remain weak. Markets for Development: Improving Lives through Competition argues that the regions core challenge is limited market competition. High market concentration, regulatory barriers, and weak enforcement of rules allow dominant firms to restrict entry, innovation, and opportunity. This book presents new evidence on how market power shapes firm behavior, employment, and inequality across sectors. It also demonstrates that reducing fragmentation, improving regulation, and strengthening competition policy can lower prices for consumers, raise productivity, create better jobs, and build fiscal capacity, making competition a central driver of development.}
-      \field{isbn}{978-1-59782-592-4}
-      \field{month}{12}
-      \field{shorttitle}{Markets for {Development}}
-      \field{title}{Markets for {Development}: {Improving} {Lives} through {Competition}}
-      \field{urlday}{18}
-      \field{urlmonth}{2}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.18235/0013850
-      \endverb
-      \verb{urlraw}
-      \verb https://publications.iadb.org/en/markets-development-improving-lives-through-competition
-      \endverb
-      \verb{url}
-      \verb https://publications.iadb.org/en/markets-development-improving-lives-through-competition
       \endverb
     \endentry
     \entry{amodio_measuring_2024}{article}{}
@@ -185,13 +118,14 @@
       \field{journaltitle}{Journal of Labor Economics}
       \field{month}{10}
       \field{number}{4}
-      \field{shorttitle}{Measuring {Labor} {Market} {Power} in {Developing} {Countries}}
-      \field{title}{Measuring {Labor} {Market} {Power} in {Developing} {Countries}: {Evidence} from {Colombian} {Plants}}
+      \field{shorttitle}{Measuring Labor Market Power in Developing Countries}
+      \field{title}{Measuring Labor Market Power in Developing Countries: Evidence from Colombian Plants}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{42}
       \field{year}{2024}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{949\bibrangedash 977}
       \range{pages}{29}
@@ -203,6 +137,65 @@
       \endverb
       \verb{url}
       \verb https://www.journals.uchicago.edu/doi/abs/10.1086/725248
+      \endverb
+    \endentry
+    \entry{ashenfelter_labor_2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=38104046316aaf803651690c49e29684}{%
+           family={Ashenfelter},
+           familyi={A\bibinitperiod},
+           given={Orley\bibnamedelima C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb61a9f12b06d4a693567e9a076d1087}{%
+           family={Farber},
+           familyi={F\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d91734c442a688ac3875b225f9600e7b}{%
+           family={Ransom},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8527fb3dc08e4d78a884473781983fdf}
+      \strng{fullhash}{2a82e3a46764be4c34f240945fef705f}
+      \strng{bibnamehash}{2a82e3a46764be4c34f240945fef705f}
+      \strng{authorbibnamehash}{2a82e3a46764be4c34f240945fef705f}
+      \strng{authornamehash}{8527fb3dc08e4d78a884473781983fdf}
+      \strng{authorfullhash}{2a82e3a46764be4c34f240945fef705f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0734-306X, 1537-5307}
+      \field{journaltitle}{Journal of Labor Economics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Labor Market Monopsony}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{28}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{203\bibrangedash 210}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1086/653654
+      \endverb
+      \verb{urlraw}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/653654
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/653654
       \endverb
     \endentry
     \entry{azar_labor_2017}{report}{}
@@ -229,11 +222,8 @@
       \list{institution}{1}{%
         {National Bureau of Economic Research}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \list{location}{1}{%
-        {Cambridge, MA}%
+        {Cambridge, {MA}}%
       }
       \strng{namehash}{931439353fa2c9f584ece433f59a9cdd}
       \strng{fullhash}{4ebe2b2d0558540cda9bea2dd8c034cc}
@@ -249,19 +239,23 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{langid}{english}
       \field{month}{12}
       \field{number}{w24147}
-      \field{title}{Labor {Market} {Concentration}}
-      \field{type}{techreport}
+      \field{title}{Labor Market Concentration}
       \field{urlday}{16}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{w24147}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.3386/w24147
+      \endverb
+      \verb{file}
+      \verb PDF:C\:\\Users\\k_the\\Zotero\\storage\\TSB3MRSM\\Azar et al. - 2017 - Labor Market Concentration.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb http://www.nber.org/papers/w24147.pdf
@@ -306,11 +300,8 @@
       \list{institution}{1}{%
         {National Bureau of Economic Research}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \list{location}{1}{%
-        {Cambridge, MA}%
+        {Cambridge, {MA}}%
       }
       \strng{namehash}{931439353fa2c9f584ece433f59a9cdd}
       \strng{fullhash}{dcede90872c76a1b68eb0f33e1260724}
@@ -326,19 +317,23 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{langid}{english}
       \field{month}{7}
       \field{number}{w26101}
-      \field{title}{Minimum {Wage} {Employment} {Effects} and {Labor} {Market} {Concentration}}
-      \field{type}{techreport}
+      \field{title}{Minimum Wage Employment Effects and Labor Market Concentration}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{w26101}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.3386/w26101
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\k_the\\Zotero\\storage\\TRZMVY34\\Azar et al. - 2019 - Minimum Wage Employment Effects and Labor Market Concentration.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb http://www.nber.org/papers/w26101.pdf
@@ -371,11 +366,8 @@
       \list{institution}{1}{%
         {National Bureau of Economic Research}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \list{location}{1}{%
-        {Cambridge, MA}%
+        {Cambridge, {MA}}%
       }
       \strng{namehash}{30870fc86fe8583c7dd41f1409a5fe50}
       \strng{fullhash}{788c9b829a2562498d19a6c9ac1aafef}
@@ -390,20 +382,24 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
       \field{month}{2}
       \field{number}{w24307}
-      \field{shorttitle}{Strong {Employers} and {Weak} {Employees}}
-      \field{title}{Strong {Employers} and {Weak} {Employees}: {How} {Does} {Employer} {Concentration} {Affect} {Wages}?}
-      \field{type}{techreport}
+      \field{shorttitle}{Strong Employers and Weak Employees}
+      \field{title}{Strong Employers and Weak Employees: How Does Employer Concentration Affect Wages?}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{w24307}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.3386/w24307
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\k_the\\Zotero\\storage\\DV7KD2LA\\Benmelech et al. - 2018 - Strong Employers and Weak Employees How Does Employer Concentration Affect Wages.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb http://www.nber.org/papers/w24307.pdf
@@ -427,9 +423,6 @@
            giveni={O\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{7049f3283a3aac7d0147635b10c69ff2}
       \strng{fullhash}{7049f3283a3aac7d0147635b10c69ff2}
       \strng{bibnamehash}{7049f3283a3aac7d0147635b10c69ff2}
@@ -443,17 +436,20 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract This paper develops a method to estimate workers’ outside employment opportunities. We outline a matching model with two-sided heterogeneity, from which we derive a sufficient statistic, the “outside options index” (OOI), for the effect of outside options on earnings, holding worker productivity constant. The OOI uses the cross-sectional concentration of similar workers across job types to quantify workers’ outside options as a function of workers’ commuting costs, preferences, and skills. Using German micro-data, we find that differences in options explain 20\% of the gender earnings gap, and that gender gaps in options are mostly due to differences in the implicit costs of commuting and moving.}
+      \field{abstract}{Abstract This paper develops a method to estimate workers’ outside employment opportunities. We outline a matching model with two-sided heterogeneity, from which we derive a sufficient statistic, the “outside options index” ({OOI}), for the effect of outside options on earnings, holding worker productivity constant. The {OOI} uses the cross-sectional concentration of similar workers across job types to quantify workers’ outside options as a function of workers’ commuting costs, preferences, and skills. Using German micro-data, we find that differences in options explain 20\% of the gender earnings gap, and that gender gaps in options are mostly due to differences in the implicit costs of commuting and moving.}
+      \field{day}{8}
       \field{issn}{0034-6527, 1467-937X}
       \field{journaltitle}{Review of Economic Studies}
+      \field{langid}{english}
       \field{month}{11}
       \field{number}{6}
-      \field{title}{Outside {Options} in the {Labour} {Market}}
+      \field{title}{Outside Options in the Labour Market}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{91}
       \field{year}{2024}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{3286\bibrangedash 3315}
       \range{pages}{30}
@@ -476,9 +472,6 @@
            giveni={D\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{a9e88233ec6ce30d2d31e294961e3e76}
       \strng{fullhash}{a9e88233ec6ce30d2d31e294961e3e76}
       \strng{bibnamehash}{a9e88233ec6ce30d2d31e294961e3e76}
@@ -492,17 +485,20 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{I discuss the recent literature that has led to new interest in the idea of monopsonistic wage setting. Building on advances in search theory and in models of differentiated products, researchers have used a number of different strategies to identify the elasticity of firm-specific labor supply. A growing consensus is that firms have some wage-setting power, though many questions remain about the sources of that power. (JEL B21, D21, D24, D43, J22, J31, J42)}
+      \field{abstract}{I discuss the recent literature that has led to new interest in the idea of monopsonistic wage setting. Building on advances in search theory and in models of differentiated products, researchers have used a number of different strategies to identify the elasticity of firm-specific labor supply. A growing consensus is that firms have some wage-setting power, though many questions remain about the sources of that power. ({JEL} B21, D21, D24, D43, J22, J31, J42)}
+      \field{day}{1}
       \field{issn}{0002-8282}
       \field{journaltitle}{American Economic Review}
+      \field{langid}{english}
       \field{month}{4}
       \field{number}{4}
-      \field{title}{Who {Set} {Your} {Wage}?}
+      \field{title}{Who Set Your Wage?}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{112}
       \field{year}{2022}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{1075\bibrangedash 1090}
       \range{pages}{16}
@@ -543,9 +539,6 @@
            giveni={M\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{9e4bf25f043fa6b81b9954b8e1dd3f71}
       \strng{fullhash}{55195062dd34bb87f10c1cdcab8271e8}
       \strng{bibnamehash}{55195062dd34bb87f10c1cdcab8271e8}
@@ -561,19 +554,24 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{09275398}
       \field{journaltitle}{Journal of Empirical Finance}
+      \field{langid}{english}
       \field{month}{9}
       \field{shorttitle}{Why female board representation matters}
-      \field{title}{Why female board representation matters: {The} role of female directors in reducing male {CEO} overconfidence}
+      \field{title}{Why female board representation matters: The role of female directors in reducing male {CEO} overconfidence}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{53}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{70\bibrangedash 90}
       \range{pages}{21}
       \verb{doi}
       \verb 10.1016/j.jempfin.2019.06.002
+      \endverb
+      \verb{file}
+      \verb Accepted Version:C\:\\Users\\k_the\\Zotero\\storage\\3PW92WPK\\Chen et al. - 2019 - Why female board representation matters The role of female directors in reducing male CEO overconfi.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0927539819300520
@@ -603,9 +601,6 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{3b0f755a5427af94e99800f906772bf0}
       \strng{fullhash}{9a3983071714d3e8d79bd6878b6f8181}
       \strng{bibnamehash}{9a3983071714d3e8d79bd6878b6f8181}
@@ -620,21 +615,27 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract We document the evolution of market power based on firm-level data for the U.S. economy since 1955. We measure both markups and profitability. In 1980, aggregate markups start to rise from 21\% above marginal cost to 61\% now. The increase is driven mainly by the upper tail of the markup distribution: the upper percentiles have increased sharply. Quite strikingly, the median is unchanged. In addition to the fattening upper tail of the markup distribution, there is reallocation of market share from low- to high-markup firms. This rise occurs mostly within industry. We also find an increase in the average profit rate from 1\% to 8\%. Although there is also an increase in overhead costs, the markup increase is in excess of overhead. We discuss the macroeconomic implications of an increase in average market power, which can account for a number of secular trends in the past four decades, most notably the declining labor and capital shares as well as the decrease in labor market dynamism.}
+      \field{day}{1}
       \field{issn}{0033-5533, 1531-4650}
       \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{langid}{english}
       \field{month}{5}
       \field{number}{2}
-      \field{title}{The {Rise} of {Market} {Power} and the {Macroeconomic} {Implications}*}
+      \field{title}{The Rise of Market Power and the Macroeconomic Implications*}
       \field{urlday}{19}
       \field{urlmonth}{3}
       \field{urlyear}{2026}
       \field{volume}{135}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{561\bibrangedash 644}
       \range{pages}{84}
       \verb{doi}
       \verb 10.1093/qje/qjz041
+      \endverb
+      \verb{file}
+      \verb Accepted Version:C\:\\Users\\k_the\\Zotero\\storage\\VXN9AVGQ\\De Loecker et al. - 2020 - The Rise of Market Power and the Macroeconomic Implications.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://academic.oup.com/qje/article/135/2/561/5714769
@@ -649,9 +650,6 @@
            family={{Departamento Administrativo Nacional de Estadística (DANE)}},
            familyi={D\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {Spanish}%
-      }
       \strng{namehash}{90640cd1397af437eded0413d714d6a8}
       \strng{fullhash}{90640cd1397af437eded0413d714d6a8}
       \strng{bibnamehash}{90640cd1397af437eded0413d714d6a8}
@@ -664,7 +662,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Encuesta {Anual} {Manufacturera} ({EAM})}
+      \field{title}{Encuesta Anual Manufacturera ({EAM})}
       \verb{urlraw}
       \verb https://www.dane.gov.co/index.php/estadisticas-por-tema/industria/encuesta-anual-manufacturera-enam
       \endverb
@@ -693,9 +691,6 @@
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{88f35db29e27c6fd22fbd5a2cff5ce66}
       \strng{fullhash}{bfe1bda60152ad4bd421dd379435efa3}
       \strng{bibnamehash}{bfe1bda60152ad4bd421dd379435efa3}
@@ -710,18 +705,21 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Purpose Despite gender parity in the general working population, the higher up one looks in ranks within the firm the fewer women one finds. This under-representation of women in top positions at firms is purportedly even more acute in Latin America and the Caribbean (LAC). LAC is a large and increasingly important region of the world where women are well-represented in the workforce and are comparatively better educated than men. Documenting if this resource is utilized at full potential is therefore of crucial importance. The purpose of this paper is to document the level and impact of female representation at the executive level in the region, as no systematic study exists on this topic. Design/methodology/approach The authors collect an original database of publicly listed companies to determine prevailing gender ratios among board members and executives in LAC region. The authors then estimate whether companies with women board members are more likely to appoint women executives. Finally, the authors estimate whether measures of female leadership at the firm are correlated with company performance. Findings The authors find that women are as under-represented in LAC as in the USA, but much less so in the Caribbean. The authors find that companies with women board members are more likely to appoint women executives in LAC. The authors find that measures of female leadership at the firm are correlated with company performance but only regarding board membership and only when the proportion of women on the board is greater than 30 percent. Again composition effects are important. Overall, the authors conclude that the LAC region exhibits empirical regularities about under-representation of women in leadership positions at the firm that are very similar to those found for high-income countries in Europe and North America. Originality/value The authors are the first and so far unique systematic study exists able to document the level and impact of female representation at the executive level in the region.}
+      \field{abstract}{Purpose Despite gender parity in the general working population, the higher up one looks in ranks within the firm the fewer women one finds. This under-representation of women in top positions at firms is purportedly even more acute in Latin America and the Caribbean ({LAC}). {LAC} is a large and increasingly important region of the world where women are well-represented in the workforce and are comparatively better educated than men. Documenting if this resource is utilized at full potential is therefore of crucial importance. The purpose of this paper is to document the level and impact of female representation at the executive level in the region, as no systematic study exists on this topic. Design/methodology/approach The authors collect an original database of publicly listed companies to determine prevailing gender ratios among board members and executives in {LAC} region. The authors then estimate whether companies with women board members are more likely to appoint women executives. Finally, the authors estimate whether measures of female leadership at the firm are correlated with company performance. Findings The authors find that women are as under-represented in {LAC} as in the {USA}, but much less so in the Caribbean. The authors find that companies with women board members are more likely to appoint women executives in {LAC}. The authors find that measures of female leadership at the firm are correlated with company performance but only regarding board membership and only when the proportion of women on the board is greater than 30 percent. Again composition effects are important. Overall, the authors conclude that the {LAC} region exhibits empirical regularities about under-representation of women in leadership positions at the firm that are very similar to those found for high-income countries in Europe and North America. Originality/value The authors are the first and so far unique systematic study exists able to document the level and impact of female representation at the executive level in the region.}
+      \field{day}{4}
       \field{issn}{0143-7720}
-      \field{journaltitle}{International Journal of Manpower}
+      \field{journaltitle}{{IJM}}
+      \field{langid}{english}
       \field{month}{9}
       \field{number}{6}
-      \field{shorttitle}{Female corporate leadership in {Latin} {America} and the {Caribbean} region}
-      \field{title}{Female corporate leadership in {Latin} {America} and the {Caribbean} region: {Representation} and firm-level outcomes}
+      \field{shorttitle}{Female corporate leadership in Latin America and the Caribbean region}
+      \field{title}{Female corporate leadership in Latin America and the Caribbean region: Representation and firm-level outcomes}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{38}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{790\bibrangedash 818}
       \range{pages}{29}
@@ -762,9 +760,6 @@
            giveni={F\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{88f35db29e27c6fd22fbd5a2cff5ce66}
       \strng{fullhash}{a81dcb17f75d1691dc289c1ef7a08965}
       \strng{bibnamehash}{a81dcb17f75d1691dc289c1ef7a08965}
@@ -780,22 +775,28 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Abstract We investigate the effects of female executives on gender-specific wage distributions and firm performance. Female leadership has a positive impact at the top of the female wage distribution and a negative impact at the bottom. The impact of female leadership on firm performance increases with the share of female workers. We account for the endogeneity induced by non-random executives’ gender by including firm fixed-effects, by generating controls from a two-way fixed-effects regression and by using instruments based on regional trends. The findings are consistent with a model of statistical discrimination in which female executives are better at interpreting signals of productivity from female workers. This suggests substantial costs of women under-representation among executives.}
+      \field{day}{1}
       \field{issn}{0013-0133, 1468-0297}
       \field{journaltitle}{The Economic Journal}
+      \field{langid}{english}
       \field{month}{8}
       \field{number}{622}
-      \field{shorttitle}{Do {Female} {Executives} {Make} a {Difference}?}
-      \field{title}{Do {Female} {Executives} {Make} a {Difference}? {The} {Impact} of {Female} {Leadership} on {Gender} {Gaps} and {Firm} {Performance}}
+      \field{shorttitle}{Do Female Executives Make a Difference?}
+      \field{title}{Do Female Executives Make a Difference? The Impact of Female Leadership on Gender Gaps and Firm Performance}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{129}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{2390\bibrangedash 2423}
       \range{pages}{34}
       \verb{doi}
       \verb 10.1093/ej/uez012
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\k_the\\Zotero\\storage\\HN9LW9FG\\Flabbi et al. - 2019 - Do Female Executives Make a Difference The Impact of Female Leadership on Gender Gaps and Firm Perf.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://academic.oup.com/ej/article/129/622/2390/5542573
@@ -825,6 +826,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{CompeteLAC}}
       \field{year}{2025}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://competelac.fislac.com/
       \endverb
@@ -847,9 +849,6 @@
            giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{652b263bdab4cfddccaef8ee862f6727}
       \strng{fullhash}{652b263bdab4cfddccaef8ee862f6727}
       \strng{bibnamehash}{652b263bdab4cfddccaef8ee862f6727}
@@ -864,16 +863,19 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Microeconomic data on individual firms and employer-employee matches reveal substantial and persistent dispersion in firm size, productivity, and average wage paid and a positive correlation between each pair. To the extent that intrinsic differences in firm productivity explain these facts, there are several important consequences. First, the reallocation of employment from less to more productive firms will yield efficiency gains. Second, workers will find it in their interest to seek out higher-paying employers. Recent research has provided support for both hypotheses. Third, the existence of worker and employer heterogeneity offers possible gains from sorting. However, because the problem of identifying the presence of sorting is model dependent, it is too early for conclusions about its significance.}
+      \field{day}{4}
       \field{issn}{1941-1383, 1941-1391}
-      \field{journaltitle}{Annual Review of Economics}
+      \field{journaltitle}{Annu. Rev. Econ.}
+      \field{langid}{english}
       \field{month}{9}
       \field{number}{1}
-      \field{title}{Labor {Market} {Models} of {Worker} and {Firm} {Heterogeneity}}
+      \field{title}{Labor Market Models of Worker and Firm Heterogeneity}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{2}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{577\bibrangedash 602}
       \range{pages}{26}
@@ -908,9 +910,6 @@
            giveni={F\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{fb7eede380719ab8bbf0e555a8c56446}
       \strng{fullhash}{0a9963959248fff412a9bc7e7ee95281}
       \strng{bibnamehash}{0a9963959248fff412a9bc7e7ee95281}
@@ -926,6 +925,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{09291199}
       \field{journaltitle}{Journal of Corporate Finance}
+      \field{langid}{english}
       \field{month}{10}
       \field{title}{Director gender and mergers and acquisitions}
       \field{urlday}{18}
@@ -933,6 +933,7 @@
       \field{urlyear}{2026}
       \field{volume}{28}
       \field{year}{2014}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{185\bibrangedash 200}
       \range{pages}{16}
@@ -955,9 +956,6 @@
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{2d348adb11692d69e12aef759f4c55f0}
       \strng{fullhash}{2d348adb11692d69e12aef759f4c55f0}
       \strng{bibnamehash}{2d348adb11692d69e12aef759f4c55f0}
@@ -972,21 +970,27 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{It is hard to find a negative effect on the employment effect of rises in the minimum wage: the elusive employment effect. It is much easier to find an impact on wages. This paper argues the elusive employment effect is unlikely to be solved by better data, methodology, or specification. The reasons for the elusive employment effect are the factors contributing to why the link between higher minimum wages and higher labor costs are weaker than one might think and because imperfect competition is pervasive in the labor market.}
+      \field{day}{1}
       \field{issn}{0895-3309}
       \field{journaltitle}{Journal of Economic Perspectives}
+      \field{langid}{english}
       \field{month}{2}
       \field{number}{1}
-      \field{title}{The {Elusive} {Employment} {Effect} of the {Minimum} {Wage}}
+      \field{title}{The Elusive Employment Effect of the Minimum Wage}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{35}
       \field{year}{2021}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{3\bibrangedash 26}
       \range{pages}{24}
       \verb{doi}
       \verb 10.1257/jep.35.1.3
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\k_the\\Zotero\\storage\\V35QC2WR\\Manning - 2021 - The Elusive Employment Effect of the Minimum Wage.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://pubs.aeaweb.org/doi/10.1257/jep.35.1.3
@@ -1010,9 +1014,6 @@
            giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{efbce2b9276151071eff75b63ba5177d}
       \strng{fullhash}{efbce2b9276151071eff75b63ba5177d}
       \strng{bibnamehash}{efbce2b9276151071eff75b63ba5177d}
@@ -1026,23 +1027,29 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This paper studies the impact of gender quotas for corporate board seats on corporate decisions. We examine the introduction of Norway's 2006 quota, comparing affected firms to other Nordic companies, public and private, that are unaffected by the rule. We find that affected firms undertake fewer workforce reductions than comparison firms, increasing relative labor costs and employment levels and reducing short-term profits. The effects are strongest among firms without female board members beforehand and are present even for boards with older and more experienced members afterward. The boards appear to be affecting corporate strategy in part by selecting like-minded executives. (JEL G34, J16, J78, M12, M51)}
+      \field{abstract}{This paper studies the impact of gender quotas for corporate board seats on corporate decisions. We examine the introduction of Norway's 2006 quota, comparing affected firms to other Nordic companies, public and private, that are unaffected by the rule. We find that affected firms undertake fewer workforce reductions than comparison firms, increasing relative labor costs and employment levels and reducing short-term profits. The effects are strongest among firms without female board members beforehand and are present even for boards with older and more experienced members afterward. The boards appear to be affecting corporate strategy in part by selecting like-minded executives. ({JEL} G34, J16, J78, M12, M51)}
+      \field{day}{1}
       \field{issn}{1945-7782, 1945-7790}
       \field{journaltitle}{American Economic Journal: Applied Economics}
+      \field{langid}{english}
       \field{month}{7}
       \field{number}{3}
-      \field{shorttitle}{A {Female} {Style} in {Corporate} {Leadership}?}
-      \field{title}{A {Female} {Style} in {Corporate} {Leadership}? {Evidence} from {Quotas}}
+      \field{shorttitle}{A Female Style in Corporate Leadership?}
+      \field{title}{A Female Style in Corporate Leadership? Evidence from Quotas}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{5}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{136\bibrangedash 169}
       \range{pages}{34}
       \verb{doi}
       \verb 10.1257/app.5.3.136
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\k_the\\Zotero\\storage\\7ZLCNUNJ\\Matsa and Miller - 2013 - A Female Style in Corporate Leadership Evidence from Quotas.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://pubs.aeaweb.org/doi/10.1257/app.5.3.136
@@ -1054,14 +1061,11 @@
     \entry{mcadams_non-compete_2019}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=14854667532e4e98490e6b9036c17ca1}{%
-           family={McAdams},
+           family={{McAdams}},
            familyi={M\bibinitperiod},
            given={John\bibnamedelima M.},
            giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{14854667532e4e98490e6b9036c17ca1}
       \strng{fullhash}{14854667532e4e98490e6b9036c17ca1}
@@ -1077,13 +1081,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{1556-5068}
-      \field{journaltitle}{SSRN Electronic Journal}
-      \field{shorttitle}{Non-{Compete} {Agreements}}
-      \field{title}{Non-{Compete} {Agreements}: {A} {Review} of the {Literature}}
+      \field{journaltitle}{{SSRN} Journal}
+      \field{langid}{english}
+      \field{shorttitle}{Non-Compete Agreements}
+      \field{title}{Non-Compete Agreements: A Review of the Literature}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{doi}
       \verb 10.2139/ssrn.3513639
@@ -1110,9 +1116,6 @@
            giveni={F\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{3c5e52410315d80ce53dd8b883ad812c}
       \strng{fullhash}{3c5e52410315d80ce53dd8b883ad812c}
       \strng{bibnamehash}{3c5e52410315d80ce53dd8b883ad812c}
@@ -1126,17 +1129,20 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
       \field{issn}{0002-8282}
       \field{journaltitle}{American Economic Review}
+      \field{langid}{english}
       \field{month}{5}
       \field{number}{2}
-      \field{shorttitle}{Unemployment and {Small} {Cap} {Returns}}
-      \field{title}{Unemployment and {Small} {Cap} {Returns}: {The} {Nexus}}
+      \field{shorttitle}{Unemployment and Small Cap Returns}
+      \field{title}{Unemployment and Small Cap Returns: The Nexus}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{100}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{333\bibrangedash 337}
       \range{pages}{5}
@@ -1159,9 +1165,6 @@
            giveni={K\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{2b51fe3ac264cef47138197badf304f0}
       \strng{fullhash}{2b51fe3ac264cef47138197badf304f0}
       \strng{bibnamehash}{2b51fe3ac264cef47138197badf304f0}
@@ -1175,78 +1178,33 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{1}
       \field{issn}{0022-166X, 1548-8004}
-      \field{journaltitle}{Journal of Human Resources}
+      \field{issue}{S}
+      \field{journaltitle}{J. Human Resources}
+      \field{langid}{english}
       \field{month}{4}
-      \field{number}{S}
-      \field{title}{Labor {Market} {Concentration}, {Earnings}, and {Inequality}}
+      \field{title}{Labor Market Concentration, Earnings, and Inequality}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{57}
       \field{year}{2022}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{S251\bibrangedash S283}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.3368/jhr.monopsony.0219-10025R1
       \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\k_the\\Zotero\\storage\\BIPHNL38\\Rinz - 2022 - Labor Market Concentration, Earnings, and Inequality.pdf:application/pdf
+      \endverb
       \verb{urlraw}
       \verb http://jhr.uwpress.org/lookup/doi/10.3368/jhr.monopsony.0219-10025R1
       \endverb
       \verb{url}
       \verb http://jhr.uwpress.org/lookup/doi/10.3368/jhr.monopsony.0219-10025R1
-      \endverb
-    \endentry
-    \entry{robinson_monopsony_1969}{inbook}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=98eae8cbadda9bd3fdeca29dc8cc6f45}{%
-           family={Robinson},
-           familyi={R\bibinitperiod},
-           given={Joan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {Palgrave Macmillan UK}%
-      }
-      \strng{namehash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \strng{fullhash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \strng{bibnamehash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \strng{authorbibnamehash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \strng{authornamehash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \strng{authorfullhash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{The {Economics} of {Imperfect} {Competition}}
-      \field{isbn}{978-0-333-10289-3 978-1-349-15320-6}
-      \field{title}{Monopsony}
-      \field{urlday}{24}
-      \field{urlmonth}{2}
-      \field{urlyear}{2026}
-      \field{year}{1969}
-      \field{urldateera}{ce}
-      \field{pages}{218\bibrangedash 228}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1007/978-1-349-15320-6_19
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/978-1-349-15320-6_19
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/978-1-349-15320-6_19
       \endverb
     \endentry
     \entry{schubert_employer_2025}{misc}{}
@@ -1292,12 +1250,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{shorttitle}{Employer {Concentration} and {Wages}}
-      \field{title}{Employer {Concentration} and {Wages}: {Evidence} from {Large} {Firms}' {Hiring} {Shocks}}
+      \field{shorttitle}{Employer Concentration and Wages}
+      \field{title}{Employer Concentration and Wages: Evidence from Large Firms' Hiring Shocks}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2025}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{doi}
       \verb 10.2139/ssrn.5374463
@@ -1318,6 +1277,9 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
+      \list{publisher}{1}{%
+        {{MIT} Economics}%
+      }
       \strng{namehash}{6f045902aecc3b347fcf8559725b942b}
       \strng{fullhash}{6f045902aecc3b347fcf8559725b942b}
       \strng{bibnamehash}{6f045902aecc3b347fcf8559725b942b}
@@ -1331,13 +1293,18 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Monopsony and {Gender}}
-      \field{type}{Working {Paper}}
+      \field{howpublished}{Working Paper}
+      \field{title}{Monopsony and Gender}
+      \field{type}{Working Paper}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2023}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
+      \verb{file}
+      \verb PDF:C\:\\Users\\k_the\\Zotero\\storage\\UAE2ZDW7\\monopsony_gender_gsharma_16.pdf:application/pdf
+      \endverb
       \verb{urlraw}
       \verb https://economics.mit.edu/sites/default/files/inline-files/monopsony_gender_gsharma_16.pdf
       \endverb
@@ -1366,9 +1333,6 @@
            giveni={N\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{3c30df1e913ff357cf557806a575b72e}
       \strng{fullhash}{7551b012281f3008ab520677731da0d3}
       \strng{bibnamehash}{7551b012281f3008ab520677731da0d3}
@@ -1383,16 +1347,19 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Do contracts influence behavior independent of the law governing their enforceability? We explore this question in the context of employment noncompetes using nationally representative data for 11,500 labor force participants. We show that noncompetes are associated with reductions in employee mobility and changes in the direction of that mobility (i.e., toward noncompetitors) in both states that do and do not enforce noncompetes. Decomposing mobility into job offer generation and acceptance, we detect no evidence of differences in job search, recruitment, or offer activity associated with noncompetes. Rather, we find that employees with noncompetes—even in states that do not enforce them—frequently point to their noncompete as an important reason for declining offers from competitors. Our data further show that these employees’ beliefs about the likelihood of a lawsuit or legal enforcement are important predictors of their citing a noncompete as a factor in their decision to decline competitor offers.}
+      \field{day}{11}
       \field{issn}{8756-6222, 1465-7341}
       \field{journaltitle}{The Journal of Law, Economics, and Organization}
+      \field{langid}{english}
       \field{month}{4}
       \field{number}{3}
-      \field{title}{The {Behavioral} {Effects} of ({Unenforceable}) {Contracts}†}
+      \field{title}{The Behavioral Effects of (Unenforceable) Contracts†}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{36}
       \field{year}{2021}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{633\bibrangedash 687}
       \range{pages}{55}
@@ -1433,9 +1400,6 @@
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{8f48681eb95051e794177f07c7fcccd3}
       \strng{fullhash}{531292f7cea0226b03cb95e878d0ae0a}
       \strng{bibnamehash}{531292f7cea0226b03cb95e878d0ae0a}
@@ -1451,19 +1415,24 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{01482963}
       \field{journaltitle}{Journal of Business Research}
+      \field{langid}{english}
       \field{month}{1}
       \field{shorttitle}{Doing more with more}
-      \field{title}{Doing more with more: {Women} on the board and firm employment}
+      \field{title}{Doing more with more: Women on the board and firm employment}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{154}
       \field{year}{2023}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{113385}
       \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.jbusres.2022.113385
+      \endverb
+      \verb{file}
+      \verb Accepted Version:C\:\\Users\\k_the\\Zotero\\storage\\Z5NSUU9V\\Tunyi et al. - 2023 - Doing more with more Women on the board and firm employment.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0148296322008505
@@ -1493,9 +1462,6 @@
            giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{d0930d125d42d323ce6adc55139647a6}
       \strng{fullhash}{656a482acc1946ff9a186af69eb78d77}
       \strng{bibnamehash}{656a482acc1946ff9a186af69eb78d77}
@@ -1509,17 +1475,20 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper quantifies employer market power in US manufacturing and how it has changed over time. Using administrative data, we estimate plant-level markdowns—the ratio between a plant’s marginal revenue product of labor and its wage. We find most manufacturing plants operate in a monopsonistic environment, with an average markdown of 1.53, implying a worker earning only 65 cents on the marginal dollar generated. To investigate long-term trends for the entire sector, we propose a novel, theoretically grounded measure for the aggregate markdown. We find that it decreased between the late 1970s and the early 2000s, but has been sharply increasing since. (JEL J24, J31, J38, J42, L13, L60)}
+      \field{abstract}{This paper quantifies employer market power in {US} manufacturing and how it has changed over time. Using administrative data, we estimate plant-level markdowns—the ratio between a plant’s marginal revenue product of labor and its wage. We find most manufacturing plants operate in a monopsonistic environment, with an average markdown of 1.53, implying a worker earning only 65 cents on the marginal dollar generated. To investigate long-term trends for the entire sector, we propose a novel, theoretically grounded measure for the aggregate markdown. We find that it decreased between the late 1970s and the early 2000s, but has been sharply increasing since. ({JEL} J24, J31, J38, J42, L13, L60)}
+      \field{day}{1}
       \field{issn}{0002-8282}
       \field{journaltitle}{American Economic Review}
+      \field{langid}{english}
       \field{month}{7}
       \field{number}{7}
-      \field{title}{Monopsony in the {US} {Labor} {Market}}
+      \field{title}{Monopsony in the {US} Labor Market}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{112}
       \field{year}{2022}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{2099\bibrangedash 2138}
       \range{pages}{40}
@@ -1556,9 +1525,6 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{21b82ba613eed40e67960587a3c85200}
       \strng{fullhash}{b5ed4913f180284ab69eab1d1de2c0fe}
       \strng{bibnamehash}{b5ed4913f180284ab69eab1d1de2c0fe}
@@ -1574,93 +1540,29 @@
       \field{labeltitlesource}{title}
       \field{issn}{0012-9682}
       \field{journaltitle}{Econometrica}
+      \field{langid}{english}
       \field{number}{6}
-      \field{title}{Identification {Properties} of {Recent} {Production} {Function} {Estimators}}
+      \field{title}{Identification Properties of Recent Production Function Estimators}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{83}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{2411\bibrangedash 2451}
       \range{pages}{41}
       \verb{doi}
       \verb 10.3982/ECTA13408
       \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\k_the\\Zotero\\storage\\VG4B2ICY\\Ackerberg et al. - 2015 - Identification Properties of Recent Production Function Estimators.pdf:application/pdf
+      \endverb
       \verb{urlraw}
       \verb https://www.econometricsociety.org/doi/10.3982/ECTA13408
       \endverb
       \verb{url}
       \verb https://www.econometricsociety.org/doi/10.3982/ECTA13408
-      \endverb
-    \endentry
-    \entry{alviarez_markets_2025}{book}{}
-      \name{editor}{5}{}{%
-        {{un=0,uniquepart=base,hash=109dd235c4724301f3273dac33400741}{%
-           family={Alviarez},
-           familyi={A\bibinitperiod},
-           given={Vanessa},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=42b307565ea07915fb9b13c639def7ad}{%
-           family={Busso},
-           familyi={B\bibinitperiod},
-           given={Matías},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9048e9c5d191f0d9b7443b16dbbff54d}{%
-           family={Keefer},
-           familyi={K\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=edd74ca8b04b951e3ce318a1e394b08f}{%
-           family={Santos},
-           familyi={S\bibinitperiod},
-           given={Cezar},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2b524960e4279c7048fa6f6ca1b1fd86}{%
-           family={Stucchi},
-           familyi={S\bibinitperiod},
-           given={Rodolfo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Inter-American Development Bank}%
-      }
-      \strng{namehash}{c72571ed5fdee782f04a08df44bb1c0c}
-      \strng{fullhash}{dc751572d8858e323171d14af56e0ea4}
-      \strng{bibnamehash}{dc751572d8858e323171d14af56e0ea4}
-      \strng{editorbibnamehash}{dc751572d8858e323171d14af56e0ea4}
-      \strng{editornamehash}{c72571ed5fdee782f04a08df44bb1c0c}
-      \strng{editorfullhash}{dc751572d8858e323171d14af56e0ea4}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{editor}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Latin America and the Caribbean has made major social and macroeconomic strides, yet growth and productivity remain weak. Markets for Development: Improving Lives through Competition argues that the regions core challenge is limited market competition. High market concentration, regulatory barriers, and weak enforcement of rules allow dominant firms to restrict entry, innovation, and opportunity. This book presents new evidence on how market power shapes firm behavior, employment, and inequality across sectors. It also demonstrates that reducing fragmentation, improving regulation, and strengthening competition policy can lower prices for consumers, raise productivity, create better jobs, and build fiscal capacity, making competition a central driver of development.}
-      \field{isbn}{978-1-59782-592-4}
-      \field{month}{12}
-      \field{shorttitle}{Markets for {Development}}
-      \field{title}{Markets for {Development}: {Improving} {Lives} through {Competition}}
-      \field{urlday}{18}
-      \field{urlmonth}{2}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.18235/0013850
-      \endverb
-      \verb{urlraw}
-      \verb https://publications.iadb.org/en/markets-development-improving-lives-through-competition
-      \endverb
-      \verb{url}
-      \verb https://publications.iadb.org/en/markets-development-improving-lives-through-competition
       \endverb
     \endentry
     \entry{amodio_measuring_2024}{article}{}
@@ -1701,13 +1603,14 @@
       \field{journaltitle}{Journal of Labor Economics}
       \field{month}{10}
       \field{number}{4}
-      \field{shorttitle}{Measuring {Labor} {Market} {Power} in {Developing} {Countries}}
-      \field{title}{Measuring {Labor} {Market} {Power} in {Developing} {Countries}: {Evidence} from {Colombian} {Plants}}
+      \field{shorttitle}{Measuring Labor Market Power in Developing Countries}
+      \field{title}{Measuring Labor Market Power in Developing Countries: Evidence from Colombian Plants}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{42}
       \field{year}{2024}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{949\bibrangedash 977}
       \range{pages}{29}
@@ -1719,6 +1622,65 @@
       \endverb
       \verb{url}
       \verb https://www.journals.uchicago.edu/doi/abs/10.1086/725248
+      \endverb
+    \endentry
+    \entry{ashenfelter_labor_2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=38104046316aaf803651690c49e29684}{%
+           family={Ashenfelter},
+           familyi={A\bibinitperiod},
+           given={Orley\bibnamedelima C.},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb61a9f12b06d4a693567e9a076d1087}{%
+           family={Farber},
+           familyi={F\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d91734c442a688ac3875b225f9600e7b}{%
+           family={Ransom},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8527fb3dc08e4d78a884473781983fdf}
+      \strng{fullhash}{2a82e3a46764be4c34f240945fef705f}
+      \strng{bibnamehash}{2a82e3a46764be4c34f240945fef705f}
+      \strng{authorbibnamehash}{2a82e3a46764be4c34f240945fef705f}
+      \strng{authornamehash}{8527fb3dc08e4d78a884473781983fdf}
+      \strng{authorfullhash}{2a82e3a46764be4c34f240945fef705f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0734-306X, 1537-5307}
+      \field{journaltitle}{Journal of Labor Economics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Labor Market Monopsony}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{28}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{203\bibrangedash 210}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1086/653654
+      \endverb
+      \verb{urlraw}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/653654
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/653654
       \endverb
     \endentry
     \entry{azar_minimum_2019}{report}{}
@@ -1757,11 +1719,8 @@
       \list{institution}{1}{%
         {National Bureau of Economic Research}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \list{location}{1}{%
-        {Cambridge, MA}%
+        {Cambridge, {MA}}%
       }
       \strng{namehash}{931439353fa2c9f584ece433f59a9cdd}
       \strng{fullhash}{dcede90872c76a1b68eb0f33e1260724}
@@ -1777,19 +1736,23 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{langid}{english}
       \field{month}{7}
       \field{number}{w26101}
-      \field{title}{Minimum {Wage} {Employment} {Effects} and {Labor} {Market} {Concentration}}
-      \field{type}{techreport}
+      \field{title}{Minimum Wage Employment Effects and Labor Market Concentration}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{w26101}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.3386/w26101
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\k_the\\Zotero\\storage\\TRZMVY34\\Azar et al. - 2019 - Minimum Wage Employment Effects and Labor Market Concentration.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb http://www.nber.org/papers/w26101.pdf
@@ -1822,11 +1785,8 @@
       \list{institution}{1}{%
         {National Bureau of Economic Research}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \list{location}{1}{%
-        {Cambridge, MA}%
+        {Cambridge, {MA}}%
       }
       \strng{namehash}{931439353fa2c9f584ece433f59a9cdd}
       \strng{fullhash}{4ebe2b2d0558540cda9bea2dd8c034cc}
@@ -1842,19 +1802,23 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{langid}{english}
       \field{month}{12}
       \field{number}{w24147}
-      \field{title}{Labor {Market} {Concentration}}
-      \field{type}{techreport}
+      \field{title}{Labor Market Concentration}
       \field{urlday}{16}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{w24147}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.3386/w24147
+      \endverb
+      \verb{file}
+      \verb PDF:C\:\\Users\\k_the\\Zotero\\storage\\TSB3MRSM\\Azar et al. - 2017 - Labor Market Concentration.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb http://www.nber.org/papers/w24147.pdf
@@ -1887,11 +1851,8 @@
       \list{institution}{1}{%
         {National Bureau of Economic Research}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \list{location}{1}{%
-        {Cambridge, MA}%
+        {Cambridge, {MA}}%
       }
       \strng{namehash}{30870fc86fe8583c7dd41f1409a5fe50}
       \strng{fullhash}{788c9b829a2562498d19a6c9ac1aafef}
@@ -1906,20 +1867,24 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
       \field{month}{2}
       \field{number}{w24307}
-      \field{shorttitle}{Strong {Employers} and {Weak} {Employees}}
-      \field{title}{Strong {Employers} and {Weak} {Employees}: {How} {Does} {Employer} {Concentration} {Affect} {Wages}?}
-      \field{type}{techreport}
+      \field{shorttitle}{Strong Employers and Weak Employees}
+      \field{title}{Strong Employers and Weak Employees: How Does Employer Concentration Affect Wages?}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{w24307}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.3386/w24307
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\k_the\\Zotero\\storage\\DV7KD2LA\\Benmelech et al. - 2018 - Strong Employers and Weak Employees How Does Employer Concentration Affect Wages.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb http://www.nber.org/papers/w24307.pdf
@@ -1943,9 +1908,6 @@
            giveni={O\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{7049f3283a3aac7d0147635b10c69ff2}
       \strng{fullhash}{7049f3283a3aac7d0147635b10c69ff2}
       \strng{bibnamehash}{7049f3283a3aac7d0147635b10c69ff2}
@@ -1959,17 +1921,20 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract This paper develops a method to estimate workers’ outside employment opportunities. We outline a matching model with two-sided heterogeneity, from which we derive a sufficient statistic, the “outside options index” (OOI), for the effect of outside options on earnings, holding worker productivity constant. The OOI uses the cross-sectional concentration of similar workers across job types to quantify workers’ outside options as a function of workers’ commuting costs, preferences, and skills. Using German micro-data, we find that differences in options explain 20\% of the gender earnings gap, and that gender gaps in options are mostly due to differences in the implicit costs of commuting and moving.}
+      \field{abstract}{Abstract This paper develops a method to estimate workers’ outside employment opportunities. We outline a matching model with two-sided heterogeneity, from which we derive a sufficient statistic, the “outside options index” ({OOI}), for the effect of outside options on earnings, holding worker productivity constant. The {OOI} uses the cross-sectional concentration of similar workers across job types to quantify workers’ outside options as a function of workers’ commuting costs, preferences, and skills. Using German micro-data, we find that differences in options explain 20\% of the gender earnings gap, and that gender gaps in options are mostly due to differences in the implicit costs of commuting and moving.}
+      \field{day}{8}
       \field{issn}{0034-6527, 1467-937X}
       \field{journaltitle}{Review of Economic Studies}
+      \field{langid}{english}
       \field{month}{11}
       \field{number}{6}
-      \field{title}{Outside {Options} in the {Labour} {Market}}
+      \field{title}{Outside Options in the Labour Market}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{91}
       \field{year}{2024}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{3286\bibrangedash 3315}
       \range{pages}{30}
@@ -1992,9 +1957,6 @@
            giveni={D\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{a9e88233ec6ce30d2d31e294961e3e76}
       \strng{fullhash}{a9e88233ec6ce30d2d31e294961e3e76}
       \strng{bibnamehash}{a9e88233ec6ce30d2d31e294961e3e76}
@@ -2008,17 +1970,20 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{I discuss the recent literature that has led to new interest in the idea of monopsonistic wage setting. Building on advances in search theory and in models of differentiated products, researchers have used a number of different strategies to identify the elasticity of firm-specific labor supply. A growing consensus is that firms have some wage-setting power, though many questions remain about the sources of that power. (JEL B21, D21, D24, D43, J22, J31, J42)}
+      \field{abstract}{I discuss the recent literature that has led to new interest in the idea of monopsonistic wage setting. Building on advances in search theory and in models of differentiated products, researchers have used a number of different strategies to identify the elasticity of firm-specific labor supply. A growing consensus is that firms have some wage-setting power, though many questions remain about the sources of that power. ({JEL} B21, D21, D24, D43, J22, J31, J42)}
+      \field{day}{1}
       \field{issn}{0002-8282}
       \field{journaltitle}{American Economic Review}
+      \field{langid}{english}
       \field{month}{4}
       \field{number}{4}
-      \field{title}{Who {Set} {Your} {Wage}?}
+      \field{title}{Who Set Your Wage?}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{112}
       \field{year}{2022}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{1075\bibrangedash 1090}
       \range{pages}{16}
@@ -2059,9 +2024,6 @@
            giveni={M\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{9e4bf25f043fa6b81b9954b8e1dd3f71}
       \strng{fullhash}{55195062dd34bb87f10c1cdcab8271e8}
       \strng{bibnamehash}{55195062dd34bb87f10c1cdcab8271e8}
@@ -2077,19 +2039,24 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{09275398}
       \field{journaltitle}{Journal of Empirical Finance}
+      \field{langid}{english}
       \field{month}{9}
       \field{shorttitle}{Why female board representation matters}
-      \field{title}{Why female board representation matters: {The} role of female directors in reducing male {CEO} overconfidence}
+      \field{title}{Why female board representation matters: The role of female directors in reducing male {CEO} overconfidence}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{53}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{70\bibrangedash 90}
       \range{pages}{21}
       \verb{doi}
       \verb 10.1016/j.jempfin.2019.06.002
+      \endverb
+      \verb{file}
+      \verb Accepted Version:C\:\\Users\\k_the\\Zotero\\storage\\3PW92WPK\\Chen et al. - 2019 - Why female board representation matters The role of female directors in reducing male CEO overconfi.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0927539819300520
@@ -2119,9 +2086,6 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{3b0f755a5427af94e99800f906772bf0}
       \strng{fullhash}{9a3983071714d3e8d79bd6878b6f8181}
       \strng{bibnamehash}{9a3983071714d3e8d79bd6878b6f8181}
@@ -2136,21 +2100,27 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract We document the evolution of market power based on firm-level data for the U.S. economy since 1955. We measure both markups and profitability. In 1980, aggregate markups start to rise from 21\% above marginal cost to 61\% now. The increase is driven mainly by the upper tail of the markup distribution: the upper percentiles have increased sharply. Quite strikingly, the median is unchanged. In addition to the fattening upper tail of the markup distribution, there is reallocation of market share from low- to high-markup firms. This rise occurs mostly within industry. We also find an increase in the average profit rate from 1\% to 8\%. Although there is also an increase in overhead costs, the markup increase is in excess of overhead. We discuss the macroeconomic implications of an increase in average market power, which can account for a number of secular trends in the past four decades, most notably the declining labor and capital shares as well as the decrease in labor market dynamism.}
+      \field{day}{1}
       \field{issn}{0033-5533, 1531-4650}
       \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{langid}{english}
       \field{month}{5}
       \field{number}{2}
-      \field{title}{The {Rise} of {Market} {Power} and the {Macroeconomic} {Implications}*}
+      \field{title}{The Rise of Market Power and the Macroeconomic Implications*}
       \field{urlday}{19}
       \field{urlmonth}{3}
       \field{urlyear}{2026}
       \field{volume}{135}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{561\bibrangedash 644}
       \range{pages}{84}
       \verb{doi}
       \verb 10.1093/qje/qjz041
+      \endverb
+      \verb{file}
+      \verb Accepted Version:C\:\\Users\\k_the\\Zotero\\storage\\VXN9AVGQ\\De Loecker et al. - 2020 - The Rise of Market Power and the Macroeconomic Implications.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://academic.oup.com/qje/article/135/2/561/5714769
@@ -2165,9 +2135,6 @@
            family={{Departamento Administrativo Nacional de Estadística (DANE)}},
            familyi={D\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {Spanish}%
-      }
       \strng{namehash}{90640cd1397af437eded0413d714d6a8}
       \strng{fullhash}{90640cd1397af437eded0413d714d6a8}
       \strng{bibnamehash}{90640cd1397af437eded0413d714d6a8}
@@ -2180,7 +2147,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Encuesta {Anual} {Manufacturera} ({EAM})}
+      \field{title}{Encuesta Anual Manufacturera ({EAM})}
       \verb{urlraw}
       \verb https://www.dane.gov.co/index.php/estadisticas-por-tema/industria/encuesta-anual-manufacturera-enam
       \endverb
@@ -2215,9 +2182,6 @@
            giveni={F\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{88f35db29e27c6fd22fbd5a2cff5ce66}
       \strng{fullhash}{a81dcb17f75d1691dc289c1ef7a08965}
       \strng{bibnamehash}{a81dcb17f75d1691dc289c1ef7a08965}
@@ -2233,22 +2197,28 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Abstract We investigate the effects of female executives on gender-specific wage distributions and firm performance. Female leadership has a positive impact at the top of the female wage distribution and a negative impact at the bottom. The impact of female leadership on firm performance increases with the share of female workers. We account for the endogeneity induced by non-random executives’ gender by including firm fixed-effects, by generating controls from a two-way fixed-effects regression and by using instruments based on regional trends. The findings are consistent with a model of statistical discrimination in which female executives are better at interpreting signals of productivity from female workers. This suggests substantial costs of women under-representation among executives.}
+      \field{day}{1}
       \field{issn}{0013-0133, 1468-0297}
       \field{journaltitle}{The Economic Journal}
+      \field{langid}{english}
       \field{month}{8}
       \field{number}{622}
-      \field{shorttitle}{Do {Female} {Executives} {Make} a {Difference}?}
-      \field{title}{Do {Female} {Executives} {Make} a {Difference}? {The} {Impact} of {Female} {Leadership} on {Gender} {Gaps} and {Firm} {Performance}}
+      \field{shorttitle}{Do Female Executives Make a Difference?}
+      \field{title}{Do Female Executives Make a Difference? The Impact of Female Leadership on Gender Gaps and Firm Performance}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{129}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{2390\bibrangedash 2423}
       \range{pages}{34}
       \verb{doi}
       \verb 10.1093/ej/uez012
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\k_the\\Zotero\\storage\\HN9LW9FG\\Flabbi et al. - 2019 - Do Female Executives Make a Difference The Impact of Female Leadership on Gender Gaps and Firm Perf.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://academic.oup.com/ej/article/129/622/2390/5542573
@@ -2278,9 +2248,6 @@
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{88f35db29e27c6fd22fbd5a2cff5ce66}
       \strng{fullhash}{bfe1bda60152ad4bd421dd379435efa3}
       \strng{bibnamehash}{bfe1bda60152ad4bd421dd379435efa3}
@@ -2295,18 +2262,21 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Purpose Despite gender parity in the general working population, the higher up one looks in ranks within the firm the fewer women one finds. This under-representation of women in top positions at firms is purportedly even more acute in Latin America and the Caribbean (LAC). LAC is a large and increasingly important region of the world where women are well-represented in the workforce and are comparatively better educated than men. Documenting if this resource is utilized at full potential is therefore of crucial importance. The purpose of this paper is to document the level and impact of female representation at the executive level in the region, as no systematic study exists on this topic. Design/methodology/approach The authors collect an original database of publicly listed companies to determine prevailing gender ratios among board members and executives in LAC region. The authors then estimate whether companies with women board members are more likely to appoint women executives. Finally, the authors estimate whether measures of female leadership at the firm are correlated with company performance. Findings The authors find that women are as under-represented in LAC as in the USA, but much less so in the Caribbean. The authors find that companies with women board members are more likely to appoint women executives in LAC. The authors find that measures of female leadership at the firm are correlated with company performance but only regarding board membership and only when the proportion of women on the board is greater than 30 percent. Again composition effects are important. Overall, the authors conclude that the LAC region exhibits empirical regularities about under-representation of women in leadership positions at the firm that are very similar to those found for high-income countries in Europe and North America. Originality/value The authors are the first and so far unique systematic study exists able to document the level and impact of female representation at the executive level in the region.}
+      \field{abstract}{Purpose Despite gender parity in the general working population, the higher up one looks in ranks within the firm the fewer women one finds. This under-representation of women in top positions at firms is purportedly even more acute in Latin America and the Caribbean ({LAC}). {LAC} is a large and increasingly important region of the world where women are well-represented in the workforce and are comparatively better educated than men. Documenting if this resource is utilized at full potential is therefore of crucial importance. The purpose of this paper is to document the level and impact of female representation at the executive level in the region, as no systematic study exists on this topic. Design/methodology/approach The authors collect an original database of publicly listed companies to determine prevailing gender ratios among board members and executives in {LAC} region. The authors then estimate whether companies with women board members are more likely to appoint women executives. Finally, the authors estimate whether measures of female leadership at the firm are correlated with company performance. Findings The authors find that women are as under-represented in {LAC} as in the {USA}, but much less so in the Caribbean. The authors find that companies with women board members are more likely to appoint women executives in {LAC}. The authors find that measures of female leadership at the firm are correlated with company performance but only regarding board membership and only when the proportion of women on the board is greater than 30 percent. Again composition effects are important. Overall, the authors conclude that the {LAC} region exhibits empirical regularities about under-representation of women in leadership positions at the firm that are very similar to those found for high-income countries in Europe and North America. Originality/value The authors are the first and so far unique systematic study exists able to document the level and impact of female representation at the executive level in the region.}
+      \field{day}{4}
       \field{issn}{0143-7720}
-      \field{journaltitle}{International Journal of Manpower}
+      \field{journaltitle}{{IJM}}
+      \field{langid}{english}
       \field{month}{9}
       \field{number}{6}
-      \field{shorttitle}{Female corporate leadership in {Latin} {America} and the {Caribbean} region}
-      \field{title}{Female corporate leadership in {Latin} {America} and the {Caribbean} region: {Representation} and firm-level outcomes}
+      \field{shorttitle}{Female corporate leadership in Latin America and the Caribbean region}
+      \field{title}{Female corporate leadership in Latin America and the Caribbean region: Representation and firm-level outcomes}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{38}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{790\bibrangedash 818}
       \range{pages}{29}
@@ -2341,6 +2311,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{CompeteLAC}}
       \field{year}{2025}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://competelac.fislac.com/
       \endverb
@@ -2363,9 +2334,6 @@
            giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{652b263bdab4cfddccaef8ee862f6727}
       \strng{fullhash}{652b263bdab4cfddccaef8ee862f6727}
       \strng{bibnamehash}{652b263bdab4cfddccaef8ee862f6727}
@@ -2380,16 +2348,19 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Microeconomic data on individual firms and employer-employee matches reveal substantial and persistent dispersion in firm size, productivity, and average wage paid and a positive correlation between each pair. To the extent that intrinsic differences in firm productivity explain these facts, there are several important consequences. First, the reallocation of employment from less to more productive firms will yield efficiency gains. Second, workers will find it in their interest to seek out higher-paying employers. Recent research has provided support for both hypotheses. Third, the existence of worker and employer heterogeneity offers possible gains from sorting. However, because the problem of identifying the presence of sorting is model dependent, it is too early for conclusions about its significance.}
+      \field{day}{4}
       \field{issn}{1941-1383, 1941-1391}
-      \field{journaltitle}{Annual Review of Economics}
+      \field{journaltitle}{Annu. Rev. Econ.}
+      \field{langid}{english}
       \field{month}{9}
       \field{number}{1}
-      \field{title}{Labor {Market} {Models} of {Worker} and {Firm} {Heterogeneity}}
+      \field{title}{Labor Market Models of Worker and Firm Heterogeneity}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{2}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{577\bibrangedash 602}
       \range{pages}{26}
@@ -2424,9 +2395,6 @@
            giveni={F\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{fb7eede380719ab8bbf0e555a8c56446}
       \strng{fullhash}{0a9963959248fff412a9bc7e7ee95281}
       \strng{bibnamehash}{0a9963959248fff412a9bc7e7ee95281}
@@ -2442,6 +2410,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{09291199}
       \field{journaltitle}{Journal of Corporate Finance}
+      \field{langid}{english}
       \field{month}{10}
       \field{title}{Director gender and mergers and acquisitions}
       \field{urlday}{18}
@@ -2449,6 +2418,7 @@
       \field{urlyear}{2026}
       \field{volume}{28}
       \field{year}{2014}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{185\bibrangedash 200}
       \range{pages}{16}
@@ -2471,9 +2441,6 @@
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{2d348adb11692d69e12aef759f4c55f0}
       \strng{fullhash}{2d348adb11692d69e12aef759f4c55f0}
       \strng{bibnamehash}{2d348adb11692d69e12aef759f4c55f0}
@@ -2488,21 +2455,27 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{It is hard to find a negative effect on the employment effect of rises in the minimum wage: the elusive employment effect. It is much easier to find an impact on wages. This paper argues the elusive employment effect is unlikely to be solved by better data, methodology, or specification. The reasons for the elusive employment effect are the factors contributing to why the link between higher minimum wages and higher labor costs are weaker than one might think and because imperfect competition is pervasive in the labor market.}
+      \field{day}{1}
       \field{issn}{0895-3309}
       \field{journaltitle}{Journal of Economic Perspectives}
+      \field{langid}{english}
       \field{month}{2}
       \field{number}{1}
-      \field{title}{The {Elusive} {Employment} {Effect} of the {Minimum} {Wage}}
+      \field{title}{The Elusive Employment Effect of the Minimum Wage}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{35}
       \field{year}{2021}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{3\bibrangedash 26}
       \range{pages}{24}
       \verb{doi}
       \verb 10.1257/jep.35.1.3
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\k_the\\Zotero\\storage\\V35QC2WR\\Manning - 2021 - The Elusive Employment Effect of the Minimum Wage.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://pubs.aeaweb.org/doi/10.1257/jep.35.1.3
@@ -2526,9 +2499,6 @@
            giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{efbce2b9276151071eff75b63ba5177d}
       \strng{fullhash}{efbce2b9276151071eff75b63ba5177d}
       \strng{bibnamehash}{efbce2b9276151071eff75b63ba5177d}
@@ -2542,23 +2512,29 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This paper studies the impact of gender quotas for corporate board seats on corporate decisions. We examine the introduction of Norway's 2006 quota, comparing affected firms to other Nordic companies, public and private, that are unaffected by the rule. We find that affected firms undertake fewer workforce reductions than comparison firms, increasing relative labor costs and employment levels and reducing short-term profits. The effects are strongest among firms without female board members beforehand and are present even for boards with older and more experienced members afterward. The boards appear to be affecting corporate strategy in part by selecting like-minded executives. (JEL G34, J16, J78, M12, M51)}
+      \field{abstract}{This paper studies the impact of gender quotas for corporate board seats on corporate decisions. We examine the introduction of Norway's 2006 quota, comparing affected firms to other Nordic companies, public and private, that are unaffected by the rule. We find that affected firms undertake fewer workforce reductions than comparison firms, increasing relative labor costs and employment levels and reducing short-term profits. The effects are strongest among firms without female board members beforehand and are present even for boards with older and more experienced members afterward. The boards appear to be affecting corporate strategy in part by selecting like-minded executives. ({JEL} G34, J16, J78, M12, M51)}
+      \field{day}{1}
       \field{issn}{1945-7782, 1945-7790}
       \field{journaltitle}{American Economic Journal: Applied Economics}
+      \field{langid}{english}
       \field{month}{7}
       \field{number}{3}
-      \field{shorttitle}{A {Female} {Style} in {Corporate} {Leadership}?}
-      \field{title}{A {Female} {Style} in {Corporate} {Leadership}? {Evidence} from {Quotas}}
+      \field{shorttitle}{A Female Style in Corporate Leadership?}
+      \field{title}{A Female Style in Corporate Leadership? Evidence from Quotas}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{5}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{136\bibrangedash 169}
       \range{pages}{34}
       \verb{doi}
       \verb 10.1257/app.5.3.136
+      \endverb
+      \verb{file}
+      \verb Submitted Version:C\:\\Users\\k_the\\Zotero\\storage\\7ZLCNUNJ\\Matsa and Miller - 2013 - A Female Style in Corporate Leadership Evidence from Quotas.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://pubs.aeaweb.org/doi/10.1257/app.5.3.136
@@ -2570,14 +2546,11 @@
     \entry{mcadams_non-compete_2019}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=14854667532e4e98490e6b9036c17ca1}{%
-           family={McAdams},
+           family={{McAdams}},
            familyi={M\bibinitperiod},
            given={John\bibnamedelima M.},
            giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{14854667532e4e98490e6b9036c17ca1}
       \strng{fullhash}{14854667532e4e98490e6b9036c17ca1}
@@ -2593,13 +2566,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{1556-5068}
-      \field{journaltitle}{SSRN Electronic Journal}
-      \field{shorttitle}{Non-{Compete} {Agreements}}
-      \field{title}{Non-{Compete} {Agreements}: {A} {Review} of the {Literature}}
+      \field{journaltitle}{{SSRN} Journal}
+      \field{langid}{english}
+      \field{shorttitle}{Non-Compete Agreements}
+      \field{title}{Non-Compete Agreements: A Review of the Literature}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{doi}
       \verb 10.2139/ssrn.3513639
@@ -2626,9 +2601,6 @@
            giveni={F\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{3c5e52410315d80ce53dd8b883ad812c}
       \strng{fullhash}{3c5e52410315d80ce53dd8b883ad812c}
       \strng{bibnamehash}{3c5e52410315d80ce53dd8b883ad812c}
@@ -2642,17 +2614,20 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
       \field{issn}{0002-8282}
       \field{journaltitle}{American Economic Review}
+      \field{langid}{english}
       \field{month}{5}
       \field{number}{2}
-      \field{shorttitle}{Unemployment and {Small} {Cap} {Returns}}
-      \field{title}{Unemployment and {Small} {Cap} {Returns}: {The} {Nexus}}
+      \field{shorttitle}{Unemployment and Small Cap Returns}
+      \field{title}{Unemployment and Small Cap Returns: The Nexus}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{100}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{333\bibrangedash 337}
       \range{pages}{5}
@@ -2675,9 +2650,6 @@
            giveni={K\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{2b51fe3ac264cef47138197badf304f0}
       \strng{fullhash}{2b51fe3ac264cef47138197badf304f0}
       \strng{bibnamehash}{2b51fe3ac264cef47138197badf304f0}
@@ -2691,78 +2663,33 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{1}
       \field{issn}{0022-166X, 1548-8004}
-      \field{journaltitle}{Journal of Human Resources}
+      \field{issue}{S}
+      \field{journaltitle}{J. Human Resources}
+      \field{langid}{english}
       \field{month}{4}
-      \field{number}{S}
-      \field{title}{Labor {Market} {Concentration}, {Earnings}, and {Inequality}}
+      \field{title}{Labor Market Concentration, Earnings, and Inequality}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{57}
       \field{year}{2022}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{S251\bibrangedash S283}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.3368/jhr.monopsony.0219-10025R1
       \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\k_the\\Zotero\\storage\\BIPHNL38\\Rinz - 2022 - Labor Market Concentration, Earnings, and Inequality.pdf:application/pdf
+      \endverb
       \verb{urlraw}
       \verb http://jhr.uwpress.org/lookup/doi/10.3368/jhr.monopsony.0219-10025R1
       \endverb
       \verb{url}
       \verb http://jhr.uwpress.org/lookup/doi/10.3368/jhr.monopsony.0219-10025R1
-      \endverb
-    \endentry
-    \entry{robinson_monopsony_1969}{inbook}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=98eae8cbadda9bd3fdeca29dc8cc6f45}{%
-           family={Robinson},
-           familyi={R\bibinitperiod},
-           given={Joan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {Palgrave Macmillan UK}%
-      }
-      \strng{namehash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \strng{fullhash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \strng{bibnamehash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \strng{authorbibnamehash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \strng{authornamehash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \strng{authorfullhash}{98eae8cbadda9bd3fdeca29dc8cc6f45}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{The {Economics} of {Imperfect} {Competition}}
-      \field{isbn}{978-0-333-10289-3 978-1-349-15320-6}
-      \field{title}{Monopsony}
-      \field{urlday}{24}
-      \field{urlmonth}{2}
-      \field{urlyear}{2026}
-      \field{year}{1969}
-      \field{urldateera}{ce}
-      \field{pages}{218\bibrangedash 228}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1007/978-1-349-15320-6_19
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/978-1-349-15320-6_19
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/978-1-349-15320-6_19
       \endverb
     \endentry
     \entry{schubert_employer_2025}{misc}{}
@@ -2808,12 +2735,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{shorttitle}{Employer {Concentration} and {Wages}}
-      \field{title}{Employer {Concentration} and {Wages}: {Evidence} from {Large} {Firms}' {Hiring} {Shocks}}
+      \field{shorttitle}{Employer Concentration and Wages}
+      \field{title}{Employer Concentration and Wages: Evidence from Large Firms' Hiring Shocks}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2025}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{doi}
       \verb 10.2139/ssrn.5374463
@@ -2834,6 +2762,9 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
+      \list{publisher}{1}{%
+        {{MIT} Economics}%
+      }
       \strng{namehash}{6f045902aecc3b347fcf8559725b942b}
       \strng{fullhash}{6f045902aecc3b347fcf8559725b942b}
       \strng{bibnamehash}{6f045902aecc3b347fcf8559725b942b}
@@ -2847,13 +2778,18 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Monopsony and {Gender}}
-      \field{type}{Working {Paper}}
+      \field{howpublished}{Working Paper}
+      \field{title}{Monopsony and Gender}
+      \field{type}{Working Paper}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2023}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
+      \verb{file}
+      \verb PDF:C\:\\Users\\k_the\\Zotero\\storage\\UAE2ZDW7\\monopsony_gender_gsharma_16.pdf:application/pdf
+      \endverb
       \verb{urlraw}
       \verb https://economics.mit.edu/sites/default/files/inline-files/monopsony_gender_gsharma_16.pdf
       \endverb
@@ -2882,9 +2818,6 @@
            giveni={N\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{3c30df1e913ff357cf557806a575b72e}
       \strng{fullhash}{7551b012281f3008ab520677731da0d3}
       \strng{bibnamehash}{7551b012281f3008ab520677731da0d3}
@@ -2899,16 +2832,19 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Do contracts influence behavior independent of the law governing their enforceability? We explore this question in the context of employment noncompetes using nationally representative data for 11,500 labor force participants. We show that noncompetes are associated with reductions in employee mobility and changes in the direction of that mobility (i.e., toward noncompetitors) in both states that do and do not enforce noncompetes. Decomposing mobility into job offer generation and acceptance, we detect no evidence of differences in job search, recruitment, or offer activity associated with noncompetes. Rather, we find that employees with noncompetes—even in states that do not enforce them—frequently point to their noncompete as an important reason for declining offers from competitors. Our data further show that these employees’ beliefs about the likelihood of a lawsuit or legal enforcement are important predictors of their citing a noncompete as a factor in their decision to decline competitor offers.}
+      \field{day}{11}
       \field{issn}{8756-6222, 1465-7341}
       \field{journaltitle}{The Journal of Law, Economics, and Organization}
+      \field{langid}{english}
       \field{month}{4}
       \field{number}{3}
-      \field{title}{The {Behavioral} {Effects} of ({Unenforceable}) {Contracts}†}
+      \field{title}{The Behavioral Effects of (Unenforceable) Contracts†}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{36}
       \field{year}{2021}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{633\bibrangedash 687}
       \range{pages}{55}
@@ -2949,9 +2885,6 @@
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{8f48681eb95051e794177f07c7fcccd3}
       \strng{fullhash}{531292f7cea0226b03cb95e878d0ae0a}
       \strng{bibnamehash}{531292f7cea0226b03cb95e878d0ae0a}
@@ -2967,19 +2900,24 @@
       \field{labeltitlesource}{shorttitle}
       \field{issn}{01482963}
       \field{journaltitle}{Journal of Business Research}
+      \field{langid}{english}
       \field{month}{1}
       \field{shorttitle}{Doing more with more}
-      \field{title}{Doing more with more: {Women} on the board and firm employment}
+      \field{title}{Doing more with more: Women on the board and firm employment}
       \field{urlday}{18}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{154}
       \field{year}{2023}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{113385}
       \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.jbusres.2022.113385
+      \endverb
+      \verb{file}
+      \verb Accepted Version:C\:\\Users\\k_the\\Zotero\\storage\\Z5NSUU9V\\Tunyi et al. - 2023 - Doing more with more Women on the board and firm employment.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0148296322008505
@@ -3009,9 +2947,6 @@
            giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{d0930d125d42d323ce6adc55139647a6}
       \strng{fullhash}{656a482acc1946ff9a186af69eb78d77}
       \strng{bibnamehash}{656a482acc1946ff9a186af69eb78d77}
@@ -3025,17 +2960,20 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper quantifies employer market power in US manufacturing and how it has changed over time. Using administrative data, we estimate plant-level markdowns—the ratio between a plant’s marginal revenue product of labor and its wage. We find most manufacturing plants operate in a monopsonistic environment, with an average markdown of 1.53, implying a worker earning only 65 cents on the marginal dollar generated. To investigate long-term trends for the entire sector, we propose a novel, theoretically grounded measure for the aggregate markdown. We find that it decreased between the late 1970s and the early 2000s, but has been sharply increasing since. (JEL J24, J31, J38, J42, L13, L60)}
+      \field{abstract}{This paper quantifies employer market power in {US} manufacturing and how it has changed over time. Using administrative data, we estimate plant-level markdowns—the ratio between a plant’s marginal revenue product of labor and its wage. We find most manufacturing plants operate in a monopsonistic environment, with an average markdown of 1.53, implying a worker earning only 65 cents on the marginal dollar generated. To investigate long-term trends for the entire sector, we propose a novel, theoretically grounded measure for the aggregate markdown. We find that it decreased between the late 1970s and the early 2000s, but has been sharply increasing since. ({JEL} J24, J31, J38, J42, L13, L60)}
+      \field{day}{1}
       \field{issn}{0002-8282}
       \field{journaltitle}{American Economic Review}
+      \field{langid}{english}
       \field{month}{7}
       \field{number}{7}
-      \field{title}{Monopsony in the {US} {Labor} {Market}}
+      \field{title}{Monopsony in the {US} Labor Market}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{volume}{112}
       \field{year}{2022}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{2099\bibrangedash 2138}
       \range{pages}{40}

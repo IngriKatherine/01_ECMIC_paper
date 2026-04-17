@@ -52,7 +52,7 @@
 \begin{titlepage}
     \centering
 
-    {\LARGE \textbf{How Does Female Leadership Relate to Wage--Productivity Gaps in Colombia?}}\\[0.5in]
+    {\LARGE \textbf{Does Female Ownership Relate to Wage--Productivity Gaps in Colombia?}}\\[0.5in]
 
     {\large Ingri Katherine Quevedo Rocha}\\[0.1in]
     {\large George Washington University}\\[0.2in]
@@ -60,13 +60,9 @@
 
     \begin{minipage}{1\textwidth}
     \begin{abstract}
-    This study examines whether female leadership is associated with lower labor monopsony power in Colombian manufacturing firms. In labor markets with frictions such as search costs, limited mobility, and employer concentration, firms may exercise monopsony power and pay wages below workers' marginal productivity, generating wage-productivity gaps known as labor markdowns.
-
-    While these distortions arise from structural labor market frictions, firms differ substantially in how they exercise wage-setting power. Management decisions play an important role in shaping wage-setting practices and employment policies, suggesting that leadership characteristics may influence the extent to which firms exploit monopsony power. Prior research suggests that female leaders may adopt organizational practices that place greater weight on worker welfare, employment stability, and equitable compensation.
-
-    Using firm-level data from the Colombian Manufacturing Survey (2000-2019), I construct firm-level labor markdowns and relate them to the share of firm ownership held by women using regressions that control for firm and industry characteristics. Markdown estimates are derived from production-function methods that recover labor elasticities and compare the marginal revenue product of labor to wages.
-
-    The results show a negative association between female ownership shares and labor markdowns. These findings suggest that leadership composition may influence firms' wage-setting behavior and have implications for policies promoting greater female representation in firm leadership in emerging economies.
+    
+    In labor markets with frictions such as employer concentration, search costs, and limited worker mobility, firms can exercise monopsony power by setting wages below workers' marginal products, thereby generating wage-productivity gaps. The extent of these gaps depends not only on market structure but also on firm ownership and managerial structure, which shapes wage-setting and employment policies. A growing literature suggests that female leaders place greater weight on worker welfare and are less likely to engage in anticompetitive behavior. This paper examines whether these tendencies translate into reduced monopsony exploitation, specifically whether female ownership attenuates the wage-productivity gap.
+    Using firm-level panel data from the Colombian Annual Manufacturing Survey 2000-2019, I estimate firm-specific wage-productivity gaps following \textcite{yeh_monopsony_2022} and relate them to the female share of firm ownership in a linear fixed-effects framework controlling for time-varying firm characteristics and industry-level factors. I find that increases in female ownership share are associated with reductions in the wage-productivity gap. These findings carry implications for both equity and efficiency: since wages below marginal product depress employment and distort resource allocation, expanding female ownership in emerging markets may therefore yield meaningful labor market gains.
 
     \end{abstract}
 
@@ -74,7 +70,7 @@
 
     \noindent\textbf{JEL Classification:} D43, D63, J16,J42,J7, M12, M52
 
-    \noindent\textbf{Keywords:} female leadership, labor market power, wage--productivity gap, markdowns, monopsony, Colombia
+    \noindent\textbf{Keywords:} female ownership, labor market power, wage-productivity gap, labor monopsony, Emerging markets, Colombia
 
     \end{minipage}
 
@@ -87,19 +83,24 @@
 \newpage
 \section{Introduction}
 
-Standard microeconomic theory predicts that in competitive labor markets wages equal workers' marginal revenue of labor. Under this benchmark, firms act as wage takers, workers can freely move across jobs, and compensation accurately reflects productivity. Departures from this framework arise when firms face upward-sloping labor supply curves which gives them wage-setting power, also known as labor market monopsony (\cite{robinson_monopsony_1969}, cite class book). A growing literature shows that labor markets are often characterized by frictions such as search costs (\cite{card_who_2022}; \cite{azar_minimum_2019}; \cite{lentz_labor_2010}; \cite{moscarini_unemployment_2010}; \cite{manning_elusive_2021}), limited job mobility (\cite{caldwell_outside_2024}; \cite{schubert_employer_2025}; \cite{starr_behavioral_2021}; \cite{mcadams_non-compete_2019}), and employer concentration (\cite{azar_labor_2017}; \cite{benmelech_strong_2018}; \cite{rinz_labor_2022}). These frictions grant firms wage-setting power, allowing them to pay wages below workers' marginal productivity and generating a wage-productivity gap commonly referred to as a labor markdown.
+Across the world, workers are paid substantially less than the value they produce. In Colombia, \textcite{amodio_measuring_2024} estimates that workers produce approximately 40 percent more than they earn, a gap that represents not only foregone income for millions of workers, but also a significant source of allocative inefficiency for the broader economy. Understanding why this gap exists, and what can be done to reduce it, is a central question in labor economics.
 
-Evidence suggests that such distortions are particularly pronounced in developing and emerging economies, where labor market frictions tend to be stronger. In Latin America and the Caribbean, workers receive roughly half of the value they generate on average, compared to about 65 percent in the United States and 81 percent in advanced economies (\cite{alviarez_markets_2025}). For Colombia, \cite{amodio_measuring_2024} estimate a labor supply elasticity of 2.5, implying that workers produce approximately 40 percent more than they earn.
+Standard microeconomic theory predicts that in competitive labor markets, wages equal workers' marginal revenue product. Yet a large and growing body of evidence shows that firms are not wage takers: labor markets are characterized by frictions --- including search costs, limited job mobility, and employer concentration --- that grant firms wage-setting power.\footnote{A growing literature shows that labor markets are often characterized by frictions. See for  instance on search costs (\cite{card_who_2022}; \cite{azar_minimum_2019}; \cite{lentz_labor_2010}; \cite{moscarini_unemployment_2010}; \cite{manning_elusive_2021}), on limited job mobility (\cite{caldwell_outside_2024}; \cite{schubert_employer_2025}; \cite{starr_behavioral_2021}; \cite{mcadams_non-compete_2019}), and on employer concentration (\cite{azar_labor_2017}; \cite{benmelech_strong_2018}; \cite{rinz_labor_2022}).} When firms exploit this power, they set wages below workers' marginal productivity, generating a wage-productivity gap commonly referred to as a labor markdown. The consequences extend beyond wages: firms with monopsony power also hire fewer workers than is socially optimal, depressing employment and distorting resource 
+allocation across the economy.
 
-While monopsony power arises from structural features of labor markets, firms differ substantially in how they exercise wage-setting power. Management decisions shape wage-setting practices, organizational culture, and employment policies, suggesting that firm leadership may influence the extent to which monopsony power is exercised. This paper examines whether leadership characteristics—specifically gender composition—are systematically associated with differences in labor market power.
+Although monopsony power arises from structural features of labor markets, firms differ substantially in how aggressively they exploit it. This variation suggests that firm-level characteristics beyond market structure shape the wage-productivity gap. One such characteristic is firm ownership. A growing literature documents that female leaders tend to place greater weight on worker welfare and employment stability \parencite{matsa_female_2013, tunyi_doing_2023}, interpret productivity signals differently \parencite{flabbi_female_2017, chen_why_2019}, and influence corporate decision-making in ways that may reduce 
+wage distortions \parencite{levi_director_2014, flabbi_female_2019}. At the same time, labor market power has been shown to affect women more strongly than men \parencite{sharma_monopsony_2023}, raising the possibility that female ownership may also attenuate gender-specific wage distortions within firms. Together, these strands of evidence motivate the central question of this paper: does greater female ownership reduce the extent to which firms exploit monopsony power?
 
-In particular, I investigate whether firms with greater female ownership exhibit lower labor markdowns than firms primarily owned by men. Prior research suggests that female leaders may adopt management styles that place greater weight on worker welfare and employment stability (\cite{matsa_female_2013}; \cite{tunyi_doing_2023}), interpret productivity signals differently (\cite{flabbi_female_2017}; \cite{chen_why_2019}), or influence corporate decision-making in ways that reduce wage distortions (\cite{levi_director_2014}; \cite{flabbi_female_2019}). Moreover, labor market power has been shown to affect women more strongly than men (\cite{sharma_monopsony_2023}), raising the possibility that female leadership may mitigate gender-specific wage distortions within firms. If female leaders place relatively greater weight on worker welfare, long-term employment relationships, or equitable compensation, firms they lead may exercise monopsony power less aggressively, resulting in lower labor markdowns.
+To examine this question, I use firm-level panel data from the Colombian Annual Manufacturing Survey (EAM, from its Spanish initials), collected by Colombia's National Department of Statistics \parencite{departamento_administrativo_nacional_de_estadistica_dane_encuesta_nodate} and covering the period 2000--2019. Colombia provides a particularly informative setting for this analysis. Its manufacturing sector exhibits substantial variation in both female ownership and labor market concentration, and labor market frictions are more pronounced than in high-income economies, making deviations from competitive wage-setting both more likely and more consequential. I estimate firm-specific wage-productivity gaps following the production-function methodology of \textcite{yeh_monopsony_2022}, which recovers firm-level labor markdowns from output and input data without requiring direct information on market structure. I then relate these estimates to the female share of firm ownership in a linear fixed-effects framework that controls for time-varying firm characteristics and industry-level factors, isolating the within-firm relationship between ownership 
+composition and wage-setting behavior.
 
-To examine this relationship, I use firm-level data from the Colombian Manufacturing Survey (EAM, from its Spanish initials) collected by the National Department of Statistics of Colombia (\cite{departamento_administrativo_nacional_de_estadistica_dane_encuesta_nodate}). I estimate labor markdowns following the production-function methodology developed by \cite{yeh_monopsony_2022}. Specifically, markdowns are calculated using elasticities derived from a Cobb-Douglas revenue production function, with the wage bill used as the measure of labor input. Following \cite{ackerberg_identification_2015}, estimates of the revenue function elasticity allow the marginal revenue product of labor to be computed and compared to the average wage paid by the firm, yielding a firm-level wage markdown. This is the same methodology used by the Inter-American Development Bank in its Development in the Americas (DIA) 2025 report and the CompeteLAC dataset for markdown estimation. I then estimate regressions relating firm-level labor markdowns to the share of firm ownership held by women, controlling for observable firm and industry characteristics. 
+The results reveal a robust negative association between female ownership share and the wage-productivity gap: firms with higher female ownership set wages closer to workers' marginal product, consistent with less aggressive exploitation of monopsony power. This finding holds across a range of specifications and is not driven by differences in firm size, productivity, or industry composition. These results contribute to two distinct literatures. First, they add to the growing body of work on the determinants of labor market power by showing that ownership structure shapes the wage-productivity gap. Second, they extend the literature on female leadership and firm behavior by connecting gender composition in ownership to a concrete labor market outcome with direct welfare implications.
 
-Preliminary evidence using industry-level markdowns estimated by \cite{inter-american_development_bank_competelac_2025} suggests a negative relationship between female ownership and labor markdowns, although the estimates are imprecise. Ongoing work will extend the analysis to firm-level markdowns and examine whether the relationship varies with labor market concentration and productivity differences across firms.
+These findings carry important policy implications, particularly for emerging markets where labor market frictions are often more pronounced and monopsony rents are larger. Policies that expand female ownership through access to finance, legal protections, or targeted investment incentives may generate returns that extend beyond the firms themselves, improving wages and employment for workers more broadly. More generally, the results suggest that the distributional consequences of labor market power are not determined by market structure alone, and that who owns firms matters for how those firms treat their workers.
 
-\section{Literature Review}
+The remainder of the paper proceeds as follows. Section~\ref{sec:literature} reviews the relevant literature and estimations on the wage-productivity gap. Section~\ref{sec:theory} presents a theoretical framework that illustrates how monopsony power generates a wage-productivity gap and how this gap can be estimated using firm-level data. Section~\ref{sec:data} describes the data and presents summary statistics. Section~\ref{sec:empirical} outlines the empirical strategy. Section~\ref{sec:results} presents the main results and robustness checks. Finally, section~\ref{sec:conclusion} provides the conclusion, policy implications, and directions for future research.
+
+\section{Literature Review}\label{sec:literature}
 
 \begin{table}[H]
 \centering
@@ -165,11 +166,11 @@ Levi, Li \& Zhang (2014)
 \end{tabularx}
 \end{table}
 
-\section{Theoretical Framework}
+\section{Theoretical Framework}\label{sec:theory}
 
-To understand the wedge between wages and workers' marginal productivity, a useful starting point is the benchmark case of a competitive labor market. As shown in Panel (a) of Figure \ref{fig:example}, under perfect competition the marginal cost of labor is constant and equal to the market wage, which each firm takes as given. Firms therefore hire labor up to the point where the marginal revenue product of labor (MRPL) equals the wage.
+To understand the gap between wages and workers' marginal productivity, a useful starting point is the benchmark case of a competitive labor market. As shown in Panel (a) of Figure \ref{fig:example}, under perfect competition the marginal cost of labor is constant and equal to the market wage, which each firm takes as given. Firms therefore hire labor up to the point where the marginal revenue product of labor (MRPL) equals the wage.
 
-Under monopsony, by contrast, the firm faces an upward-sloping labor supply curve, as shown in Panel (b) of Figure \ref{fig:example}. Hiring an additional worker requires raising the wage not only for the marginal worker but, when wages are set uniformly, for all inframarginal workers as well. As a result, the marginal cost of labor lies strictly above the labor supply curve. The profit-maximizing firm sets employment where $\text{MRPL} = \text{MCL}$, yielding both lower employment and a lower wage relative to the competitive benchmark. Crucially, at the optimum, workers are paid a wage $w_i$ determined by the labor supply curve, yet their marginal contribution to firm revenue satisfies $\text{MRPL} > w_i$. The wedge between the marginal revenue product of labor and the wage---illustrated by the shaded region in Panel (b)---is the \textit{markdown}, the central object of interest in this paper.
+Monopsony power can be exercised by any employer who faces an upward-sloping labor supply curve, as shown in Panel (b) of Figure \ref{fig:example}. Hiring an additional worker requires raising the wage not only for the marginal worker but, when wages are set uniformly, for all inframarginal workers as well. As a result, the marginal cost of labor lies strictly above the labor supply curve. The profit-maximizing firm sets employment where $\text{MRPL} = \text{MCL}$, yielding both lower employment and a lower wage relative to the competitive benchmark. Crucially, at the optimum, workers are paid a wage $w_i$ determined by the labor supply curve, yet their marginal contribution to firm revenue satisfies $\text{MRPL} > w_i$. The wedge between the marginal revenue product of labor and the wage is known as the \textit{markdown}, illustrated by the shaded region in Panel (b), and it is the central object of interest in this paper.
 
 \begin{figure}[h]
     \centering
@@ -187,65 +188,51 @@ Under monopsony, by contrast, the firm faces an upward-sloping labor supply curv
     \end{subfigure}
 \end{figure}
 
-To understand how this markdowns arises, consider a firm's profit maximization problem with only one labor as input in a competitive market. The firm chooses labor input $L_{it}$ to maximize profits:
+To see how this markdown arises formally, following \textcite{ashenfelter_labor_2010} consider a firm's profit maximization problem with labor as the only input. Under perfect competition, the firm takes the market wage $\bar{w}$ as given and chooses labor input $L$ to maximize profits:
 
 \begin{align}
-\max_{L_{it}} \varPi_{it} = R_{it}(L_{it}) - \bar{w}L_{it},
+\max_{L} \varPi = R(L) - \bar{w}L,
 \end{align}
 
-Where $R_{it}(L_{it})$ is the firm's revenue as a function of labor input ($P*Q(L)$), and $\bar{w}$ is the constant wage in the competitive benchmark that the firm takes as given. The first-order condition for profit maximization equates the marginal revenue($R'(L)$) with the marginal cost ($W$) such that
+Where $R(L) \equiv P*Q(L)$ is the firm's revenue as a function of labor input. The first-order condition for profit maximization equates the marginal revenue with the marginal cost such that:
 
 \begin{equation}
-\frac{\partial R_{it}(L_{it})}{\partial L_{it}} = \bar{w}
+R'(L) = \bar{w}
 \end{equation}
 
-For a monopsonistic firm, the wage is a function of the labor input $w_{it}(L_{it}) L_{it}$ reflecting the upward-sloping labor supply curve observed in figure \ref{fig:example}. The profit maximization problem becomes:
+Under monopsony, the firm faces an upward-sloping labor supply curve, so the wage is an increasing function of employment $w(L)$, as shown in figure \ref{fig:example}. The profit maximization problem becomes:
 
 \begin{equation}
-\max_{L_{it}} \varPi_{it} = R_{it}(L_{it}) - w_{it}(L_{it}) L_{it},
+\max_{L} \varPi = R(L) - w(L)L,
 \end{equation}
 
-The first-order condition for profit maximization
+with first-order condition:
 
 \begin{equation}
-\frac{\partial R_{it}(L_{it})}{\partial L_{it}} = \frac{\partial w_{it}(L_{it})}{\partial L_{it}} L_{it} + w_{it}(L_{it}) 
+R'(L) = w(L) + w'(L)L 
 \end{equation}
 
-Note that the monopolistic firms also maximizes profits by equating marginal revenue and marginal cost, but the marginal cost of labor is greater than the wage in this case. The left hand side of the equation is the marginal revenue product of labor $\text{MRPL}_{it} \equiv \frac{\partial R_{it}(L_{it})}{\partial L_{it}}$, while the right-hand side is the marginal cost of labor, which includes both the wage paid to the marginal worker and the increase in wages paid to inframarginal workers. Factoring out the wage $w_{it}(L_{it})$ We can rewrite the equation as:
+Note that the monopolistic firms also maximizes profits by equating marginal revenue and marginal cost, but the marginal cost of labor is greater than the wage in this case. The right-hand side of the equation exceeds the wage $w(L)$ by the term $w'(L)L$ which captures the additional cost of raising wages for all inframarginal workers when hiring one more. 
+
+Rearranging yields to the Lerner index formula for the labor market:
 
 \begin{equation}
-\text{MRPL}_{it} = \left(\frac{\partial w_{it}(L_{it})}{\partial L_{it}}{\frac{L_{it}}{w_{it}(L_{it})}} + 1\right)w_{it}(L_{it}) = \left(\varepsilon_{L}^{-1} + 1\right)w_{it}(L_{it}) 
+\frac{R'(L)-w(L)}{w(L)} = \frac{w'(L)L}{w(L)} \equiv \varepsilon_L^{-1}
 \end{equation}
 
-Where the firm's perceived inverse elasticity of labor supply is defined as:
+Where $\varepsilon_L^{-1} \equiv \frac{w'(L)L}{w(L)}$ is the firm's perceived inverse elasticity of labor supply, capturing how much the wage must increase to attract an additional worker. This expression shows that the percentage gap between the marginal revenue product of labor and the wage equals the inverse of the firm's perceived labor supply elasticity: the more inelastic the labor supply (lower $\varepsilon_L$), the larger the gap between the marginal revenue product of labor and the wage.
+
+Following \textcite{yeh_monopsony_2022}, I define the labor markdown $\nu$ as the ratio of the marginal revenue product of labor to the wage:
 
 \begin{equation}
-\varepsilon_{L}^{-1} \equiv \frac{\partial w_{it}(L_{it})}{\partial L_{it}}{\frac{L_{it}}{w_{it}(L_{it})}}
+\nu_{it} \equiv \frac{R'(L)}{w(L)} = \varepsilon_L^{-1}+1
 \end{equation}
 
-The markdown $\nu_{it}$ is then defined as the ratio of the marginal revenue product of labor to the wage:
-
-\begin{equation}
-\nu_{it} \equiv \frac{\text{MRPL}_{it}}{w_{it}(L_{it})} = \varepsilon_{L}^{-1} + 1,
-\end{equation}
-
-Under this definition, $\nu_{it} = 1$ under perfect competition (infinite labor supply elasticity) and $\nu_{it} > 1$ whenever labor supply is upward-sloping.
+Under this definition, $\nu_{it} = 1$ under perfect competition (infinite labor supply elasticity) and $\nu_{it} > 1$ whenever labor supply is upward-sloping. It is therefore sufficient to estimate the firm's perceived labor supply elasticity $\varepsilon_L$ to recover the markdown $\nu_{it}$. However, as highlighted by \textcite{yeh_monopsony_2022}, estimating $\varepsilon_L$ in a general setting is challenging, as it requires disentangling the effects of labor market power from those of output market power (monopoly) and from other confounding factors. To address this challenge, I adopt the production approach of \textcite{de_loecker_rise_2020}, which allows for the estimation of firm-level markdowns using data on output and input costs without requiring direct information on market structure.
 
 \section{Markdown Estimation - Production Approach}
 
-From the theoretical framework, we see that the key parameter governing the size of the markdown is the firm's perceived labor supply elasticity $\varepsilon_L$. Nonetheless, estimating a firm's perceived elasticity of labor supply in a general setting is challenging, in part because of the potential for firm market power over both inputs (monopsony) and output (monopoly) \cite{yeh_monopsony_2022}. To disentangle these two forces, I follow \cite{yeh_monopsony_2022} and adopt the production approach of 
-\cite{de_loecker_rise_2020}.
-
-To understand this production approach, let's consider a Cobb-Douglas production function\footnote{For the actual estimation, following \cite{de_loecker_rise_2020} I use a translog production function with polynomial terms as follows:
-%
-\begin{equation*}
-    \log(GO)_{it} = \beta_{0} + \beta_{1}\log(K)_{it} + 
-    \beta_{2}\log(L)_{it} + \beta_{3}\log(M)_{it} + 
-    \beta_{4}\log(K)^2_{it} + \beta_{5}\log(L)^2_{it} + 
-    \beta_{6}\log(M)^2_{it} + \beta_{7}\log(K)_{it}\log(L)_{it} + 
-    \beta_{8}\log(K)_{it}\log(M)_{it} + \beta_{9}\log(L)_{it}\log(M)_{it} 
-    + t + e.
-\end{equation*}} with three inputs --- labor $L_{it}$, capital $K_{it}$, and materials $M_{it}$ --- in an environment where the firm holds power over both its output and labor markets. Following \cite{de_loecker_rise_2020}, variable inputs ($L_{it}$, $M_{it}$) adjust frictionlessly within a period, while capital is subject to adjustment frictions.
+Let's consider a Cobb-Douglas production function\footnote{For the actual estimation, following \cite{de_loecker_rise_2020} I use a translog production function with polynomial terms as follows:$\log(GO)_{it} = \beta_{0} + \beta_{1}\log(K)_{it} + \beta_{2}\log(L)_{it} + \beta_{3}\log(M)_{it} +  \beta_{4}\log(K)^2_{it} + \beta_{5}\log(L)^2_{it} + \beta_{6}\log(M)^2_{it} + \beta_{7}\log(K)_{it}\log(L)_{it} + \beta_{8}\log(K)_{it}\log(M)_{it} + \beta_{9}\log(L)_{it}\log(M)_{it} + t + e.$} with three inputs --- labor $L_{it}$, capital $K_{it}$, and materials $M_{it}$ --- in an environment where the firm holds power over both its output and labor markets. Following \cite{de_loecker_rise_2020}, variable inputs ($L_{it}$, $M_{it}$) adjust frictionlessly within a period, while capital is subject to adjustment frictions.
 
 The approach relies on the assumption that materials ($j = M_{it}$) is a fully flexible input satisfying three conditions: it incurs no adjustment costs within a period; its price is taken as given by the firm; and it is chosen statically, in the same period in which output is produced.
 
@@ -264,21 +251,21 @@ where $A_{it}$ denotes firm-specific productivity\footnote{Following \cite{de_lo
 The first-order conditions for $M_{it}$ and $L_{it}$ are:
 
 \begin{equation}
-\frac{\partial \mathcal{L}}{\partial M_{it}} = p^m_{it} - \lambda_{it} \varepsilon^M A_{it}K_{it}^{\theta^K}L_{it}^{\theta^L}M_{it}^{\theta^M-1}=0.
+\frac{\partial \mathcal{L}}{\partial M_{it}} = p^m_{it} - \lambda_{it} \theta^M A_{it}K_{it}^{\theta^K}L_{it}^{\theta^L}M_{it}^{\theta^M-1}=0.
 \end{equation}
 
 \begin{equation}
-\frac{\partial \mathcal{L}}{\partial L_{it}} = \frac{\partial w_{it}(L_{it})}{\partial L_{it}} L_{it} + w_{it}(L_{it}) - \lambda_{it} \varepsilon^L A_{it}K_{it}^{\theta^K}L_{it}^{\theta^L-1}M_{it}^{\theta^M}=0,
+\frac{\partial \mathcal{L}}{\partial L_{it}} = \frac{\partial w_{it}(L_{it})}{\partial L_{it}} L_{it} + w_{it}(L_{it}) - \lambda_{it} \theta^L A_{it}K_{it}^{\theta^K}L_{it}^{\theta^L-1}M_{it}^{\theta^M}=0,
 \end{equation}
 
 We know from the theoterical framework that $\frac{\partial w_{it}(L_{it})}{\partial L_{it}} L_{it} + w_{it}(L_{it}) =\left(\varepsilon_{L}^{-1} + 1\right)w_{it}(L_{it})$. Also using the production function $Q_{it} = A_{it}K_{it}^{\theta^K}L_{it}^{\theta^L}M_{it}^{\theta^M}$, we can simplify the first-order conditions to:
 
 \begin{equation}
-p^m_{it} = \lambda_{it} \varepsilon^M \frac{Q_{it}}{M_{it}}
+p^m_{it} = \lambda_{it} \theta^M \frac{Q_{it}}{M_{it}}
 \end{equation}
 
 \begin{equation}
-\left(\varepsilon_{L}^{-1} + 1\right)w_{it}(L_{it}) = \lambda_{it} \varepsilon^L  \frac{Q_{it}}{L_{it}}
+\left(\varepsilon_{L}^{-1} + 1\right)w_{it}(L_{it}) = \lambda_{it} \theta^L  \frac{Q_{it}}{L_{it}}
 \end{equation}
 
 Since $\lambda_{it}$ is the Lagrange multiplier on the production constraint, interpreted as marginal cost, the firm's markup---the price-to-marginal-cost ratio---is therefore:
@@ -330,7 +317,7 @@ the markdown can be expressed in terms of observable quantities as:
 
 This expression shows that the markdown can be estimated using the ratio of the firm's expenditure on materials to its wage bill, scaled by the ratio of output elasticities. The output elasticities $\theta^L$ and $\theta^M$ are estimated from the production function, while the input shares $\alpha^L_{it}$ and $\alpha^M_{it}$ are computed from observed data on wages, materials, output, and prices. This approach allows for the estimation of firm-level markdowns while controlling for both output and labor market power.
 
-\section{Data}
+\section{Data}\label{sec:data}
 
 This paper uses firm-level data from the Annual Manufacturing Survey (\textit{Encuesta Anual Manufacturera}, EAM) conducted by Colombia's National Administrative Department of Statistics (DANE). The EAM is a census of medium and large manufacturing establishments that provides detailed and standardized information on firms' production, input use, employment composition, and financial accounts. The original dataset spans 1995--2024 and covers approximately 7,000 manufacturing establishments per year. I restrict the analysis to the period 2000--2019 to ensure data consistency and to avoid disruptions associated with the COVID-19 pandemic. Although the data are collected at the establishment level, I aggregate to the firm level by summing across all plants belonging to the same firm in a given year, using the unique firm identifier provided in the survey.
 
@@ -439,7 +426,7 @@ This result is consistent with Figure~\ref{fig:corrplot} and provides preliminar
 \label{fig:corrplot}
 \end{figure}
 
-\section{Empirical Framework}
+\section{Empirical Framework}\label{sec:empirical}
 
 To examine the relationship between female ownership and labor market power, I estimate the following linear regression:
 
@@ -456,7 +443,7 @@ The vector $\mathbf{X}_{it}$ includes a set of firm-level controls. Firm age acc
 
 The specification includes three sets of fixed effects. Year fixed effects $\alpha_t$ absorb common macroeconomic shocks and aggregate trends in markdowns over time. Sector fixed effects $\alpha_s$ account for permanent differences across industries in production technology, product market structure, and average labor market competitiveness. Region fixed effects $\alpha_r$ control for local labor market conditions, including differences in the outside options available to workers. Standard errors are robust to account for heteroskedasticity.
 
-\section{Preliminary Results}
+\section{Results}\label{sec:results}
 
 \begin{table}[H]
 \centering
@@ -478,6 +465,10 @@ Fixed Effects & Year & Year-Industry & Year-Industry \& Geography \\
 Table \ref{tab:regression} presents the results of the regression analysis. In the baseline specification (Column 1), which includes only year fixed effects, the coefficient on the female  ownership share is positive and statistically significant at the 1 percent level, suggesting that a higher share of female ownership is associated with a higher inverse markdown, or equivalently, a lower degree of monopsony power. Specifically, a 10 percentage point increase in the share of female ownership is associated with a 0.66 percentage point increase in the inverse markdown, implying that for every 100 dollars of marginal revenue product, workers receive approximately 0.66 dollars more in wages.
 
 When industry fixed effects are added in Column 2, the coefficient on female ownership share remains positive but its magnitude decreases substantially to 0.010 and is only significant at the 10 percent level. This suggests that part of the association observed in the baseline may be driven by industry composition, as certain industries with higher female ownership may also have more competitive labor markets. Finally, in Column 3, which includes both industry and geography fixed effects, the coefficient on female ownership share remains positive and becomes statistically significant at the 5 percent level, with a magnitude of 0.012. This indicates that even after controlling for both industry and regional factors, there is still a positive association between female ownership and the inverse markdown, although the effect size is smaller than in the baseline specification.
+
+\section{Conclusion}\label{sec:conclusion}
+
+to be done
 
 \printbibliography
 \end{document}
