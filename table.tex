@@ -1,0 +1,34 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+entry=none,label=none,
+note{}={* p \num{< 0.1}, ** p \num{< 0.05}, *** p \num{< 0.01}},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]Q[]},
+column{2-5}={}{halign=c,},
+column{1}={}{halign=l,},
+hline{6}={1-5}{solid, black, 0.05em},
+}                     %% tabularray inner close
+\toprule
+& (1) & (2) & (3) & (4) \\ \midrule %% TinyTableHeader
+(Intercept) & \num{2.906}*** &  &  &  \\
+& (\num{0.029}) &  &  &  \\
+own\_w\_share & \num{-0.002}*** & \num{-0.001} & \num{-0.002} & \num{-0.002} \\
+& (\num{0.001}) & (\num{0.001}) & (\num{0.001}) & (\num{0.001}) \\
+Num.Obs. & \num{29942} & \num{29942} & \num{29939} & \num{29939} \\
+R2 & \num{0.000} & \num{0.004} & \num{0.004} & \num{0.004} \\
+R2 Adj. & \num{0.000} & \num{0.004} & \num{0.003} & \num{0.003} \\
+R2 Within &  & \num{0.000} & \num{0.000} & \num{0.000} \\
+R2 Within Adj. &  & \num{0.000} & \num{0.000} & \num{0.000} \\
+AIC & \num{162703.2} & \num{162133.7} & \num{201571.5} & \num{201579.0} \\
+BIC & \num{162728.2} & \num{162308.2} & \num{202476.9} & \num{202667.2} \\
+Log.Lik. & \num{-81348.623} &  &  &  \\
+F & \num{7.256} &  &  &  \\
+RMSE & \num{3.66} & \num{3.62} & \num{6.98} & \num{6.98} \\
+FE: year &  & X & X & X \\
+FE: isic4 &  &  & X & X \\
+FE: GEO &  &  &  & X \\
+\bottomrule
+\end{talltblr}
+\end{table}

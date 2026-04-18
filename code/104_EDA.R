@@ -35,6 +35,16 @@ df <- read_parquet("data/proc/work_EAM.parquet")
 
 df$w <- df$WB/df$L
 df <- df %>% filter(!is.na(nu_l_inv))
+df <- df %>% filter(L!=0)
+df <- df %>% filter(GO!=0)
+df <- df %>% filter(w!=0)
+df <- df %>%mutate(female_dummy = ifelse(own_w_share > 0, 1, 0),)
+df <- df %>% filter(L>=10)
+df <- df %>%
+  arrange(id_firm, year) %>%      # make sure data is sorted
+  group_by(id_firm) %>%
+  mutate(firm_age = row_number()) %>%
+  ungroup()
 
 summary(df$nu_l_inv)
 summary(df$nu_l_inv[df$nu_l_inv < 5], rm.na=TRUE)
@@ -61,16 +71,20 @@ overall <- data.frame(
   stringsAsFactors = FALSE
 )
 
+overall
+
 # ============================================================
 # SECTION 2: By Firm
 # ============================================================
 firm_vars <- list(
-  own_w       = "Female owners (N)",
-  own_m       = "Male owners (N)",
+  own_tot     = "Total owners (N)",
   own_w_share = "Female ownership share",
+  female_dummy = "Dummy Female",
   L           = "Employees (N)",
   w           = "Wage",
-  GO          = "Gross output"
+  GO          = "Gross output",
+  firm_age    = "Firm Age",
+  nu_l_imputed = "Markdown"
 )
 
 sum_row <- function(data, var, label) {
@@ -90,6 +104,12 @@ firm_stats <- bind_rows(
   lapply(names(firm_vars), function(v) sum_row(df, v, firm_vars[[v]]))
 )
 
+fmt <- function(x, digits = 3) formatC(as.numeric(x), format = "f", digits = digits, big.mark = ",")
+
+firm_stats[, c("Mean","Min","Max","SD")] <-
+  lapply(firm_stats[, c("Mean","Min","Max","SD")], fmt)
+
+firm_stats
 # ============================================================
 # SECTION 3: By Firm - Estimation Parameters (winsorized)
 # ============================================================
@@ -112,81 +132,110 @@ est_stats <- map_dfr(names(est_vars), function(v) {
   tibble(
     variable = v,
     label    = est_vars[[v]],
+    mean   = mean(x[x <2], na.rm = TRUE),
     p25      = quantile(x, 0.25, na.rm = TRUE),
     median   = median(x, na.rm = TRUE),
     p75      = quantile(x, 0.75, na.rm = TRUE),
-    mean   = mean(x[x <2], na.rm = TRUE),
   )
 })
 
-# ============================================================
-# FORMAT NUMBERS
-# ============================================================
-fmt <- function(x, digits = 3) formatC(as.numeric(x), format = "f", digits = digits, big.mark = ",")
+est_stats[, c("mean","p25","median","p75")] <-
+  lapply(est_stats[, c("mean","p25","median","p75")], fmt)
 
-firm_stats[, c("Mean","Min","Max","SD")] <-
-  lapply(firm_stats[, c("Mean","Min","Max","SD")], fmt)
+est_stats
 
-est_stats[, c("p25","Median","p75","mean")] <-
-  lapply(est_stats[, c("p25","median","p75","mean")], fmt)
+#######################################
+# DISRIBUTION
+#######################################
 
-# ============================================================
-# BUILD COMBINED TABLE
-# ============================================================
-
-# --- Section 1 placeholder rows (5 cols so it aligns) -------
-overall_full <- data.frame(
-  Variable = overall$Variable,
-  Mean     = overall$Value,
-  Min      = "",
-  Max      = "",
-  SD       = "",
-  stringsAsFactors = FALSE
-)
-
-combined <- bind_rows(overall_full, firm_stats, est_stats)
-colnames(combined) <- c("Variable", "Mean / Value", "Min", "Max", "Std. Dev.")
-
-# ============================================================
-# RENDER LATEX TABLE
-# ============================================================
-n_overall <- nrow(overall_full)   # 5
-n_firm    <- nrow(firm_stats)     # 6
-n_est     <- nrow(est_stats)      # 10
-
-latex_table <- kbl(
-  combined,
-  format    = "latex",
-  booktabs  = TRUE,
-  linesep   = "",
-  align     = c("l", "r", "r", "r", "r"),
-  caption   = "Descriptive Statistics",
-  label     = "tab:desc_stats",
-  escape    = FALSE
-) %>%
-  # Section headers as group rows
-  pack_rows("Overall", 1, n_overall,
-            bold = TRUE, italic = FALSE, hline_before = FALSE) %>%
-  pack_rows("By Firm", n_overall + 1, n_overall + n_firm,
-            bold = TRUE, italic = FALSE, hline_before = TRUE) %>%
-  pack_rows("By Firm \\textemdash{} Estimation Parameters",
-            n_overall + n_firm + 1, nrow(combined),
-            bold = TRUE, italic = FALSE, hline_before = TRUE) %>%
-  kable_styling(
-    latex_options = c("hold_position", "scale_down"),
-    font_size     = 10
-  ) %>%
-  footnote(
-    general = "Firm-level data, 2000--2019. DLW refers to Doraszelski--Jaumandreu--Levinsohn--Petrin production function estimates.",
-    general_title = "\\\\textit{Notes:} ",
-    escape = FALSE,
-    threeparttable = TRUE
+# Create dummy + clean data
+df_dist <- df %>%
+  mutate(
+    female_dummy = ifelse(own_w_share > 0, 1, 0)) %>%
+  filter(
+    is.finite(nu_l_imputed), nu_l_imputed < 10
   )
 
-# ============================================================
-# OUTPUT
-# ============================================================
-cat(latex_table)
+# Distribution plot
+g_dist<-ggplot(df_dist, aes(x = nu_l_imputed, fill = factor(female_dummy))) +
+  geom_density(alpha = 0.5) +
+  
+  scale_fill_manual(
+    values = c("#C44E52", "#187864"),
+    labels = c("No Female Ownership", "Positive Female Ownership")
+  ) +
+  
+  labs(
+    x = "Markdown (Productivity-wage gap)",
+    y = "Density",
+    fill = ""
+  ) +
+  
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position    = "bottom",
+    legend.text        = element_text(size = 12),
+    axis.text          = element_text(color = "black", size = 12),
+    axis.title         = element_text(size = 14, face = "bold"),
+    axis.line          = element_line(color = "black", linewidth = 0.5),
+    panel.border       = element_rect(color = "black", fill = NA, linewidth = 0.5)
+  )
+
+ggsave("latex/distribution_nu_female_dummy.png",
+       plot = g_dist, width = 8, height = 4, dpi = 150)
+
+
+
+#######################################
+# Correlation plot by industry
+#######################################
+
+df_scatter <- df %>%
+  filter(
+    is.finite(nu_l_imputed),
+    is.finite(own_w_share)
+  ) %>%
+  group_by(id_firm) %>%
+  summarise(
+    nu_l_imputed = mean(nu_l_imputed, na.rm = TRUE),
+    own_w_share = mean(own_w_share, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  filter(nu_l_imputed < 10)
+
+# Correlation
+ct <- cor.test(df_scatter$own_w_share, df_scatter$nu_l_imputed)
+
+lab <- paste0("Corr = ", round(ct$estimate, 3),
+              "\nP-value = ", format.pval(ct$p.value, digits = 3, eps = 0.001))
+
+# Scatter plot
+g_scatter<-ggplot(df_scatter, aes(x = own_w_share, y = nu_l_imputed)) +
+  geom_point(shape = 16, size = 1.5, alpha = 0.3, color = "#187864") +
+  geom_smooth(method = "lm", se = TRUE, color = "#781830", linewidth = 1.5) +  
+  labs(
+    x = "Female Ownership Share",
+    y = "Markdown (Productivity-wage gap)"
+  ) +
+  annotate("label", x = Inf, y = Inf, label = lab,
+           hjust = 1.1, vjust = 1.5,
+           size = 5,
+           fill = "white",
+           color = "black",
+           linewidth = 0.5,
+           alpha = 0.8,
+           label.padding = unit(0.5, "lines")) +
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position    = "none",
+    axis.text          = element_text(color = "black", size = 14),
+    axis.title         = element_text(size = 14, face = "bold"),
+    axis.line          = element_line(color = "black", linewidth = 0.5),
+    panel.border       = element_rect(color = "black", fill = NA, linewidth = 0.5)
+  )
+g_scatter
+ggsave("latex/scatter_markdown_ownwshare.png",
+       plot = g_scatter, width = 8, height = 4, dpi = 150)
 
 
 #######################################
