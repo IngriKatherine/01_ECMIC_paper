@@ -13,16 +13,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{tabularx}
-\usepackage{tabularray}
 \usepackage{graphicx}
-\usepackage{codehigh}
-\usepackage[normalem]{ulem}
-\UseTblrLibrary{booktabs}
-\UseTblrLibrary{siunitx}
-\newcommand{\tinytableTabularrayUnderline}[1]{\underline{#1}}
-\newcommand{\tinytableTabularrayStrikeout}[1]{\sout{#1}}
-\NewTableCommand{\tinytableDefineColor}[3]{\definecolor{#1}{#2}{#3}}
-
 \usepackage{array}
 \usepackage{booktabs}
 % Source note under figures/tables (not a caption)
@@ -447,8 +438,7 @@ This pattern is corroborated by Figure~\ref{fig:corrplot}, which plots the markd
 To examine the relationship between female ownership and the productivity-wage gap, I estimate the following linear regression:
 
 \begin{equation}
-    \nu_{it} = \alpha + \beta \, \text{Female}_{it} + \mathbf{X}_{it}'\boldsymbol{\gamma} 
-    + \alpha_t + \alpha_s + \alpha_r + \varepsilon_{it},
+    \nu_{it} = \alpha + \beta \, \text{Female}_{it} + \gamma_{1} \, \log{GO}_{it} + \gamma_{2} \, \log{\text{Firm Age}}_{it}  + \alpha_t + \alpha_s + \alpha_r + \varepsilon_{it},
 \label{eq:main}
 \end{equation}
 
@@ -460,18 +450,22 @@ The specification includes three sets of fixed effects. Year fixed effects $\alp
 
 \section{Results}\label{sec:results}
 
+Taking into account that the data is panel, standard errors are clustered at the firm level to account for serial correlation in the markdown within firms over time.
+
 \begin{table}[H]
 \centering
 \caption{Regression Results}
 \label{tab:regression}
-\begin{tabular}{l ccc}
+\begin{tabular}{l cccc}
 \hline\hline
- & (1) & (2) & (3) \\
+ & (1) & (2) & (3) & (4) \\
 \hline
-\texttt{own\_w\_share} & 0.066$^{***}$ & 0.010$^{*}$ & 0.012$^{**}$ \\
- & (0.007) & (0.006) & (0.006) \\
+\texttt{Binary 1 if $\geq$ one female owner} & 0.066$^{***}$ & 0.010$^{*}$ & 0.012$^{**}$ & 0.012$^{**}$ \\
+ & (0.007) & (0.006) & (0.006) & (0.006) \\
 \hline
-Fixed Effects & Year & Year-Industry & Year-Industry \& Geography \\
+FE: Year &  & X & X & X \\
+FE: Industry &  &  & X & X \\
+FE: Region &  &  &  & X \\
 \hline
 \multicolumn{4}{l}{\textit{Note:} $^{*}$p$<$0.10; $^{**}$p$<$0.05; $^{***}$p$<$0.01. Standard errors in parentheses.} \\
 \end{tabular}
@@ -480,6 +474,7 @@ Fixed Effects & Year & Year-Industry & Year-Industry \& Geography \\
 Table \ref{tab:regression} presents the results of the regression analysis. In the baseline specification (Column 1), which includes only year fixed effects, the coefficient on the female  ownership share is positive and statistically significant at the 1 percent level, suggesting that a higher share of female ownership is associated with a higher inverse markdown, or equivalently, a lower degree of monopsony power. Specifically, a 10 percentage point increase in the share of female ownership is associated with a 0.66 percentage point increase in the inverse markdown, implying that for every 100 dollars of marginal revenue product, workers receive approximately 0.66 dollars more in wages.
 
 When industry fixed effects are added in Column 2, the coefficient on female ownership share remains positive but its magnitude decreases substantially to 0.010 and is only significant at the 10 percent level. This suggests that part of the association observed in the baseline may be driven by industry composition, as certain industries with higher female ownership may also have more competitive labor markets. Finally, in Column 3, which includes both industry and geography fixed effects, the coefficient on female ownership share remains positive and becomes statistically significant at the 5 percent level, with a magnitude of 0.012. This indicates that even after controlling for both industry and regional factors, there is still a positive association between female ownership and the inverse markdown, although the effect size is smaller than in the baseline specification.
+
 
 \section{Conclusion}\label{sec:conclusion}
 

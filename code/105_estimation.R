@@ -18,7 +18,7 @@ rm(list = ls())
 set.seed(123)
 
 # Libraries
-pacman::p_load(dplyr, tidyverse, ggplot2, haven, ezids, arrow, scales, tidyr, knitr, kableExtra, showtext, sysfonts, fixest, modelsummary)
+pacman::p_load(dplyr, tidyverse, ggplot2, haven, ezids, arrow, scales, tidyr, knitr, kableExtra, showtext, sysfonts)
 font_add("cmunsi", "C:/Users/k_the/Downloads/computer-modern/cmunss.ttf")
 showtext_auto()
 
@@ -29,22 +29,35 @@ showtext_auto()
 ### EAM ALL
 df <- read_parquet("data/proc/work_EAM.parquet")
 
+
+df_filt <- df %>%
+  mutate(
+    female_dummy = ifelse(own_w_share > 0, 1, 0),
+    GO_mil = GO / 3670000,
+    nu_l_inv = nu_l_inv*100
+  ) %>%
+  filter(
+    is.finite(nu_l_inv),
+    is.finite(own_w_share),
+    nu_l_inv <= 200
+  )
+
 #######################################
 # BASIC
 #######################################
 
-# ── Models ───────────────────────────────────────────────────────────────────
-fit0 <- lm(nu_l_imputed ~ own_w_share,
-              data   = df)
+library(fixest)
+library(dplyr)
 
-fit1 <- feglm(nu_l_imputed ~ own_w_share | year,
-              data   = df)
+# ── Models ───────────────────────────────────────────────────────────────────
+fit1 <- feglm(nu_l_inv ~ own_w_share | year,
+              data   = df_filt)
 
 fit2 <- feglm(nu_l_inv ~ own_w_share | year + isic4,
-              data   = df)
+              data   = df_filt)
 
 fit3 <- feglm(nu_l_inv ~ own_w_share | year + isic4 + GEO,
-              data   = df)
+              data   = df_filt)
 
 # ── Extract coefficients & SEs ───────────────────────────────────────────────
 extract_coef <- function(model) {
@@ -57,7 +70,6 @@ extract_coef <- function(model) {
     pval = setNames(ct[, pcol],         rownames(ct))
   )
 }
-m0 <- extract_coef(fit0)
 m1 <- extract_coef(fit1)
 m2 <- extract_coef(fit2)
 m3 <- extract_coef(fit3)
@@ -138,42 +150,35 @@ writeLines(latex_table, "regression_table.tex")
 
 
 
-
-#######################################
-# FILTERS
-#######################################
-
-df$w <- df$WB/df$L
-df <- df %>% filter(!is.na(nu_l_inv))
-df <- df %>% filter(L!=0)
-df <- df %>% filter(GO!=0)
-df <- df %>% filter(w!=0)
+### EAM ALL
+df <- read_parquet("data/proc/work_EAM.parquet")
+df <- df %>% filter(!is.na(nu_l_imputed))
+df <- df %>% filter(nu_l_imputed>0)
+df <- df %>% filter(nu_l_imputed < 10)
 df <- df %>%mutate(female_dummy = ifelse(own_w_share > 0, 1, 0),)
-df <- df %>% filter(L>=10)
+df$year2 <- as.character(df$year)
 df <- df %>%
   arrange(id_firm, year) %>%      # make sure data is sorted
   group_by(id_firm) %>%
   mutate(firm_age = row_number()) %>%
   ungroup()
 
-summary(df$nu_l_inv)
-summary(df$nu_l_inv[df$nu_l_inv < 5], rm.na=TRUE)
-sum(df$nu_l_inv[df$nu_l_inv < 5], rm.na=TRUE)
 
-df_reg <- df %>%
-  filter(
-    !is.na(nu_l_imputed),
-    !is.na(female_dummy),
-    !is.na(own_w_share),
-    !is.na(firm_age),
-    !is.na(ln_GO),
-    !is.na(ln_L),
-    !is.na(isic4),
-    !is.na(GEO),
-    !is.na(year)
-  ) 
-
-cat("Regression sample:", nrow(df_reg), "obs |",
-    n_distinct(df_reg$id_firm), "firms |",
-    n_distinct(df_reg$year), "years\n")
-
+#######################################
+# BASIC
+#######################################
+# ── Models ───────────────────────────────────────────────────────────────────
+fit0 <- feols(nu_l_imputed ~ own_w_share, data   = df,
+              cluster = ~id_firm)
+fit1 <- feols(nu_l_imputed ~ own_w_share + year2, data   = df,
+              cluster = ~id_firm)
+fit2 <- feols(nu_l_imputed ~ own_w_share + year2+ GEO, data   = df,
+              cluster = ~id_firm)
+fit3 <- feols(nu_l_imputed ~ own_w_share + year2+ GEO + isic4, data   = df,
+              cluster = ~id_firm)
+fit4 <- feols(nu_l_imputed ~ own_w_share + year2 + GEO + isic4, data    = df,
+              cluster = ~id_firm)
+fit5 <- feols(nu_l_imputed ~ own_w_share +ln_GO + year2 + GEO, data    = df,
+              cluster = ~id_firm)
+fit6 <- feols(nu_l_imputed ~ own_w_share +ln_GO + firm_age + year2 + GEO, data    = df,
+              cluster = ~id_firm)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.3)  18 APR 2026 00:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.3)  18 APR 2026 01:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -205,133 +205,6 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen172
 \TX@cols=\count281
 \TX@ftn=\toks27
-) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.sty
-Package: tabularray 2025-11-27 v2025C Typeset tabulars and arrays with LaTeX3
-\g__tblr_nohyper_int=\count282
-\l__tblr_a_int=\count283
-\l__tblr_c_int=\count284
-\l__tblr_r_int=\count285
-\l__tblr_d_dim=\dimen173
-\l__tblr_h_dim=\dimen174
-\l__tblr_o_dim=\dimen175
-\l__tblr_p_dim=\dimen176
-\l__tblr_q_dim=\dimen177
-\l__tblr_r_dim=\dimen178
-\l__tblr_s_dim=\dimen179
-\l__tblr_t_dim=\dimen180
-\l__tblr_v_dim=\dimen181
-\l__tblr_w_dim=\dimen182
-\l__tblr_a_box=\box57
-\l__tblr_b_box=\box58
-\l__tblr_c_box=\box59
-\l__tblr_d_box=\box60
-\c@tblrcount=\count286
-\c@rownum=\count287
-\c@colnum=\count288
-\c@rowcount=\count289
-\c@colcount=\count290
-\abovesep=\dimen183
-\belowsep=\dimen184
-\leftsep=\dimen185
-\rightsep=\dimen186
-\gTblrLevelInt=\count291
-\g__tblr_data_row_key_count_int=\count292
-\g__tblr_data_column_key_count_int=\count293
-\g__tblr_data_cell_key_count_int=\count294
-\g__tblr_array_int=\count295
-\l__tblr_key_count_int=\count296
-\l__tblr_key_quotient_int=\count297
-\l__tblr_key_quotient_two_int=\count298
-\l__tblr_key_remainder_int=\count299
-\g__tblr_data_str_value_count_int=\count300
-\lTblrChildTotalInt=\count301
-\lTblrChildHtotalInt=\count302
-\lTblrChildVtotalInt=\count303
-\l__child_diff_h_int=\count304
-\l__child_diff_v_int=\count305
-\l__child_sign_h_int=\count306
-\l__child_sign_v_int=\count307
-\l__child_step_int=\count308
-\lTblrDefaultHruleWidthDim=\dimen187
-\lTblrDefaultVruleWidthDim=\dimen188
-\l__tblr_split_balance_int=\count309
-\l__tblr_strut_dp_dim=\dimen189
-\l__tblr_strut_ht_dim=\dimen190
-\g__tblr_cell_wd_dim=\dimen191
-\g__tblr_cell_ht_dim=\dimen192
-\g__tblr_cell_head_dim=\dimen193
-\g__tblr_cell_foot_dim=\dimen194
-\l__tblr_measured_cell_box=\box61
-\g__tblr_last_box=\box62
-\l__tblr_temp_box=\box63
-\l__tblr_column_target_dim=\dimen195
-\l__tblr_hfuzz_dim=\dimen196
-\l__tblr_caption_box=\box64
-\l__tblr_caption_left_box=\box65
-\lTblrRowHeadInt=\count310
-\lTblrRowFootInt=\count311
-\l__tblr_row_head_box=\box66
-\l__tblr_row_foot_box=\box67
-\l__tblr_row_head_foot_dim=\dimen197
-\lTblrTableWidthDim=\dimen198
-\l__tblr_table_firsthead_box=\box68
-\l__tblr_table_middlehead_box=\box69
-\l__tblr_table_lasthead_box=\box70
-\l__tblr_table_firstfoot_box=\box71
-\l__tblr_table_middlefoot_box=\box72
-\l__tblr_table_lastfoot_box=\box73
-\l__tblr_remain_height_dim=\dimen199
-\l__tblr_next_rows_dim=\dimen256
-\l__tblr_page_overfill_dim=\dimen257
-\l__tblr_long_from_int=\count312
-\l__tblr_long_to_int=\count313
-\l__tblr_curr_i_int=\count314
-\l__tblr_prev_i_int=\count315
-\lTblrTablePageInt=\count316
-\l__tblr_table_head_box=\box74
-\l__tblr_table_foot_box=\box75
-\l__tblr_table_head_foot_dim=\dimen258
-\l__tblr_table_head_body_foot_dim=\dimen259
-\l__tblr_table_box=\box76
-\lTblrRowFirstInt=\count317
-\lTblrRowLastInt=\count318
-\l__tblr_cover_box_a_dim=\dimen260
-\l__tblr_cover_box_b_dim=\dimen261
-\l__tblr_table_hlines_box=\box77
-\l__tblr_hline_box=\box78
-\l__tblr_row_box=\box79
-\l__tblr_col_o_wd_dim=\dimen262
-\l__tblr_col_b_wd_dim=\dimen263
-\l__tblr_hline_leftskip_dim=\dimen264
-\l__tblr_hline_rightskip_dim=\dimen265
-\l__tblr_row_ht_dim=\dimen266
-\l__tblr_row_dp_dim=\dimen267
-\l__tblr_row_abovesep_dim=\dimen268
-\l__tblr_row_belowsep_dim=\dimen269
-\l__tblr_row_vlines_box=\box80
-\l__tblr_vline_box=\box81
-\l__tblr_cell_box=\box82
-\l__tblr_row_upper_dim=\dimen270
-\l__tblr_row_lower_dim=\dimen271
-\l__tblr_row_vpace_dim=\dimen272
-\l__tblr_vline_aboveskip_dim=\dimen273
-\l__tblr_vline_belowskip_dim=\dimen274
-\lTblrCellRowSpanInt=\count319
-\lTblrCellColSpanInt=\count320
-\l__tblr_cell_wd_dim=\dimen275
-\l__tblr_cell_ht_dim=\dimen276
-\lTblrCellAboveBorderWidthDim=\dimen277
-\lTblrCellBelowBorderWidthDim=\dimen278
-\lTblrCellLeftBorderWidthDim=\dimen279
-\lTblrCellRightBorderWidthDim=\dimen280
-\l__tblr_diag_box=\box83
-\l__tblr_cell_inner_wd_dim=\dimen281
-\l__tblr_cell_inner_dp_dim=\dimen282
-\l__tblr_cell_hanchor_dim=\dimen283
-\l__tblr_last_cell_table_ht_dim=\dimen284
-\l__tblr_last_cell_table_dp_dim=\dimen285
-\l__tblr_last_vline_wd_dim=\dimen286
-\l__tblr_tikz_node_box=\box84
 ) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
@@ -345,142 +218,49 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen287
-\Gin@req@width=\dimen288
-) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/codehigh\codehigh.sty (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-01-04 L3 programming layer (loader) 
- (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count321
-\l__pdf_internal_box=\box85
-))
-Package: codehigh 2025-02-21 v2025C Highlight codes and demos with l3regex and lpeg
- (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.sty
-Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen175
+\lightrulewidth=\dimen176
+\cmidrulewidth=\dimen177
+\belowrulesep=\dimen178
+\belowbottomsep=\dimen179
+\aboverulesep=\dimen180
+\abovetopsep=\dimen181
+\cmidrulesep=\dimen182
+\cmidrulekern=\dimen183
+\defaultaddspace=\dimen184
+\@cmidla=\count282
+\@cmidlb=\count283
+\@aboverulesep=\dimen185
+\@belowrulesep=\dimen186
+\@thisruleclass=\count284
+\@lastruleclass=\count285
+\@thisrulewidth=\dimen187
+) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+ (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 ) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.sty
-Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
- (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2023-10-10 L3 Experimental document command parser
-)) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box86
-\sift@deathcycles=\count322
-\@vwid@loff=\dimen289
-\@vwid@roff=\dimen290
-)
-\l__cdhh_a_int=\count323
-\l__cdhh_b_int=\count324
-\l__cdhh_main_boxsep_dim=\dimen291
-\g__cdhh_code_box=\box87
-\g__cdhh_demo_box=\box88
-\l__cdhh_latex_rule_count_int=\count325
-\l__cdhh_latex/math_rule_count_int=\count326
-\l__cdhh_latex/table_rule_count_int=\count327
-\l__cdhh_latex/latex2_rule_count_int=\count328
-\l__cdhh_latex/latex3_rule_count_int=\count329
-\l__cdhh_item_count_int=\count330
-) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
-\UL@box=\box89
-\UL@hyphenbox=\box90
-\UL@skip=\skip55
-\UL@hook=\toks28
-\UL@height=\dimen292
-\UL@pe=\count331
-\UL@pixel=\dimen293
-\ULC@box=\box91
-Package: ulem 2019/11/18
-\ULdepth=\dimen294
-) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen295
-\lightrulewidth=\dimen296
-\cmidrulewidth=\dimen297
-\belowrulesep=\dimen298
-\belowbottomsep=\dimen299
-\aboverulesep=\dimen300
-\abovetopsep=\dimen301
-\cmidrulesep=\dimen302
-\cmidrulekern=\dimen303
-\defaultaddspace=\dimen304
-\@cmidla=\count332
-\@cmidlb=\count333
-\@aboverulesep=\dimen305
-\@belowrulesep=\dimen306
-\@thisruleclass=\count334
-\@lastruleclass=\count335
-\@thisrulewidth=\dimen307
-) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count336
-) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2026-04-09 v3.5.3 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count337
-\l__siunitx_number_exponent_fixed_int=\count338
-\l__siunitx_number_min_decimal_int=\count339
-\l__siunitx_number_min_integer_int=\count340
-\l__siunitx_number_round_precision_int=\count341
-\l__siunitx_number_lower_threshold_int=\count342
-\l__siunitx_number_upper_threshold_int=\count343
-\l__siunitx_number_group_first_int=\count344
-\l__siunitx_number_group_size_int=\count345
-\l__siunitx_number_group_min_int=\count346
-\l__siunitx_number_group_minimum_int=\count347
-\l__siunitx_compound_count_int=\count348
- (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
- (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-\l__siunitx_table_tmp_box=\box92
-\l__siunitx_table_tmp_dim=\dimen308
-\l__siunitx_table_column_width_dim=\dimen309
-\l__siunitx_table_integer_box=\box93
-\l__siunitx_table_decimal_box=\box94
-\l__siunitx_table_uncert_box=\box95
-\l__siunitx_table_before_box=\box96
-\l__siunitx_table_after_box=\box97
-\l__siunitx_table_before_dim=\dimen310
-\l__siunitx_table_carry_dim=\dimen311
-\l__siunitx_unit_tmp_int=\count349
-\l__siunitx_unit_position_int=\count350
-\l__siunitx_unit_total_int=\count351
-\l__siunitx_sexagesimal_tmp_dim=\dimen312
-\l__siunitx_sexagesimal_marker_box=\box98
-\l__siunitx_sexagesimal_unit_box=\box99
-) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
- (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count286
+) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count352
+\lrq@indent=\count287
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
@@ -489,63 +269,63 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count353
-\c@listtotal=\count354
-\c@listcount=\count355
-\c@liststart=\count356
-\c@liststop=\count357
-\c@citecount=\count358
-\c@citetotal=\count359
-\c@multicitecount=\count360
-\c@multicitetotal=\count361
-\c@instcount=\count362
-\c@maxnames=\count363
-\c@minnames=\count364
-\c@maxitems=\count365
-\c@minitems=\count366
-\c@citecounter=\count367
-\c@maxcitecounter=\count368
-\c@savedcitecounter=\count369
-\c@uniquelist=\count370
-\c@uniquename=\count371
-\c@refsection=\count372
-\c@refsegment=\count373
-\c@maxextratitle=\count374
-\c@maxextratitleyear=\count375
-\c@maxextraname=\count376
-\c@maxextradate=\count377
-\c@maxextraalpha=\count378
-\c@abbrvpenalty=\count379
-\c@highnamepenalty=\count380
-\c@lownamepenalty=\count381
-\c@maxparens=\count382
-\c@parenlevel=\count383
-\blx@tempcnta=\count384
-\blx@tempcntb=\count385
-\blx@tempcntc=\count386
-\c@blx@maxsection=\count387
-\blx@maxsegment@0=\count388
-\blx@notetype=\count389
-\blx@parenlevel@text=\count390
-\blx@parenlevel@foot=\count391
-\blx@sectionciteorder@0=\count392
-\blx@sectionciteorderinternal@0=\count393
-\blx@entrysetcounter=\count394
-\blx@biblioinstance=\count395
-\labelnumberwidth=\skip56
-\labelalphawidth=\skip57
-\biblabelsep=\skip58
-\bibitemsep=\skip59
-\bibnamesep=\skip60
-\bibinitsep=\skip61
-\bibparsep=\skip62
-\bibhang=\skip63
+\c@tabx@nest=\count288
+\c@listtotal=\count289
+\c@listcount=\count290
+\c@liststart=\count291
+\c@liststop=\count292
+\c@citecount=\count293
+\c@citetotal=\count294
+\c@multicitecount=\count295
+\c@multicitetotal=\count296
+\c@instcount=\count297
+\c@maxnames=\count298
+\c@minnames=\count299
+\c@maxitems=\count300
+\c@minitems=\count301
+\c@citecounter=\count302
+\c@maxcitecounter=\count303
+\c@savedcitecounter=\count304
+\c@uniquelist=\count305
+\c@uniquename=\count306
+\c@refsection=\count307
+\c@refsegment=\count308
+\c@maxextratitle=\count309
+\c@maxextratitleyear=\count310
+\c@maxextraname=\count311
+\c@maxextradate=\count312
+\c@maxextraalpha=\count313
+\c@abbrvpenalty=\count314
+\c@highnamepenalty=\count315
+\c@lownamepenalty=\count316
+\c@maxparens=\count317
+\c@parenlevel=\count318
+\blx@tempcnta=\count319
+\blx@tempcntb=\count320
+\blx@tempcntc=\count321
+\c@blx@maxsection=\count322
+\blx@maxsegment@0=\count323
+\blx@notetype=\count324
+\blx@parenlevel@text=\count325
+\blx@parenlevel@foot=\count326
+\blx@sectionciteorder@0=\count327
+\blx@sectionciteorderinternal@0=\count328
+\blx@entrysetcounter=\count329
+\blx@biblioinstance=\count330
+\labelnumberwidth=\skip55
+\labelalphawidth=\skip56
+\biblabelsep=\skip57
+\bibitemsep=\skip58
+\bibnamesep=\skip59
+\bibinitsep=\skip60
+\bibparsep=\skip61
+\bibhang=\skip62
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language79
-\c@mincomprange=\count396
-\c@maxcomprange=\count397
-\c@mincompwidth=\count398
+\c@mincomprange=\count331
+\c@maxcomprange=\count332
+\c@mincompwidth=\count333
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -558,98 +338,98 @@ File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count399
-\c@savedafterword=\count400
-\c@annotator=\count401
-\c@savedannotator=\count402
-\c@author=\count403
-\c@savedauthor=\count404
-\c@bookauthor=\count405
-\c@savedbookauthor=\count406
-\c@commentator=\count407
-\c@savedcommentator=\count408
-\c@editor=\count409
-\c@savededitor=\count410
-\c@editora=\count411
-\c@savededitora=\count412
-\c@editorb=\count413
-\c@savededitorb=\count414
-\c@editorc=\count415
-\c@savededitorc=\count416
-\c@foreword=\count417
-\c@savedforeword=\count418
-\c@holder=\count419
-\c@savedholder=\count420
-\c@introduction=\count421
-\c@savedintroduction=\count422
-\c@namea=\count423
-\c@savednamea=\count424
-\c@nameb=\count425
-\c@savednameb=\count426
-\c@namec=\count427
-\c@savednamec=\count428
-\c@translator=\count429
-\c@savedtranslator=\count430
-\c@shortauthor=\count431
-\c@savedshortauthor=\count432
-\c@shorteditor=\count433
-\c@savedshorteditor=\count434
-\c@narrator=\count435
-\c@savednarrator=\count436
-\c@execproducer=\count437
-\c@savedexecproducer=\count438
-\c@execdirector=\count439
-\c@savedexecdirector=\count440
-\c@with=\count441
-\c@savedwith=\count442
-\c@labelname=\count443
-\c@savedlabelname=\count444
-\c@institution=\count445
-\c@savedinstitution=\count446
-\c@lista=\count447
-\c@savedlista=\count448
-\c@listb=\count449
-\c@savedlistb=\count450
-\c@listc=\count451
-\c@savedlistc=\count452
-\c@listd=\count453
-\c@savedlistd=\count454
-\c@liste=\count455
-\c@savedliste=\count456
-\c@listf=\count457
-\c@savedlistf=\count458
-\c@location=\count459
-\c@savedlocation=\count460
-\c@organization=\count461
-\c@savedorganization=\count462
-\c@origlocation=\count463
-\c@savedoriglocation=\count464
-\c@origpublisher=\count465
-\c@savedorigpublisher=\count466
-\c@publisher=\count467
-\c@savedpublisher=\count468
-\c@language=\count469
-\c@savedlanguage=\count470
-\c@origlanguage=\count471
-\c@savedoriglanguage=\count472
-\c@citation=\count473
-\c@savedcitation=\count474
-\c@pageref=\count475
-\c@savedpageref=\count476
-\shorthandwidth=\skip64
-\shortjournalwidth=\skip65
-\shortserieswidth=\skip66
-\shorttitlewidth=\skip67
-\shortauthorwidth=\skip68
-\shorteditorwidth=\skip69
-\locallabelnumberwidth=\skip70
-\locallabelalphawidth=\skip71
-\localshorthandwidth=\skip72
-\localshortjournalwidth=\skip73
-\localshortserieswidth=\skip74
-\localshorttitlewidth=\skip75
-\localshortauthorwidth=\skip76
-\localshorteditorwidth=\skip77
+\c@afterword=\count334
+\c@savedafterword=\count335
+\c@annotator=\count336
+\c@savedannotator=\count337
+\c@author=\count338
+\c@savedauthor=\count339
+\c@bookauthor=\count340
+\c@savedbookauthor=\count341
+\c@commentator=\count342
+\c@savedcommentator=\count343
+\c@editor=\count344
+\c@savededitor=\count345
+\c@editora=\count346
+\c@savededitora=\count347
+\c@editorb=\count348
+\c@savededitorb=\count349
+\c@editorc=\count350
+\c@savededitorc=\count351
+\c@foreword=\count352
+\c@savedforeword=\count353
+\c@holder=\count354
+\c@savedholder=\count355
+\c@introduction=\count356
+\c@savedintroduction=\count357
+\c@namea=\count358
+\c@savednamea=\count359
+\c@nameb=\count360
+\c@savednameb=\count361
+\c@namec=\count362
+\c@savednamec=\count363
+\c@translator=\count364
+\c@savedtranslator=\count365
+\c@shortauthor=\count366
+\c@savedshortauthor=\count367
+\c@shorteditor=\count368
+\c@savedshorteditor=\count369
+\c@narrator=\count370
+\c@savednarrator=\count371
+\c@execproducer=\count372
+\c@savedexecproducer=\count373
+\c@execdirector=\count374
+\c@savedexecdirector=\count375
+\c@with=\count376
+\c@savedwith=\count377
+\c@labelname=\count378
+\c@savedlabelname=\count379
+\c@institution=\count380
+\c@savedinstitution=\count381
+\c@lista=\count382
+\c@savedlista=\count383
+\c@listb=\count384
+\c@savedlistb=\count385
+\c@listc=\count386
+\c@savedlistc=\count387
+\c@listd=\count388
+\c@savedlistd=\count389
+\c@liste=\count390
+\c@savedliste=\count391
+\c@listf=\count392
+\c@savedlistf=\count393
+\c@location=\count394
+\c@savedlocation=\count395
+\c@organization=\count396
+\c@savedorganization=\count397
+\c@origlocation=\count398
+\c@savedoriglocation=\count399
+\c@origpublisher=\count400
+\c@savedorigpublisher=\count401
+\c@publisher=\count402
+\c@savedpublisher=\count403
+\c@language=\count404
+\c@savedlanguage=\count405
+\c@origlanguage=\count406
+\c@savedoriglanguage=\count407
+\c@citation=\count408
+\c@savedcitation=\count409
+\c@pageref=\count410
+\c@savedpageref=\count411
+\shorthandwidth=\skip63
+\shortjournalwidth=\skip64
+\shortserieswidth=\skip65
+\shorttitlewidth=\skip66
+\shortauthorwidth=\skip67
+\shorteditorwidth=\skip68
+\locallabelnumberwidth=\skip69
+\locallabelalphawidth=\skip70
+\localshorthandwidth=\skip71
+\localshortjournalwidth=\skip72
+\localshortserieswidth=\skip73
+\localshorttitlewidth=\skip74
+\localshortauthorwidth=\skip75
+\localshorteditorwidth=\skip76
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -659,19 +439,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count477
-\c@textcitetotal=\count478
-\c@textcitemaxnames=\count479
-\c@biburlbigbreakpenalty=\count480
-\c@biburlbreakpenalty=\count481
-\c@biburlnumpenalty=\count482
-\c@biburlucpenalty=\count483
-\c@biburllcpenalty=\count484
+\c@textcitecount=\count412
+\c@textcitetotal=\count413
+\c@textcitemaxnames=\count414
+\c@biburlbigbreakpenalty=\count415
+\c@biburlbreakpenalty=\count416
+\c@biburlnumpenalty=\count417
+\c@biburlucpenalty=\count418
+\c@biburllcpenalty=\count419
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count485
+\c@smartand=\count420
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -681,8 +461,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count486
-\c@bbx:relatedtotal=\count487
+\c@bbx:relatedcount=\count421
+\c@bbx:relatedtotal=\count422
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
@@ -718,36 +498,44 @@ File: biblatex.cfg
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+ (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count423
+\l__pdf_internal_box=\box57
+))
 Package biblatex Info: ... and expl3
 (biblatex)             2024-01-04 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+ (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 56.
-\@quotelevel=\count488
-\@quotereset=\count489
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 56.
+\@quotelevel=\count424
+\@quotereset=\count425
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 47.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (01_paper.aux)
 \openout1 = `01_paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -787,26 +575,23 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count490
-\scratchdimen=\dimen313
-\scratchbox=\box100
-\nofMPsegments=\count491
-\nofMParguments=\count492
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count493
-\MPscratchDim=\dimen314
-\MPnumerator=\count494
-\makeMPintoPDFobject=\count495
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count426
+\scratchdimen=\dimen188
+\scratchbox=\box58
+\nofMPsegments=\count427
+\nofMParguments=\count428
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count429
+\MPscratchDim=\dimen189
+\MPnumerator=\count430
+\makeMPintoPDFobject=\count431
+\everyMPtoPDFconversion=\toks29
 ) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 56.
+))
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-apa.lbx
@@ -837,162 +622,162 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '01_paper.bbl' found.
  (01_paper.bbl)
-Package biblatex Info: Reference section=0 on input line 56.
-Package biblatex Info: Reference segment=0 on input line 56.
+Package biblatex Info: Reference section=0 on input line 47.
+Package biblatex Info: Reference segment=0 on input line 47.
 
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 1 undefined on input line 74.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 1 undefined on input line 65.
 
-LaTeX Font Info:    Trying to load font information for OML+lmr on input line 74.
+LaTeX Font Info:    Trying to load font information for OML+lmr on input line 65.
 (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmr.fd
 File: omllmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 74.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 65.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OML/lmr/bx/n' in size <10.95> not available
-(Font)              Font shape `OML/lmm/b/it' tried instead on input line 74.
+(Font)              Font shape `OML/lmm/b/it' tried instead on input line 65.
 
 
-LaTeX Warning: Citation '' on page 1 undefined on input line 74.
+LaTeX Warning: Citation '' on page 1 undefined on input line 65.
 
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 84.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 75.
 (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 84.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 75.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 84.
+(Font)              <12> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 84.
+(Font)              <8> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 84.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+(Font)              <6> on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/k_the/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
 
-LaTeX Warning: Citation 'amodio_measuring_2024' on page 1 undefined on input line 95.
+LaTeX Warning: Citation 'amodio_measuring_2024' on page 1 undefined on input line 86.
 
 LaTeX Font Info:    Font shape `OML/lmr/bx/n' in size <12> not available
-(Font)              Font shape `OML/lmm/b/it' tried instead on input line 95.
+(Font)              Font shape `OML/lmm/b/it' tried instead on input line 86.
 
-LaTeX Warning: Citation '' on page 1 undefined on input line 95.
+LaTeX Warning: Citation '' on page 1 undefined on input line 86.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 97.
+(Font)              <10> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 97.
+(Font)              <7> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 97.
+(Font)              <5> on input line 88.
 
-LaTeX Warning: Citation 'card_who_2022' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'azar_minimum_2019' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'card_who_2022' on page 1 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'lentz_labor_2010' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'azar_minimum_2019' on page 1 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'moscarini_unemployment_2010' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'lentz_labor_2010' on page 1 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'manning_elusive_2021' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'moscarini_unemployment_2010' on page 1 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'caldwell_outside_2024' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'manning_elusive_2021' on page 1 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'schubert_employer_2025' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'caldwell_outside_2024' on page 1 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'starr_behavioral_2021' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'schubert_employer_2025' on page 1 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'mcadams_non-compete_2019' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'starr_behavioral_2021' on page 1 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'azar_labor_2017' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'mcadams_non-compete_2019' on page 1 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'benmelech_strong_2018' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'azar_labor_2017' on page 1 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'rinz_labor_2022' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'benmelech_strong_2018' on page 1 undefined on input line 88.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+LaTeX Warning: Citation 'rinz_labor_2022' on page 1 undefined on input line 88.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 [][]\OT1/lmr/m/n/10 A grow-ing lit-er-a-ture shows that la-bor mar-kets are of-ten char-ac-ter-ized by fric-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 \OT1/lmr/m/n/10 tions. See for in-stance on search costs ([]; [];
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 []\OT1/lmr/m/n/10 ; []; []), on lim-ited
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 \OT1/lmr/m/n/10 job mo-bil-ity ([]; []; [];
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 []\OT1/lmr/m/n/10 ), and on em-ployer con-cen-tra-tion ([];
  []
 
 
-LaTeX Warning: Citation 'matsa_female_2013' on page 1 undefined on input line 100.
+LaTeX Warning: Citation 'matsa_female_2013' on page 1 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'tunyi_doing_2023' on page 1 undefined on input line 100.
+LaTeX Warning: Citation 'tunyi_doing_2023' on page 1 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'flabbi_female_2017' on page 1 undefined on input line 100.
+LaTeX Warning: Citation 'flabbi_female_2017' on page 1 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'chen_why_2019' on page 1 undefined on input line 100.
+LaTeX Warning: Citation 'chen_why_2019' on page 1 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'levi_director_2014' on page 1 undefined on input line 101.
+LaTeX Warning: Citation 'levi_director_2014' on page 1 undefined on input line 92.
 
 
-LaTeX Warning: Citation 'flabbi_female_2019' on page 1 undefined on input line 101.
+LaTeX Warning: Citation 'flabbi_female_2019' on page 1 undefined on input line 92.
 
 
-LaTeX Warning: Citation 'sharma_monopsony_2023' on page 1 undefined on input line 101.
+LaTeX Warning: Citation 'sharma_monopsony_2023' on page 1 undefined on input line 92.
 
 
-Overfull \hbox (52.21841pt too wide) in paragraph at lines 100--102
+Overfull \hbox (52.21841pt too wide) in paragraph at lines 91--93
 []\OT1/lmr/m/n/12 ), in-ter-pret pro-duc-tiv-ity sig-nals dif-fer-ently ([]; []),
  []
 
 
-LaTeX Warning: Citation 'departamento_administrativo_nacional_de_estadistica_dane_encuesta_nodate' on page 1 undefined on input line 103.
+LaTeX Warning: Citation 'departamento_administrativo_nacional_de_estadistica_dane_encuesta_nodate' on page 1 undefined on input line 94.
 
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 1 undefined on input line 103.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 1 undefined on input line 94.
 
 
-LaTeX Warning: Citation '' on page 1 undefined on input line 103.
+LaTeX Warning: Citation '' on page 1 undefined on input line 94.
 
 
-Overfull \hbox (64.64261pt too wide) in paragraph at lines 103--105
+Overfull \hbox (64.64261pt too wide) in paragraph at lines 94--96
 \OT1/lmr/m/n/12 ment of Statis-tics ([])
  []
 
@@ -1000,222 +785,222 @@ Overfull \hbox (64.64261pt too wide) in paragraph at lines 103--105
 <example_perfect_competition.png, id=21, 542.025pt x 433.62pt>
 File: example_perfect_competition.png Graphic file (type png)
 <use example_perfect_competition.png>
-Package pdftex.def Info: example_perfect_competition.png  used on input line 191.
+Package pdftex.def Info: example_perfect_competition.png  used on input line 182.
 (pdftex.def)             Requested size: 230.18253pt x 184.1438pt.
 <example_labor_marker_power.png, id=23, 542.025pt x 433.62pt>
 File: example_labor_marker_power.png Graphic file (type png)
 <use example_labor_marker_power.png>
-Package pdftex.def Info: example_labor_marker_power.png  used on input line 196.
+Package pdftex.def Info: example_labor_marker_power.png  used on input line 187.
 (pdftex.def)             Requested size: 230.18253pt x 184.1438pt.
 
 
-LaTeX Warning: Citation 'ashenfelter_labor_2010' on page 4 undefined on input line 200.
+LaTeX Warning: Citation 'ashenfelter_labor_2010' on page 4 undefined on input line 191.
 
 
-LaTeX Warning: Citation '' on page 4 undefined on input line 200.
+LaTeX Warning: Citation '' on page 4 undefined on input line 191.
 
 
-Overfull \hbox (45.82404pt too wide) in paragraph at lines 200--201
+Overfull \hbox (45.82404pt too wide) in paragraph at lines 191--192
 []\OT1/lmr/m/n/12 To see how this mark-down arises for-mally, fol-low-ing [][]
  []
 
 [4 <./example_perfect_competition.png> <./example_labor_marker_power.png>]
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 5 undefined on input line 234.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 5 undefined on input line 225.
 
 
-LaTeX Warning: Citation '' on page 5 undefined on input line 234.
+LaTeX Warning: Citation '' on page 5 undefined on input line 225.
 
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 5 undefined on input line 240.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 5 undefined on input line 231.
 
 
-LaTeX Warning: Citation '' on page 5 undefined on input line 240.
+LaTeX Warning: Citation '' on page 5 undefined on input line 231.
 
 
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 5 undefined on input line 240.
+LaTeX Warning: Citation 'de_loecker_rise_2020' on page 5 undefined on input line 231.
 
 
-LaTeX Warning: Citation '' on page 5 undefined on input line 240.
+LaTeX Warning: Citation '' on page 5 undefined on input line 231.
 
 [5{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 6 undefined on input line 244.
+LaTeX Warning: Citation 'de_loecker_rise_2020' on page 6 undefined on input line 235.
 
 
-LaTeX Warning: Citation '' on page 6 undefined on input line 244.
+LaTeX Warning: Citation '' on page 6 undefined on input line 235.
 
 [6{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [7]
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 8 undefined on input line 331.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 8 undefined on input line 322.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 333.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 324.
 (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [8]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 335.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 326.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 9 undefined on input line 358.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 9 undefined on input line 349.
 
 
-LaTeX Warning: Citation '' on page 9 undefined on input line 358.
+LaTeX Warning: Citation '' on page 9 undefined on input line 349.
 
 
-Overfull \hbox (80.20314pt too wide) in paragraph at lines 358--359
+Overfull \hbox (80.20314pt too wide) in paragraph at lines 349--350
 \OT1/lmr/m/n/12 a worker's marginal rev-enue prod-uct and their wage. Fol-low-ing [][],
  []
 
 [9{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 365.
+LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 356.
 
 
-LaTeX Warning: Citation '' on page 10 undefined on input line 365.
+LaTeX Warning: Citation '' on page 10 undefined on input line 356.
 
 
-Overfull \hbox (53.45709pt too wide) in paragraph at lines 365--366
+Overfull \hbox (53.45709pt too wide) in paragraph at lines 356--357
 \OT1/lmr/m/n/12 mate a translog gross-output pro-duc-tion func-tion fol-low-ing [][]: 
  []
 
 
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 367.
+LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 358.
 
 
-LaTeX Warning: Citation '' on page 10 undefined on input line 367.
+LaTeX Warning: Citation '' on page 10 undefined on input line 358.
 
 
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 377.
+LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 368.
 
 
-LaTeX Warning: Citation '' on page 10 undefined on input line 377.
+LaTeX Warning: Citation '' on page 10 undefined on input line 368.
 
 
-LaTeX Warning: Citation 'banco_de_la_republica_de_colombia_datos_nodate' on page 10 undefined on input line 377.
+LaTeX Warning: Citation 'banco_de_la_republica_de_colombia_datos_nodate' on page 10 undefined on input line 368.
 
 
-Overfull \hbox (219.01143pt too wide) in paragraph at lines 377--378
+Overfull \hbox (219.01143pt too wide) in paragraph at lines 368--369
 \OT1/lmr/m/n/12 and year-specific in-ter-est rates and in-fla-tion from the Cen-tral Bank of Colom-bia ([]).
  []
 
 
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 379.
+LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 370.
 
 
-LaTeX Warning: Citation '' on page 10 undefined on input line 379.
+LaTeX Warning: Citation '' on page 10 undefined on input line 370.
 
 [10]
 
-LaTeX Warning: Citation 'ackerberg_identification_2015' on page 11 undefined on input line 393.
+LaTeX Warning: Citation 'ackerberg_identification_2015' on page 11 undefined on input line 384.
 
 
-LaTeX Warning: Citation '' on page 11 undefined on input line 393.
+LaTeX Warning: Citation '' on page 11 undefined on input line 384.
 
 
-Overfull \hbox (170.79901pt too wide) in paragraph at lines 393--394
+Overfull \hbox (170.79901pt too wide) in paragraph at lines 384--385
 \OT1/lmr/m/n/12 fall back to a Cobb-Douglas spec-i-fi-ca-tion es-ti-mated via the pro-ce-dure of [][],
  []
 
 
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 11 undefined on input line 395.
+LaTeX Warning: Citation 'de_loecker_rise_2020' on page 11 undefined on input line 386.
 
 
-LaTeX Warning: Citation '' on page 11 undefined on input line 395.
+LaTeX Warning: Citation '' on page 11 undefined on input line 386.
 
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 11 undefined on input line 395.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 11 undefined on input line 386.
 
 
-LaTeX Warning: Citation '' on page 11 undefined on input line 395.
+LaTeX Warning: Citation '' on page 11 undefined on input line 386.
 
 
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 11 undefined on input line 397.
+LaTeX Warning: Citation 'de_loecker_rise_2020' on page 11 undefined on input line 388.
 
 
-LaTeX Warning: Citation '' on page 11 undefined on input line 397.
+LaTeX Warning: Citation '' on page 11 undefined on input line 388.
 
 
-LaTeX Warning: Citation 'inter-american_development_bank_competelac_2025' on page 11 undefined on input line 397.
+LaTeX Warning: Citation 'inter-american_development_bank_competelac_2025' on page 11 undefined on input line 388.
 
 
-LaTeX Warning: Citation '' on page 11 undefined on input line 397.
+LaTeX Warning: Citation '' on page 11 undefined on input line 388.
 
 
-Overfull \hbox (63.9091pt too wide) in paragraph at lines 397--398
+Overfull \hbox (63.9091pt too wide) in paragraph at lines 388--389
 \OT1/lmr/m/n/12 and Caribbean re-gion by [][]. 
  []
 
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 11 undefined on input line 399.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 11 undefined on input line 390.
 
 
-LaTeX Warning: Citation '' on page 11 undefined on input line 399.
+LaTeX Warning: Citation '' on page 11 undefined on input line 390.
 
 
-LaTeX Warning: Citation 'amodio_measuring_2024' on page 11 undefined on input line 399.
+LaTeX Warning: Citation 'amodio_measuring_2024' on page 11 undefined on input line 390.
 
 
-LaTeX Warning: Citation '' on page 11 undefined on input line 399.
+LaTeX Warning: Citation '' on page 11 undefined on input line 390.
 
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 11 undefined on input line 399.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 11 undefined on input line 390.
 
 
-Overfull \hbox (24.68303pt too wide) in paragraph at lines 399--401
+Overfull \hbox (24.68303pt too wide) in paragraph at lines 390--392
 \OT1/lmr/m/n/12 3.41 --- mir-rors the firm-level het-ero-gene-ity doc-u-mented in the lit-er-a-ture ([])
  []
 
 [11]
 
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 12 undefined on input line 419.
+LaTeX Warning: Citation 'de_loecker_rise_2020' on page 12 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'ackerberg_identification_2015' on page 12 undefined on input line 419.
+LaTeX Warning: Citation 'ackerberg_identification_2015' on page 12 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 12 undefined on input line 419.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 12 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 12 undefined on input line 419.
+LaTeX Warning: Citation 'de_loecker_rise_2020' on page 12 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'ackerberg_identification_2015' on page 12 undefined on input line 419.
+LaTeX Warning: Citation 'ackerberg_identification_2015' on page 12 undefined on input line 410.
 
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 12 undefined on input line 419.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 12 undefined on input line 410.
 
 <distribution_nu_female_dummy.png, id=65, 578.16pt x 289.08pt>
 File: distribution_nu_female_dummy.png Graphic file (type png)
 <use distribution_nu_female_dummy.png>
-Package pdftex.def Info: distribution_nu_female_dummy.png  used on input line 432.
+Package pdftex.def Info: distribution_nu_female_dummy.png  used on input line 423.
 (pdftex.def)             Requested size: 469.75502pt x 234.8769pt.
 [12]
 <scatter_markdown_ownwshare.png, id=70, 578.16pt x 289.08pt>
 File: scatter_markdown_ownwshare.png Graphic file (type png)
 <use scatter_markdown_ownwshare.png>
-Package pdftex.def Info: scatter_markdown_ownwshare.png  used on input line 440.
+Package pdftex.def Info: scatter_markdown_ownwshare.png  used on input line 431.
 (pdftex.def)             Requested size: 469.75502pt x 234.8769pt.
  [13 <./distribution_nu_female_dummy.png> <./scatter_markdown_ownwshare.png>]
 
-LaTeX Warning: Reference `sec:estimation' on page 14 undefined on input line 455.
+LaTeX Warning: Reference `sec:estimation' on page 14 undefined on input line 445.
 
 
-LaTeX Warning: Reference `sec:estimation' on page 14 undefined on input line 457.
+LaTeX Warning: Reference `sec:estimation' on page 14 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 14 undefined on input line 457.
+LaTeX Warning: Citation 'yeh_monopsony_2022' on page 14 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'moreno-gomez_relationship_2018' on page 14 undefined on input line 457.
+LaTeX Warning: Citation 'moreno-gomez_relationship_2018' on page 14 undefined on input line 447.
 
 
-LaTeX Warning: Citation '' on page 14 undefined on input line 457.
+LaTeX Warning: Citation '' on page 14 undefined on input line 447.
 
 [14]
 
-LaTeX Warning: Empty bibliography on input line 488.
+LaTeX Warning: Empty bibliography on input line 483.
 
 [15] (01_paper.aux)
  ***********
@@ -1236,15 +1021,15 @@ Package logreq Info: Writing requests to '01_paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21440 strings out of 474486
- 473245 string characters out of 5743756
+ 13898 strings out of 474486
+ 260484 string characters out of 5743756
  1941542 words of memory out of 5000000
- 43480 multiletter control sequences out of 15000+600000
- 652353 words of font info for 98 fonts, out of 8000000 for 9000
+ 35992 multiletter control sequences out of 15000+600000
+ 650631 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,10n,104p,2037b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,10n,81p,2037b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 01_paper.pdf (16 pages, 688787 bytes).
+Output written on 01_paper.pdf (16 pages, 689825 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
