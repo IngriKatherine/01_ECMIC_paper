@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.3)  19 APR 2026 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.3)  20 APR 2026 12:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -673,16 +673,27 @@ Package pdftex.def Info: example_labor_marker_power.png  used on input line 186.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 333.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [9{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [10] [11] [12] [13] [14]
+) [9{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [10] [11] [12]
+<violin_markdown_ownwshare.png, id=68, 578.16pt x 361.35pt>
+File: violin_markdown_ownwshare.png Graphic file (type png)
+<use violin_markdown_ownwshare.png>
+Package pdftex.def Info: violin_markdown_ownwshare.png  used on input line 430.
+(pdftex.def)             Requested size: 469.75502pt x 293.59616pt.
+ [13] [14 <./violin_markdown_ownwshare.png>] [15] [16]
 Overfull \vbox (21.22389pt too high) has occurred while \output is active []
 
- [15] [16] [17] [18] [19]
-<scatter_markdown_ownwshare.png, id=91, 578.16pt x 289.08pt>
+ [17]
+Overfull \hbox (18.91505pt too wide) in paragraph at lines 516--517
+\OT1/lmr/m/n/12 intensive firms|which typ-i-cally em-ploy lower-skilled work-ers with fewer out-side op-tions|exhibit
+ []
+
+[18] [19] [20]
+<scatter_markdown_ownwshare.png, id=95, 578.16pt x 289.08pt>
 File: scatter_markdown_ownwshare.png Graphic file (type png)
 <use scatter_markdown_ownwshare.png>
-Package pdftex.def Info: scatter_markdown_ownwshare.png  used on input line 532.
+Package pdftex.def Info: scatter_markdown_ownwshare.png  used on input line 539.
 (pdftex.def)             Requested size: 469.75502pt x 234.8769pt.
- [20 <./scatter_markdown_ownwshare.png>] (01_paper.aux)
+ [21] [22 <./scatter_markdown_ownwshare.png>] (01_paper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -692,17 +703,17 @@ Package logreq Info: Writing requests to '01_paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14080 strings out of 474486
- 267934 string characters out of 5743756
+ 14088 strings out of 474486
+ 268198 string characters out of 5743756
  1946542 words of memory out of 5000000
- 36178 multiletter control sequences out of 15000+600000
+ 36186 multiletter control sequences out of 15000+600000
  651944 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,15n,81p,2730b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 01_paper.pdf (21 pages, 814969 bytes).
+Output written on 01_paper.pdf (23 pages, 990029 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
+ 189 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

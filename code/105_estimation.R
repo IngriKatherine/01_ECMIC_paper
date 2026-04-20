@@ -77,7 +77,8 @@ df <- df %>%
 ### FILTERS
 df_filt <- df %>%
   mutate( own_w = pmin(own_w, quantile(own_w, 0.70, na.rm = TRUE)),
-    own_w_share=(own_w/own_tot)*100) %>%
+    own_w_share=(own_w/own_tot)*100,
+    own_w_share2=own_w_share*own_w_share) %>%
   filter(nu_l_imputed!=0, nu_l_imputed<50)
 
 #######################################
@@ -85,6 +86,9 @@ df_filt <- df %>%
 #######################################
 # ── Models ───────────────────────────────────────────────────────────────────
 fit0 <- lm(lnu ~ own_w_share + year + GEO + isic4, data   = df_filt)
+summary(fit0)
+
+fit0 <- lm(lnu ~ own_w_share + own_w_share2+ year + GEO + isic4, data   = df_filt)
 summary(fit0)
 
 fit1 <- lm(lnu ~ own_w_share + L_share_ind + shareprod + HHI + firm_decile + age_group + tfp + year, data  = df_filt)
@@ -251,7 +255,107 @@ sink()
 par(mfrow = c(2, 2)) 
 plot(fit1, main = "Diagnostic Plots Model") 
 
+#######################################
+# BEAUTIFUL PLOT
+#######################################
 
+# Create ownership share categories
+df_violin <- df_filt %>%
+  filter(
+    is.finite(nu_l_imputed),
+    is.finite(own_w_share),
+    nu_l_imputed < 50
+  ) %>%
+  mutate(
+    own_w_cat = cut(
+      own_w_share,
+      breaks = c(0, 25, 50, 75, 100),
+      labels = c("0–25%", "25–50%", "50–75%", "75–100%"),
+      include.lowest = TRUE
+    )
+  ) %>%
+  filter(!is.na(own_w_cat))
+
+# Compute medians for annotation
+medians <- df_violin %>%
+  group_by(own_w_cat) %>%
+  summarise(med = median(nu_l_imputed, na.rm = TRUE), .groups = "drop")
+
+# Color palette (soft, matching your example)
+cat_colors <- c(
+  "0–25%"    = "#F4A8A8",   # soft red/pink
+  "25–50%"   = "#A8D4F4",   # soft blue
+  "50–75%"   = "#A8F4C0",   # soft green
+  "75–100%"  = "#F4D4A8"    # soft orange
+)
+
+# Violin plot
+g_violin <- ggplot(df_violin, aes(x = own_w_cat, y = nu_l_imputed, fill = own_w_cat)) +
+  
+  # Violin
+  geom_violin(
+    trim    = FALSE,
+    alpha   = 0.4,
+    color   = NA,
+    linewidth = 0
+  ) +
+  
+  # Jittered scatter points inside
+  geom_jitter(
+    aes(color = own_w_cat),
+    width   = 0.08,
+    size    = 1.5,
+    alpha   = 0.35,
+    shape   = 16
+  ) +
+  
+  # Median dot
+  geom_point(
+    data  = medians,
+    aes(x = own_w_cat, y = med),
+    shape = 16,
+    size  = 4,
+    color = "black",
+    inherit.aes = FALSE
+  ) +
+  
+  # Median label
+  geom_text(
+    data  = medians,
+    aes(x = own_w_cat, y = med, label = paste0("Median: ", round(med, 2))),
+    vjust = -1,
+    size  = 4.5,
+    fontface = "bold",
+    color = "black",
+    inherit.aes = FALSE
+  ) +
+  
+  scale_fill_manual(values = cat_colors) +
+  scale_color_manual(values = c(
+    "0–25%"   = "#C0504D",
+    "25–50%"  = "#4472C4",
+    "50–75%"  = "#217346",
+    "75–100%" = "#C07830"
+  )) +
+  
+  labs(
+    x = "Female Executive Ownership Share",
+    y = "Markdown (Productivity-wage gap)"
+  ) +
+  
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position = "none",
+    axis.text       = element_text(color = "black", size = 14),
+    axis.title      = element_text(size = 14, face = "bold"),
+    axis.line       = element_line(color = "black", linewidth = 0.5),
+    panel.border    = element_rect(color = "black", fill = NA, linewidth = 0.5)
+  )
+
+g_violin
+
+ggsave("latex/violin_markdown_ownwshare.png",
+       plot = g_violin, width = 8, height = 5, dpi = 150)
 
 ##############################################
 ### PLOTS AND TABLES FOR THE PAPER
@@ -432,3 +536,5 @@ cat("\\end{table}\n")
 
 sink()
 message("Table written to descriptive_stats.tex")
+
+

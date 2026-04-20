@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is '01_paper.blg'
+[100] biber-MSWIN64:340> INFO - === 
+[137] Biber.pm:419> INFO - Reading '01_paper.bcf'
+[275] Biber.pm:979> INFO - Found 29 citekeys in bib section 0
+[296] Biber.pm:4419> INFO - Processing section 0
+[310] Biber.pm:4610> INFO - Looking for bibtex file 'spring2026.bib' for section 0
+[368] bibtex.pm:1713> INFO - LaTeX decoding ...
+[540] bibtex.pm:1519> INFO - Found BibTeX data source 'spring2026.bib'
+[753] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[753] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[753] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[753] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[807] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[808] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[808] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[808] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[855] bbl.pm:660> INFO - Writing '01_paper.bbl' with encoding 'UTF-8'
+[892] bbl.pm:763> INFO - Output to 01_paper.bbl

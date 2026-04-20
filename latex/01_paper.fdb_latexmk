@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber 01_paper"] 0 "01_paper.bcf" "01_paper.bbl" "01_paper" 1776657200.5902 -1
-  "01_paper.bcf" 1776657200 139696 021d8c24271ba65dbd2a2a8ac57aae21 "pdflatex"
-  "spring2026.bib" 1776476139 100628 4f99133f3179e73c3923deceb5710f04 ""
+["biber 01_paper"] 1776701821.76284 "01_paper.bcf" "01_paper.bbl" "01_paper" 1776702143.8793 0
+  "01_paper.bcf" 1776702143 139696 021d8c24271ba65dbd2a2a8ac57aae21 "pdflatex"
+  "spring2026.bib" 1776701820 107705 e53a03fe92201f61d6cc7a1d2fb0301d ""
   (generated)
   "01_paper.bbl"
   "01_paper.blg"
   (rewritten before read)
-["pdflatex"] 1776657198.14218 "c:/Users/k_the/main/01_ECMIC_paper/latex/01_paper.tex" "01_paper.pdf" "01_paper" 1776657200.59092 0
-  "01_paper.aux" 1776657200 17097 6b914e61c4e1b740a02ec8eb43ba3b2e "pdflatex"
-  "01_paper.bbl" 1776655439 154335 ca7f4c29a4ddc5fc42ce0c9a72776ac9 "biber 01_paper"
-  "01_paper.run.xml" 1776657200 2455 7c853bd1fbe5b3c77ff41ea5563751de "pdflatex"
-  "01_paper.tex" 1776657192 49563 30c83d1bc74ab4fe29e65a791c191f81 ""
+["pdflatex"] 1776702141.02617 "c:/Users/k_the/main/01_ECMIC_paper/latex/01_paper.tex" "01_paper.pdf" "01_paper" 1776702143.88018 0
+  "01_paper.aux" 1776702143 16817 efbcf1d4f6ce8bb179947920aedad3f2 "pdflatex"
+  "01_paper.bbl" 1776701824 154335 ca7f4c29a4ddc5fc42ce0c9a72776ac9 "biber 01_paper"
+  "01_paper.run.xml" 1776702143 2455 7c853bd1fbe5b3c77ff41ea5563751de "pdflatex"
+  "01_paper.tex" 1776702140 51639 c5ee44ec4cab15df15ed07fc01847f7c ""
   "C:/Users/k_the/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776487171 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/k_the/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1775230388 24225045 f3a64ab037fc9143d7da63cc7d4eba2e ""
   "C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -145,10 +145,11 @@
   "C:/Users/k_the/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/k_the/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/k_the/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/k_the/main/01_ECMIC_paper/latex/01_paper.tex" 1776657192 49563 30c83d1bc74ab4fe29e65a791c191f81 ""
+  "c:/Users/k_the/main/01_ECMIC_paper/latex/01_paper.tex" 1776702140 51639 c5ee44ec4cab15df15ed07fc01847f7c ""
   "example_labor_marker_power.png" 1775229037 87847 69905e069b3527b861faf668fe525d17 ""
   "example_perfect_competition.png" 1775229037 71559 e03d8f81708bf880597828c27ae9cd68 ""
   "scatter_markdown_ownwshare.png" 1776650939 451340 1f78ca40bd4d3a4dcb1bdc0a4209d0fc ""
+  "violin_markdown_ownwshare.png" 1776701253 174294 3fa7ae8cf5acbee3a32156fde635ca63 ""
   (generated)
   "01_paper.aux"
   "01_paper.bcf"
