@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.3)  18 APR 2026 01:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.3)  19 APR 2026 23:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -624,26 +624,12 @@ Package biblatex Info: ... file '01_paper.bbl' found.
  (01_paper.bbl)
 Package biblatex Info: Reference section=0 on input line 47.
 Package biblatex Info: Reference segment=0 on input line 47.
-
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 1 undefined on input line 65.
-
-LaTeX Font Info:    Trying to load font information for OML+lmr on input line 65.
-(C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmr.fd
-File: omllmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 65.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 75.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `OML/lmr/bx/n' in size <10.95> not available
-(Font)              Font shape `OML/lmm/b/it' tried instead on input line 65.
-
-
-LaTeX Warning: Citation '' on page 1 undefined on input line 65.
-
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 75.
-(C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+ (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 75.
@@ -665,373 +651,58 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/k_the/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
-
-LaTeX Warning: Citation 'amodio_measuring_2024' on page 1 undefined on input line 86.
-
-LaTeX Font Info:    Font shape `OML/lmr/bx/n' in size <12> not available
-(Font)              Font shape `OML/lmm/b/it' tried instead on input line 86.
-
-LaTeX Warning: Citation '' on page 1 undefined on input line 86.
-
+{C:/Users/k_the/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 88.
-
-LaTeX Warning: Citation 'card_who_2022' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'azar_minimum_2019' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'lentz_labor_2010' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'moscarini_unemployment_2010' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'manning_elusive_2021' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'caldwell_outside_2024' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'schubert_employer_2025' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'starr_behavioral_2021' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'mcadams_non-compete_2019' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'azar_labor_2017' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'benmelech_strong_2018' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'rinz_labor_2022' on page 1 undefined on input line 88.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[][]\OT1/lmr/m/n/10 A grow-ing lit-er-a-ture shows that la-bor mar-kets are of-ten char-ac-ter-ized by fric-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-\OT1/lmr/m/n/10 tions. See for in-stance on search costs ([]; [];
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[]\OT1/lmr/m/n/10 ; []; []), on lim-ited
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-\OT1/lmr/m/n/10 job mo-bil-ity ([]; []; [];
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[]\OT1/lmr/m/n/10 ), and on em-ployer con-cen-tra-tion ([];
- []
-
-
-LaTeX Warning: Citation 'matsa_female_2013' on page 1 undefined on input line 91.
-
-
-LaTeX Warning: Citation 'tunyi_doing_2023' on page 1 undefined on input line 91.
-
-
-LaTeX Warning: Citation 'flabbi_female_2017' on page 1 undefined on input line 91.
-
-
-LaTeX Warning: Citation 'chen_why_2019' on page 1 undefined on input line 91.
-
-
-LaTeX Warning: Citation 'levi_director_2014' on page 1 undefined on input line 92.
-
-
-LaTeX Warning: Citation 'flabbi_female_2019' on page 1 undefined on input line 92.
-
-
-LaTeX Warning: Citation 'sharma_monopsony_2023' on page 1 undefined on input line 92.
-
-
-Overfull \hbox (52.21841pt too wide) in paragraph at lines 91--93
-[]\OT1/lmr/m/n/12 ), in-ter-pret pro-duc-tiv-ity sig-nals dif-fer-ently ([]; []),
- []
-
-
-LaTeX Warning: Citation 'departamento_administrativo_nacional_de_estadistica_dane_encuesta_nodate' on page 1 undefined on input line 94.
-
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 1 undefined on input line 94.
-
-
-LaTeX Warning: Citation '' on page 1 undefined on input line 94.
-
-
-Overfull \hbox (64.64261pt too wide) in paragraph at lines 94--96
-\OT1/lmr/m/n/12 ment of Statis-tics ([])
- []
-
-[1] [2] [3]
-<example_perfect_competition.png, id=21, 542.025pt x 433.62pt>
+ [1] [2] [3]
+<example_perfect_competition.png, id=20, 542.025pt x 433.62pt>
 File: example_perfect_competition.png Graphic file (type png)
 <use example_perfect_competition.png>
-Package pdftex.def Info: example_perfect_competition.png  used on input line 182.
+Package pdftex.def Info: example_perfect_competition.png  used on input line 181.
 (pdftex.def)             Requested size: 230.18253pt x 184.1438pt.
-<example_labor_marker_power.png, id=23, 542.025pt x 433.62pt>
+<example_labor_marker_power.png, id=22, 542.025pt x 433.62pt>
 File: example_labor_marker_power.png Graphic file (type png)
 <use example_labor_marker_power.png>
-Package pdftex.def Info: example_labor_marker_power.png  used on input line 187.
+Package pdftex.def Info: example_labor_marker_power.png  used on input line 186.
 (pdftex.def)             Requested size: 230.18253pt x 184.1438pt.
-
-
-LaTeX Warning: Citation 'ashenfelter_labor_2010' on page 4 undefined on input line 191.
-
-
-LaTeX Warning: Citation '' on page 4 undefined on input line 191.
-
-
-Overfull \hbox (45.82404pt too wide) in paragraph at lines 191--192
-[]\OT1/lmr/m/n/12 To see how this mark-down arises for-mally, fol-low-ing [][]
- []
-
-[4 <./example_perfect_competition.png> <./example_labor_marker_power.png>]
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 5 undefined on input line 225.
-
-
-LaTeX Warning: Citation '' on page 5 undefined on input line 225.
-
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 5 undefined on input line 231.
-
-
-LaTeX Warning: Citation '' on page 5 undefined on input line 231.
-
-
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 5 undefined on input line 231.
-
-
-LaTeX Warning: Citation '' on page 5 undefined on input line 231.
-
-[5{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 6 undefined on input line 235.
-
-
-LaTeX Warning: Citation '' on page 6 undefined on input line 235.
-
-[6{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [7]
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 8 undefined on input line 322.
-
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 324.
-(C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
-File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [8]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 326.
+ [4{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc} <./example_perfect_competition.png> <./example_labor_marker_power.png>] [5{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [6{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [7] [8]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 333.
  (C:\Users\k_the\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 9 undefined on input line 349.
-
-
-LaTeX Warning: Citation '' on page 9 undefined on input line 349.
-
-
-Overfull \hbox (80.20314pt too wide) in paragraph at lines 349--350
-\OT1/lmr/m/n/12 a worker's marginal rev-enue prod-uct and their wage. Fol-low-ing [][],
- []
-
-[9{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 356.
-
-
-LaTeX Warning: Citation '' on page 10 undefined on input line 356.
-
-
-Overfull \hbox (53.45709pt too wide) in paragraph at lines 356--357
-\OT1/lmr/m/n/12 mate a translog gross-output pro-duc-tion func-tion fol-low-ing [][]: 
- []
-
-
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 358.
-
-
-LaTeX Warning: Citation '' on page 10 undefined on input line 358.
-
-
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 368.
-
-
-LaTeX Warning: Citation '' on page 10 undefined on input line 368.
-
-
-LaTeX Warning: Citation 'banco_de_la_republica_de_colombia_datos_nodate' on page 10 undefined on input line 368.
-
-
-Overfull \hbox (219.01143pt too wide) in paragraph at lines 368--369
-\OT1/lmr/m/n/12 and year-specific in-ter-est rates and in-fla-tion from the Cen-tral Bank of Colom-bia ([]).
- []
-
-
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 10 undefined on input line 370.
-
-
-LaTeX Warning: Citation '' on page 10 undefined on input line 370.
-
-[10]
-
-LaTeX Warning: Citation 'ackerberg_identification_2015' on page 11 undefined on input line 384.
-
-
-LaTeX Warning: Citation '' on page 11 undefined on input line 384.
-
-
-Overfull \hbox (170.79901pt too wide) in paragraph at lines 384--385
-\OT1/lmr/m/n/12 fall back to a Cobb-Douglas spec-i-fi-ca-tion es-ti-mated via the pro-ce-dure of [][],
- []
-
-
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 11 undefined on input line 386.
-
-
-LaTeX Warning: Citation '' on page 11 undefined on input line 386.
-
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 11 undefined on input line 386.
-
-
-LaTeX Warning: Citation '' on page 11 undefined on input line 386.
-
-
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 11 undefined on input line 388.
-
-
-LaTeX Warning: Citation '' on page 11 undefined on input line 388.
-
-
-LaTeX Warning: Citation 'inter-american_development_bank_competelac_2025' on page 11 undefined on input line 388.
-
-
-LaTeX Warning: Citation '' on page 11 undefined on input line 388.
-
-
-Overfull \hbox (63.9091pt too wide) in paragraph at lines 388--389
-\OT1/lmr/m/n/12 and Caribbean re-gion by [][]. 
- []
-
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 11 undefined on input line 390.
-
-
-LaTeX Warning: Citation '' on page 11 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'amodio_measuring_2024' on page 11 undefined on input line 390.
-
-
-LaTeX Warning: Citation '' on page 11 undefined on input line 390.
-
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 11 undefined on input line 390.
-
-
-Overfull \hbox (24.68303pt too wide) in paragraph at lines 390--392
-\OT1/lmr/m/n/12 3.41 --- mir-rors the firm-level het-ero-gene-ity doc-u-mented in the lit-er-a-ture ([])
- []
-
-[11]
-
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 12 undefined on input line 410.
-
-
-LaTeX Warning: Citation 'ackerberg_identification_2015' on page 12 undefined on input line 410.
-
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 12 undefined on input line 410.
-
-
-LaTeX Warning: Citation 'de_loecker_rise_2020' on page 12 undefined on input line 410.
-
-
-LaTeX Warning: Citation 'ackerberg_identification_2015' on page 12 undefined on input line 410.
-
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 12 undefined on input line 410.
-
-<distribution_nu_female_dummy.png, id=65, 578.16pt x 289.08pt>
-File: distribution_nu_female_dummy.png Graphic file (type png)
-<use distribution_nu_female_dummy.png>
-Package pdftex.def Info: distribution_nu_female_dummy.png  used on input line 423.
-(pdftex.def)             Requested size: 469.75502pt x 234.8769pt.
-[12]
-<scatter_markdown_ownwshare.png, id=70, 578.16pt x 289.08pt>
+) [9{C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [10] [11] [12] [13] [14]
+Overfull \vbox (21.22389pt too high) has occurred while \output is active []
+
+ [15] [16] [17] [18] [19]
+<scatter_markdown_ownwshare.png, id=91, 578.16pt x 289.08pt>
 File: scatter_markdown_ownwshare.png Graphic file (type png)
 <use scatter_markdown_ownwshare.png>
-Package pdftex.def Info: scatter_markdown_ownwshare.png  used on input line 431.
+Package pdftex.def Info: scatter_markdown_ownwshare.png  used on input line 532.
 (pdftex.def)             Requested size: 469.75502pt x 234.8769pt.
- [13 <./distribution_nu_female_dummy.png> <./scatter_markdown_ownwshare.png>]
-
-LaTeX Warning: Reference `sec:estimation' on page 14 undefined on input line 445.
-
-
-LaTeX Warning: Reference `sec:estimation' on page 14 undefined on input line 447.
-
-
-LaTeX Warning: Citation 'yeh_monopsony_2022' on page 14 undefined on input line 447.
-
-
-LaTeX Warning: Citation 'moreno-gomez_relationship_2018' on page 14 undefined on input line 447.
-
-
-LaTeX Warning: Citation '' on page 14 undefined on input line 447.
-
-[14]
-
-LaTeX Warning: Empty bibliography on input line 483.
-
-[15] (01_paper.aux)
+ [20 <./scatter_markdown_ownwshare.png>] (01_paper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                01_paper
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to '01_paper.run.xml'.
 \openout1 = `01_paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13898 strings out of 474486
- 260484 string characters out of 5743756
- 1941542 words of memory out of 5000000
- 35992 multiletter control sequences out of 15000+600000
- 650631 words of font info for 92 fonts, out of 8000000 for 9000
+ 14080 strings out of 474486
+ 267934 string characters out of 5743756
+ 1946542 words of memory out of 5000000
+ 36178 multiletter control sequences out of 15000+600000
+ 651944 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,10n,81p,2037b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 01_paper.pdf (16 pages, 689825 bytes).
+ 66i,15n,81p,2730b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 01_paper.pdf (21 pages, 814969 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
+ 182 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

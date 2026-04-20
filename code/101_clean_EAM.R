@@ -25,10 +25,8 @@ select <- dplyr::select
 #######################################
 # Open Full EAM COMBINE ALL YEARS
 #######################################
-# Years to load
 years <- 2000:2019
 
-# Empty list to store each cleaned dataset
 eam_list <- vector("list", length(years))
 
 for (i in seq_along(years)) {
@@ -43,7 +41,7 @@ for (i in seq_along(years)) {
   
   # Read data
   df <- read.csv(file_path, header = TRUE, sep = sep_used)  
-
+  
   # Make all variable names lowercase
   names(df) <- tolower(names(df))
   
@@ -59,62 +57,107 @@ for (i in seq_along(years)) {
     "nordemp", "nordest", "dpto", "periodo",
     "c4r4c1t", "c4r4c2t",
     "pertotal", "activfi", "salpeyte", "valorcom", "valorven",
-    ciiu_var
+    ciiu_var, "c4r1c9n","c4r1c10n","c4r1c9e","c4r1c10n","c4r5c1",
+    "c4r5c2", "c4r5c3", "c4r5c4", "porcvt", "valorcx", "c2r1c7", 
+    "c2r1c8"
   )
-  ## 1) Propietarios, Socios y familiares sin remuneración 
-  # c4r4c1t women
-  # c4r4c2t men
-  ## 2) KEY VARS
-  # PERTOTAL (L)
-  # ACTIVFI (K)
-  # SALPEYTE (WB)
-  # VALORCOM (M) "Valor de la materia prima comprada, Mill. COP"
-  # VALORVEN (GO)
-  # Valor agregado: es el total de los ingresos recibidos por el uso de los factores productivos
-  #participantes en el proceso de producción. Se calcula como la diferencia entre producción
-  #bruta y consumo intermedio. NVM - NOT NEEDED
+  
+  # Keep only variables that actually exist in df
+  vars_to_keep <- intersect(vars_to_keep, names(df))
   
   df_clean <- df %>%
     select(all_of(vars_to_keep)) %>%
-    rename(
-      id_firm = nordemp,
-      id_plant = nordest,
-      GEO = dpto,
-      L = pertotal,
-      K = activfi,
-      WB = salpeyte,
-      M = valorcom,
-      GO = valorven,
-      own_w = c4r4c1t,
-      own_m = c4r4c2t,
-      ciiu = all_of(ciiu_var)
-    ) %>%
+    rename(any_of(c(
+      id_firm     = "nordemp",
+      id_plant    = "nordest",
+      GEO         = "dpto",
+      L           = "pertotal",
+      K           = "activfi",
+      WB          = "salpeyte",
+      M           = "valorcom",
+      GO          = "valorven",
+      ciiu        = ciiu_var,
+      proftec_wn  = "c4r1c9n",
+      proftec_mn  = "c4r1c10n",
+      proftec_wf  = "c4r1c9e",
+      proftec_mf  = "c4r1c10e",
+      prod_w      = "c4r5c1",
+      prod_m      = "c4r5c2",
+      admin_w     = "c4r5c3",
+      admin_m     = "c4r5c4",
+      exports     = "porcvt",
+      imports     = "valorcx"
+    ))) %>%
     mutate(
       year = yr,
-      id_firm = as.character(id_firm),
-      id_plant = as.character(id_plant),
-      GEO = as.character(GEO),
-      ciiu = as.character(ciiu),
-      periodo = as.character(periodo),
-      own_w = as.numeric(own_w),
-      own_m = as.numeric(own_m),
-      L = as.numeric(L),
-      K = as.numeric(K),
-      WB = as.numeric(WB),
-      M = as.numeric(M),
-      GO = as.numeric(GO)
+      across(
+        any_of(c("id_firm", "id_plant", "GEO", "ciiu", "periodo")),
+        as.character
+      ),
+      across(
+        any_of(c("L", "K", "WB", "M", "GO",
+                 "proftec_wn", "proftec_mn", "proftec_wf", "proftec_mf",
+                 "prod_w", "prod_m", "admin_w", "admin_m",
+                 "exports", "imports")),
+        ~ suppressWarnings(as.numeric(gsub("[^0-9\\.\\-]", "", as.character(.x))))
+      ),
+      lproftec = rowSums(across(any_of(c("proftec_wn","proftec_mn","proftec_wf","proftec_mf"))), na.rm = TRUE),
+      lprod    = rowSums(across(any_of(c("prod_w","prod_m"))), na.rm = TRUE),
+      ladmin   = rowSums(across(any_of(c("admin_w","admin_m"))), na.rm = TRUE),
+      lw       = rowSums(across(any_of(c("proftec_wn","proftec_wf","prod_w","admin_w"))), na.rm = TRUE),
+      lm       = rowSums(across(any_of(c("proftec_mn","proftec_mf","prod_m","admin_m"))), na.rm = TRUE),
+      plants   = 1
     )
+  
+  # --- Safely coerce ownership vars to numeric, create as 0 if absent ---
+  own_w_vars <- c("c4r4c1t", "c2r1c7")
+  own_m_vars <- c("c4r4c2t", "c2r1c8")
+  
+  for (v in c(own_w_vars, own_m_vars)) {
+    if (v %in% names(df_clean)) {
+      df_clean[[v]] <- suppressWarnings(
+        as.numeric(gsub("[^0-9\\.\\-]", "", as.character(df_clean[[v]])))
+      )
+    } else {
+      df_clean[[v]] <- 0L
+    }
+  }
+  
+  # --- Create own_w and own_m, then drop components ---
+  df_clean <- df_clean %>%
+    mutate(
+      own_w = rowSums(across(all_of(own_w_vars)), na.rm = TRUE),
+      own_m = rowSums(across(all_of(own_m_vars)), na.rm = TRUE),
+      own_tot = own_w + own_m,
+      own_zero = as.integer(ifelse(own_tot == 0, 1, 0))
+    ) %>%
+    select(-all_of(c(own_w_vars, own_m_vars)))
+  
   eam_list[[i]] <- df_clean
 }
 
 eam_all <- bind_rows(eam_list)
-rm(eam_list,df, df_clean)
+rm(eam_list, df, df_clean)
+
+own_zero_summary <- eam_all %>%
+  group_by(own_zero) %>%
+  summarise(
+    n_obs = n(),
+    obs_share = 100 * n() / nrow(eam_all),
+    total_GO = sum(GO, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    GO_share = 100 * total_GO / sum(total_GO, na.rm = TRUE)
+  )
+
+own_zero_summary
 
 #######################################
 # Aggregate from plant to firm level
 #######################################
 # Variables to sum across plants within firm-year
-vars_to_sum <- c("own_w", "own_m","L", "K", "WB", "M", "GO")
+vars_to_sum <- c("own_w", "own_m", "own_tot","L", "K", "WB", "M", "GO", "lproftec", "lprod", "ladmin", "lw", "lm", "exports" , "imports", "plants")
 
 # 1. Get GEO and ciiu from the plant with the largest GO in each firm-year
 firm_geo_ciiu <- eam_all %>%
@@ -132,69 +175,54 @@ firm_agg <- eam_all %>%
   ) %>%
   left_join(firm_geo_ciiu, by = c("id_firm", "year"))
 
+#######################################
+# CREATE WOMEN OWNER SHARE
+#######################################
+
 firm_agg <- firm_agg %>%
-  select(id_firm, year, GEO, ciiu, all_of(vars_to_sum))
+  select(id_firm, year, GEO, ciiu, all_of(vars_to_sum)) %>%
+  mutate(
+    own_w_share = if_else(own_tot == 0, 0, 100 * own_w / own_tot)
+  )
 
 # View result
 str(firm_agg)
 
 rm(eam_all,firm_geo_ciiu)
-
 #######################################
-# CREATE WOMEN OWNER SHARE
+# BIG CLEAN: drop obs where own=0, L=0, or GO=0
 #######################################
 
-eam_all <- firm_agg %>%
+firm_agg <- firm_agg %>%
   mutate(
-    own_tot = own_w + own_m,
-    own_w_share = if_else(own_tot == 0, 0, 100 * own_w / own_tot),
-    own_zero = as.integer(own_tot == 0)
+    L_zero   = as.integer(L == 0),
+    GO_zero  = as.integer(GO == 0),
+    any_zero = as.integer(L_zero == 1 | GO_zero == 1)
   )
 
-### SUMMARY FIRMS WITHOUT OWNER
-
-own_zero_summary <- eam_all %>%
-  group_by(own_zero) %>%
+to_drop <- firm_agg %>%
+  group_by(any_zero) %>%
   summarise(
     n_obs = n(),
-    obs_share = 100 * n() / nrow(eam_all),
+    obs_share = 100 * n_obs / nrow(firm_agg),
+    
     total_GO = sum(GO, na.rm = TRUE),
+    total_L  = sum(L, na.rm = TRUE),
+    
     .groups = "drop"
   ) %>%
   mutate(
-    GO_share = 100 * total_GO / sum(total_GO, na.rm = TRUE)
+    GO_share = 100 * total_GO / sum(total_GO, na.rm = TRUE),
+    L_share  = 100 * total_L  / sum(total_L, na.rm = TRUE)
   )
 
-own_zero_summary
+to_drop
 
-own_zero_summary_year <- eam_all %>%
-  group_by(year, own_zero) %>%
-  summarise(
-    n_obs = n(),
-    total_GO = sum(GO, na.rm = TRUE),
-    .groups = "drop"
-  ) %>%
-  group_by(year) %>%
-  mutate(
-    obs_share = 100 * n_obs / sum(n_obs),
-    GO_share  = 100 * total_GO / sum(total_GO),
-    group = if_else(own_zero == 1, "own_tot = 0", "own_tot > 0")
-  ) %>%
-  ungroup() %>%
-  select(year, group, own_zero, n_obs, obs_share, total_GO, GO_share)
+eam_f <- firm_agg %>%
+  filter(any_zero == 0) %>%
+  select(-any_zero)
 
-print(own_zero_summary_year  %>%
-        filter(own_zero == 0), n=50)
-
-mean(own_zero_summary_year$n_obs[own_zero_summary_year$own_zero == 0], na.rm = TRUE)
-
-############## FILTER TO ONLY OBS WHERE TOT OWNER IS NOT ZERO
-
-eam_f <- eam_all %>%
-  filter(own_zero == 0) %>%
-  select(-own_zero)
-
-rm(eam_all, firm_agg, own_zero_summary, own_zero_summary_year)
+rm(eam_all, own_zero_summary, own_zero_summary_year)
 
 #######################################
 # CLEAN UP CIIU VARIABLE 
@@ -214,7 +242,7 @@ rm(ciiuisic4)
 
 macrovars <- read_dta("data/input/macro_variables.dta")
 
-eam_f <- df %>%
+eam_f <- eam_f %>%
   inner_join(macrovars, by = "year") %>%
   mutate(KEXP = K*rK_DLEU) %>%
   select(-rK)

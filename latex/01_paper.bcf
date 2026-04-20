@@ -3060,56 +3060,91 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">yeh_monopsony_2022</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">amodio_measuring_2024</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">card_who_2022</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">azar_minimum_2019</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">lentz_labor_2010</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">moscarini_unemployment_2010</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">manning_elusive_2021</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">caldwell_outside_2024</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">schubert_employer_2025</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">starr_behavioral_2021</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">mcadams_non-compete_2019</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">azar_labor_2017</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">benmelech_strong_2018</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">rinz_labor_2022</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">matsa_female_2013</bcf:citekey>
-    <bcf:citekey order="15" intorder="2">tunyi_doing_2023</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">flabbi_female_2017</bcf:citekey>
-    <bcf:citekey order="16" intorder="2">chen_why_2019</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">levi_director_2014</bcf:citekey>
-    <bcf:citekey order="17" intorder="2">flabbi_female_2019</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">sharma_monopsony_2023</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">departamento_administrativo_nacional_de_estadistica_dane_encuesta_nodate</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">yeh_monopsony_2022</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">ashenfelter_labor_2010</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">amodio_measuring_2024</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">amodio_measuring_2024</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">card_who_2022</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">azar_minimum_2019</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">lentz_labor_2010</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">moscarini_unemployment_2010</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">manning_elusive_2021</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">caldwell_outside_2024</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">schubert_employer_2025</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">starr_behavioral_2021</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">mcadams_non-compete_2019</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">azar_labor_2017</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">benmelech_strong_2018</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">rinz_labor_2022</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">matsa_female_2013</bcf:citekey>
+    <bcf:citekey order="17" intorder="2">tunyi_doing_2023</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">flabbi_female_2017</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">chen_why_2019</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">levi_director_2014</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">flabbi_female_2019</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">sharma_monopsony_2023</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">departamento_administrativo_nacional_de_estadistica_dane_encuesta_nodate</bcf:citekey>
     <bcf:citekey order="22" intorder="1">yeh_monopsony_2022</bcf:citekey>
     <bcf:citekey order="23" intorder="1">yeh_monopsony_2022</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">de_loecker_rise_2020</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">ashenfelter_labor_2010</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">ashenfelter_labor_2010</bcf:citekey>
     <bcf:citekey order="26" intorder="1">yeh_monopsony_2022</bcf:citekey>
     <bcf:citekey order="27" intorder="1">yeh_monopsony_2022</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">de_loecker_rise_2020</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">yeh_monopsony_2022</bcf:citekey>
     <bcf:citekey order="30" intorder="1">de_loecker_rise_2020</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">banco_de_la_republica_de_colombia_datos_nodate</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">de_loecker_rise_2020</bcf:citekey>
     <bcf:citekey order="32" intorder="1">de_loecker_rise_2020</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">ackerberg_identification_2015</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">yeh_monopsony_2022</bcf:citekey>
     <bcf:citekey order="35" intorder="1">yeh_monopsony_2022</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">de_loecker_rise_2020</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">inter-american_development_bank_competelac_2025</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">yeh_monopsony_2022</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">amodio_measuring_2024</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">alviarez_markets_2025</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">alviarez_markets_2025</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">alviarez_markets_2025</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">alviarez_markets_2025</bcf:citekey>
     <bcf:citekey order="40" intorder="1">yeh_monopsony_2022</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">de_loecker_rise_2020</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">ackerberg_identification_2015</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">yeh_monopsony_2022</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">de_loecker_rise_2020</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">ackerberg_identification_2015</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">alviarez_markets_2025</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">alviarez_markets_2025</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">yeh_monopsony_2022</bcf:citekey>
     <bcf:citekey order="46" intorder="1">yeh_monopsony_2022</bcf:citekey>
     <bcf:citekey order="47" intorder="1">yeh_monopsony_2022</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">moreno-gomez_relationship_2018</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">banco_de_la_republica_de_colombia_datos_nodate</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">ackerberg_identification_2015</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">ackerberg_identification_2015</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">inter-american_development_bank_competelac_2025</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">inter-american_development_bank_competelac_2025</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">amodio_measuring_2024</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">amodio_measuring_2024</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">ackerberg_identification_2015</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">de_loecker_rise_2020</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">ackerberg_identification_2015</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">yeh_monopsony_2022</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">moreno-gomez_relationship_2018</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">moreno-gomez_relationship_2018</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">ashenfelter_labor_2010</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">ashenfelter_labor_2010</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

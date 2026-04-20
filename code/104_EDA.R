@@ -8,7 +8,7 @@
 # Environment Setup
 ############################
 # Set Project folder as the Working Directory
-setwd("..")
+#setwd("..")
 getwd()
 
 # Clear workspace
@@ -29,26 +29,151 @@ showtext_auto()
 ### EAM ALL
 df <- read_parquet("data/proc/work_EAM.parquet")
 
+# ============================================================
+# SECTION 3: By Firm - Estimation Parameters (winsorized)
+# ============================================================
+est_vars <- list(
+  beta_l_DLW   = "Output elasticity of labor",
+  beta_k_DLW   = "Output elasticity of capital",
+  beta_m_DLW   = "Output elasticity of materials",
+  tfp          = "Total Factor Productivity (TFP)",
+  alpha_l      = "Labor output share",
+  alpha_m      = "Materials output share",
+  alpha_k      = "Capital output share",
+  mu_m         = "Markup",
+  nu_l_imputed = "Markdown",
+  nu_l_inv     = "Inverse markdown"
+)
+
+fmt <- function(x, digits = 3) formatC(as.numeric(x), format = "f", digits = digits, big.mark = ",")
+
+# Section 3
+est_stats <- map_dfr(names(est_vars), function(v) {
+  x <- df[[v]]
+  tibble(
+    variable = v,
+    label    = est_vars[[v]],
+    mean   = mean(x[x <2], na.rm = TRUE),
+    p25      = quantile(x, 0.25, na.rm = TRUE),
+    median   = median(x, na.rm = TRUE),
+    p75      = quantile(x, 0.75, na.rm = TRUE),
+  )
+})
+
+est_stats[, c("mean","p25","median","p75")] <-
+  lapply(est_stats[, c("mean","p25","median","p75")], fmt)
+
+est_stats
+
+
 #######################################
-# Descriptive table
+# BASE CORR PLOT
 #######################################
 
-df$w <- df$WB/df$L
-df <- df %>% filter(!is.na(nu_l_inv))
-df <- df %>% filter(L!=0)
-df <- df %>% filter(GO!=0)
-df <- df %>% filter(w!=0)
-df <- df %>%mutate(female_dummy = ifelse(own_w_share > 0, 1, 0),)
-df <- df %>% filter(L>=10)
-df <- df %>%
-  arrange(id_firm, year) %>%      # make sure data is sorted
+df_scatter <- df %>%
+  filter(
+    is.finite(nu_l_imputed),
+    is.finite(own_w_share),
+    nu_l_imputed < 50
+  ) %>%
+  mutate(
+    own_w = pmin(own_w, quantile(own_w, 0.80, na.rm = TRUE)),
+    own_w_share=(own_w/own_tot)*100,
+    lnu=log(nu_l_imputed)
+  )
+
+# Correlation
+ct <- cor.test(df_scatter$own_w_share, df_scatter$nu_l_imputed)
+
+lab <- paste0("Corr = ", round(ct$estimate, 3),
+              "\nP-value = ", format.pval(ct$p.value, digits = 3, eps = 0.001))
+
+# Scatter plot
+g_scatter <- ggplot(df_scatter, aes(x = own_w_share, y = nu_l_imputed, weight = GO)) +
+  geom_point(aes(size = GO), shape = 16, alpha = 0.3, color = "#187864") +
+  geom_smooth(method = "lm", se = TRUE, color = "#781830", linewidth = 1.5) +  
+  scale_size_continuous(range = c(0.5, 5)) +
+  labs(
+    x = "Female Leadership",
+    y = "Markdown (Productivity-wage gap)"
+  ) +
+  annotate("label", x = Inf, y = Inf, label = lab,
+           hjust = 1.1, vjust = 1.5,
+           size = 5,
+           fill = "white",
+           color = "black",
+           linewidth = 0.5,
+           alpha = 0.8,
+           label.padding = unit(0.5, "lines")) +
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position    = "none",
+    axis.text          = element_text(color = "black", size = 14),
+    axis.title         = element_text(size = 14, face = "bold"),
+    axis.line          = element_line(color = "black", linewidth = 0.5),
+    panel.border       = element_rect(color = "black", fill = NA, linewidth = 0.5)
+  )
+g_scatter
+ggsave("latex/scatter_markdown_ownwshare.png",
+       plot = g_scatter, width = 8, height = 4, dpi = 150)
+
+#######################################
+# Correlation plot by industry
+#######################################
+
+df_scatter <- df %>%
+  filter(
+    is.finite(nu_l_imputed),
+    is.finite(own_w_share),
+    nu_l_imputed < 50
+  )  %>%
+  mutate(
+    own_w = pmin(own_w, quantile(own_w, 0.80, na.rm = TRUE)),
+    own_w_share=(own_w/own_tot)*100
+  )%>%
   group_by(id_firm) %>%
-  mutate(firm_age = row_number()) %>%
-  ungroup()
+  summarise(
+    nu_l_imputed = mean(nu_l_imputed, na.rm = TRUE),
+    own_w_share = mean(own_w_share, na.rm = TRUE),
+    GO = mean(GO, na.rm = TRUE),
+    .groups = "drop"
+  )
+# Correlation
+ct <- cor.test(df_scatter$own_w_share, df_scatter$nu_l_imputed)
 
-summary(df$nu_l_inv)
-summary(df$nu_l_inv[df$nu_l_inv < 5], rm.na=TRUE)
-sum(df$nu_l_inv[df$nu_l_inv < 5], rm.na=TRUE)
+lab <- paste0("Corr = ", round(ct$estimate, 3),
+              "\nP-value = ", format.pval(ct$p.value, digits = 3, eps = 0.001))
+
+# Scatter plot
+g_scatter <- ggplot(df_scatter, aes(x = own_w_share, y = nu_l_imputed, weight = GO)) +
+  geom_point(aes(size = GO), shape = 16, alpha = 0.3, color = "#187864") +
+  geom_smooth(method = "lm", se = TRUE, color = "#781830", linewidth = 1.5) +  
+  scale_size_continuous(range = c(0.5, 5)) +
+  labs(
+    x = "Female Leadership",
+    y = "Markdown (Productivity-wage gap)"
+  ) +
+  annotate("label", x = Inf, y = Inf, label = lab,
+           hjust = 1.1, vjust = 1.5,
+           size = 5,
+           fill = "white",
+           color = "black",
+           linewidth = 0.5,
+           alpha = 0.8,
+           label.padding = unit(0.5, "lines")) +
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position    = "none",
+    axis.text          = element_text(color = "black", size = 14),
+    axis.title         = element_text(size = 14, face = "bold"),
+    axis.line          = element_line(color = "black", linewidth = 0.5),
+    panel.border       = element_rect(color = "black", fill = NA, linewidth = 0.5)
+  )
+g_scatter
+ggsave("latex/scatter_markdown_ownwshare.png",
+       plot = g_scatter, width = 8, height = 4, dpi = 150)
+
+
 
 # ============================================================
 # SECTION 1: Overall
@@ -78,8 +203,7 @@ overall
 # ============================================================
 firm_vars <- list(
   own_tot     = "Total owners (N)",
-  own_w_share = "Female ownership share",
-  female_dummy = "Dummy Female",
+  own_w_share = "Female leadership",
   L           = "Employees (N)",
   w           = "Wage",
   GO          = "Gross output",
@@ -104,45 +228,11 @@ firm_stats <- bind_rows(
   lapply(names(firm_vars), function(v) sum_row(df, v, firm_vars[[v]]))
 )
 
-fmt <- function(x, digits = 3) formatC(as.numeric(x), format = "f", digits = digits, big.mark = ",")
 
 firm_stats[, c("Mean","Min","Max","SD")] <-
   lapply(firm_stats[, c("Mean","Min","Max","SD")], fmt)
 
 firm_stats
-# ============================================================
-# SECTION 3: By Firm - Estimation Parameters (winsorized)
-# ============================================================
-est_vars <- list(
-  beta_l_DLW   = "Output elasticity of labor",
-  beta_k_DLW   = "Output elasticity of capital",
-  beta_m_DLW   = "Output elasticity of materials",
-  tfp          = "Total Factor Productivity (TFP)",
-  alpha_l      = "Labor output share",
-  alpha_m      = "Materials output share",
-  alpha_k      = "Capital output share",
-  mu_m         = "Markup",
-  nu_l_imputed = "Markdown",
-  nu_l_inv     = "Inverse markdown"
-)
-
-# Section 3
-est_stats <- map_dfr(names(est_vars), function(v) {
-  x <- df[[v]]
-  tibble(
-    variable = v,
-    label    = est_vars[[v]],
-    mean   = mean(x[x <2], na.rm = TRUE),
-    p25      = quantile(x, 0.25, na.rm = TRUE),
-    median   = median(x, na.rm = TRUE),
-    p75      = quantile(x, 0.75, na.rm = TRUE),
-  )
-})
-
-est_stats[, c("mean","p25","median","p75")] <-
-  lapply(est_stats[, c("mean","p25","median","p75")], fmt)
-
-est_stats
 
 #######################################
 # DISRIBUTION
@@ -183,59 +273,6 @@ g_dist<-ggplot(df_dist, aes(x = nu_l_imputed, fill = factor(female_dummy))) +
 
 ggsave("latex/distribution_nu_female_dummy.png",
        plot = g_dist, width = 8, height = 4, dpi = 150)
-
-
-
-#######################################
-# Correlation plot by industry
-#######################################
-
-df_scatter <- df %>%
-  filter(
-    is.finite(nu_l_imputed),
-    is.finite(own_w_share)
-  ) %>%
-  group_by(id_firm) %>%
-  summarise(
-    nu_l_imputed = mean(nu_l_imputed, na.rm = TRUE),
-    own_w_share = mean(own_w_share, na.rm = TRUE),
-    .groups = "drop"
-  ) %>%
-  filter(nu_l_imputed < 10)
-
-# Correlation
-ct <- cor.test(df_scatter$own_w_share, df_scatter$nu_l_imputed)
-
-lab <- paste0("Corr = ", round(ct$estimate, 3),
-              "\nP-value = ", format.pval(ct$p.value, digits = 3, eps = 0.001))
-
-# Scatter plot
-g_scatter<-ggplot(df_scatter, aes(x = own_w_share, y = nu_l_imputed)) +
-  geom_point(shape = 16, size = 1.5, alpha = 0.3, color = "#187864") +
-  geom_smooth(method = "lm", se = TRUE, color = "#781830", linewidth = 1.5) +  
-  labs(
-    x = "Female Ownership Share",
-    y = "Markdown (Productivity-wage gap)"
-  ) +
-  annotate("label", x = Inf, y = Inf, label = lab,
-           hjust = 1.1, vjust = 1.5,
-           size = 5,
-           fill = "white",
-           color = "black",
-           linewidth = 0.5,
-           alpha = 0.8,
-           label.padding = unit(0.5, "lines")) +
-  theme_minimal(base_size = 14) +
-  theme(
-    legend.position    = "none",
-    axis.text          = element_text(color = "black", size = 14),
-    axis.title         = element_text(size = 14, face = "bold"),
-    axis.line          = element_line(color = "black", linewidth = 0.5),
-    panel.border       = element_rect(color = "black", fill = NA, linewidth = 0.5)
-  )
-g_scatter
-ggsave("latex/scatter_markdown_ownwshare.png",
-       plot = g_scatter, width = 8, height = 4, dpi = 150)
 
 
 #######################################
