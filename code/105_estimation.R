@@ -538,3 +538,174 @@ sink()
 message("Table written to descriptive_stats.tex")
 
 
+library(tidyverse)
+library(ggplot2)
+library(patchwork)
+library(car)        # for vif(), ncvTest()
+library(lmtest)     # for bptest()
+
+diag_col   <- "#4472C4"   # soft blue — main points
+line_col   <- "#C0504D"   # soft red  — reference / fit lines
+band_col   <- "#A8D4F4"   # light blue — confidence bands
+text_col   <- "black"
+
+# Shared theme (mirrors your violin theme_minimal setup)
+diag_theme <- theme_minimal(base_size = 14) +
+  theme(
+    axis.text    = element_text(color = text_col, size = 13),
+    axis.title   = element_text(size = 13, face = "bold"),
+    axis.line    = element_line(color = text_col, linewidth = 0.5),
+    panel.border = element_rect(color = text_col, fill = NA, linewidth = 0.5),
+    plot.title   = element_text(size = 14, face = "bold", hjust = 0.5),
+    plot.subtitle = element_text(size = 11, hjust = 0.5, color = "grey40"),
+    legend.position = "none"
+  )
+
+# ── Fit your model (replace with your actual model) ─────────
+model <- lm(lnu ~ own_w_share + L_share_ind + shareprod + HHI + firm_decile + age_group + tfp + year + GEO + isic4, data = df_filt)
+
+# Extract diagnostic quantities
+df_diag <- tibble(
+  fitted    = fitted(model),
+  residuals = residuals(model),
+  std_resid = rstandard(model),
+  sqrt_abs  = sqrt(abs(rstandard(model))),
+  leverage  = hatvalues(model),
+  cooksd    = cooks.distance(model)
+)
+
+n          <- nrow(df_diag)
+top_idx    <- order(df_diag$cooksd, decreasing = TRUE)[1:3]   # label top outliers
+
+
+# ── 1. LINEARITY — Residuals vs Fitted ──────────────────────
+p1 <- ggplot(df_diag, aes(x = fitted, y = residuals)) +
+  geom_hline(yintercept = 0, color = line_col,
+             linetype = "dashed", linewidth = 0.7) +
+  geom_point(color = diag_col, alpha = 0.35, size = 1.5, shape = 16) +
+  geom_smooth(method  = "loess", se = TRUE,
+              color   = line_col,
+              fill    = band_col,
+              linewidth = 1, alpha = 0.3) +
+  geom_text(
+    data = df_diag[top_idx, ] %>% mutate(idx = top_idx),
+    aes(label = idx), size = 3.5, color = text_col, vjust = -0.8
+  ) +
+  labs(
+    title    = "Linearity",
+    subtitle = "Residuals vs Fitted",
+    x = "Fitted values", y = "Residuals"
+  ) +
+  diag_theme
+
+# ── 2. NORMALITY OF ERRORS — Q–Q plot ───────────────────────
+qq_df <- df_diag %>%
+  arrange(std_resid) %>%
+  mutate(
+    theoretical = qnorm(ppoints(n)),
+    is_tail     = row_number() %in% c(1:3, (n-2):n)
+  )
+
+p2 <- ggplot(qq_df, aes(x = theoretical, y = std_resid)) +
+  geom_abline(slope = 1, intercept = 0,
+              color = line_col, linetype = "dashed", linewidth = 0.7) +
+  geom_point(color = diag_col, alpha = 0.35, size = 1.5, shape = 16) +
+  geom_text(
+    data = filter(qq_df, is_tail),
+    aes(label = round(std_resid, 1)),
+    size = 3, color = text_col, vjust = -0.8
+  ) +
+  labs(
+    title    = "Normality of Errors",
+    subtitle = paste0("Q–Q Plot  |  SW p = ",
+                      round(shapiro.test(
+                        sample(df_diag$std_resid,
+                               min(5000, n)))$p.value, 3)),
+    x = "Theoretical quantiles", y = "Standardized residuals"
+  ) +
+  diag_theme
+
+# ── 3. HOMOSKEDASTICITY — Scale–Location ────────────────────
+bp   <- lmtest::bptest(model)
+bp_p <- round(bp$p.value, 3)
+
+p3 <- ggplot(df_diag, aes(x = fitted, y = sqrt_abs)) +
+  geom_point(color = diag_col, alpha = 0.35, size = 1.5, shape = 16) +
+  geom_smooth(method    = "loess", se = TRUE,
+              color     = line_col,
+              fill      = band_col,
+              linewidth = 1, alpha = 0.3) +
+  labs(
+    title    = "Homoskedasticity",
+    subtitle = paste0("Scale–Location  |  BP p = ", bp_p),
+    x = "Fitted values", y = expression(sqrt("|Std. residuals|"))
+  ) +
+  diag_theme
+
+# ── 4. COLLINEARITY — VIF bar chart ─────────────────────────
+vif_vals <- car::vif(model)
+
+# Handle GVIF (for categorical predictors) vs plain VIF
+if (is.matrix(vif_vals)) {
+  vif_df <- tibble(
+    term = rownames(vif_vals),
+    vif  = vif_vals[, "GVIF^(1/(2*Df))"]^2   # adjusted GVIF² ≈ VIF
+  )
+} else {
+  vif_df <- tibble(term = names(vif_vals), vif = vif_vals)
+}
+
+# Color bars by severity
+vif_df <- vif_df %>%
+  mutate(
+    severity = case_when(
+      vif >= 10 ~ "High (≥10)",
+      vif >=  5 ~ "Moderate (5–10)",
+      TRUE      ~ "Low (<5)"
+    ),
+    severity = factor(severity,
+                      levels = c("Low (<5)", "Moderate (5–10)", "High (≥10)"))
+  )
+
+vif_colors <- c(
+  "Low (<5)"       = "#A8F4C0",   # soft green  (your violin palette)
+  "Moderate (5–10)"= "#F4D4A8",   # soft orange
+  "High (≥10)"     = "#F4A8A8"    # soft red/pink
+)
+
+p4 <- ggplot(vif_df, aes(x = reorder(term, vif), y = vif, fill = severity)) +
+  geom_col(color = text_col, linewidth = 0.4, alpha = 0.75, width = 0.6) +
+  geom_hline(yintercept = 5,  color = "#C07830",
+             linetype = "dashed", linewidth = 0.7) +
+  geom_hline(yintercept = 10, color = "#C0504D",
+             linetype = "dashed", linewidth = 0.7) +
+  geom_text(aes(label = round(vif, 2)),
+            hjust = -0.15, size = 3.5, color = text_col, fontface = "bold") +
+  coord_flip(clip = "off") +
+  scale_fill_manual(values = vif_colors, name = "VIF severity") +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.2))) +
+  labs(
+    title    = "Collinearity",
+    subtitle = "Variance Inflation Factors (VIF)",
+    x = NULL, y = "VIF"
+  ) +
+  diag_theme +
+  theme(
+    legend.position = "bottom",
+    legend.title    = element_text(size = 11, face = "bold"),
+    legend.text     = element_text(size = 10)
+  )
+
+# ── Assemble with patchwork ──────────────────────────────────
+diag_grid <- (p1 | p2) / (p3 | p4) +
+  plot_annotation(
+    title   = "Linear Model Diagnostics",
+    theme   = theme(
+      plot.title = element_text(size = 16, face = "bold", hjust = 0.5)
+    )
+  )
+
+diag_grid
+
+ggsave("latex/lm_diagnostics.png",
+       plot = diag_grid, width = 12, height = 9, dpi = 150)

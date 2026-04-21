@@ -505,6 +505,67 @@
       \verb http://www.nber.org/papers/w24307.pdf
       \endverb
     \endentry
+    \entry{berger_labor_2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2e440173b97e509d097f39df98e0d26f}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f00251f49441c3187b60cada01ab697}{%
+           family={Herkenhoff},
+           familyi={H\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7c07aca624bba7db6daa218f742dec5}{%
+           family={Mongey},
+           familyi={M\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e37a1d934e799bbedcd28774f5248919}
+      \strng{fullhash}{4a16f7cdefbf916030faef47e492779b}
+      \strng{bibnamehash}{4a16f7cdefbf916030faef47e492779b}
+      \strng{authorbibnamehash}{4a16f7cdefbf916030faef47e492779b}
+      \strng{authornamehash}{e37a1d934e799bbedcd28774f5248919}
+      \strng{authorfullhash}{4a16f7cdefbf916030faef47e492779b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We develop, estimate, and test a tractable general equilibrium model of oligopsony with differentiated jobs and concentrated labor markets. We estimate key model parameters by matching new evidence on the relationship between firms’ local labor market share and their employment and wage responses to state corporate tax changes. The model quantitatively replicates quasi-experimental evidence on imperfect productivity-wage pass-through and strategic wage setting of dominant employers. Relative to the efficient allocation, welfare losses from labor market power are 7.6 percent, while output is 20.9 percent lower. Lastly, declining local concentration added 4 percentage points to labor’s share of income between 1977 and 2013. ({JEL} E25, H71, J24, J31, J42, R23)}
+      \field{day}{1}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{American Economic Review}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Labor Market Power}
+      \field{urlday}{18}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{112}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1147\bibrangedash 1193}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1257/aer.20191521
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.aeaweb.org/doi/10.1257/aer.20191521
+      \endverb
+      \verb{url}
+      \verb https://pubs.aeaweb.org/doi/10.1257/aer.20191521
+      \endverb
+    \endentry
     \entry{caldwell_outside_2024}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=57bd957bcec0333425def126252964c0}{%
@@ -741,30 +802,65 @@
       \verb https://academic.oup.com/qje/article/135/2/561/5714769
       \endverb
     \endentry
-    \entry{departamento_administrativo_nacional_de_estadistica_dane_encuesta_nodate}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=90640cd1397af437eded0413d714d6a8}{%
-           family={{Departamento Administrativo Nacional de Estadística (DANE)}},
-           familyi={D\bibinitperiod}}}%
+    \entry{eslava_job_2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=de36477a0fa0b23254d598b41269e834}{%
+           family={Eslava},
+           familyi={E\bibinitperiod},
+           given={Marcela},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=257092f41f9099a5701f0a29ae3f32b7}{%
+           family={Haltiwanger},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19a4e1c456c95c0e6f2b7eff01ed6439}{%
+           family={Pinzón},
+           familyi={P\bibinitperiod},
+           given={Álvaro},
+           giveni={Á\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{90640cd1397af437eded0413d714d6a8}
-      \strng{fullhash}{90640cd1397af437eded0413d714d6a8}
-      \strng{bibnamehash}{90640cd1397af437eded0413d714d6a8}
-      \strng{authorbibnamehash}{90640cd1397af437eded0413d714d6a8}
-      \strng{authornamehash}{90640cd1397af437eded0413d714d6a8}
-      \strng{authorfullhash}{90640cd1397af437eded0413d714d6a8}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labeldatesource}{nodate}
+      \strng{namehash}{fba7b5255101469d08c2854bcd62719f}
+      \strng{fullhash}{1fd40a82d7ac42a631244628513243fc}
+      \strng{bibnamehash}{1fd40a82d7ac42a631244628513243fc}
+      \strng{authorbibnamehash}{1fd40a82d7ac42a631244628513243fc}
+      \strng{authornamehash}{fba7b5255101469d08c2854bcd62719f}
+      \strng{authorfullhash}{1fd40a82d7ac42a631244628513243fc}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Encuesta Anual Manufacturera ({EAM})}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{One of the most striking contrasts between the anatomies of the business sectors in higher‐ versus lower‐income economies is the overwhelming dominance of very small production units in the latter. Contrasting manufacturing sector data for Colombia and the {USA}, we show that weaker ‘up‐or‐out’ dynamics are behind this pattern and behind weaker average lifecycle growth. Dampened growth dynamics, not only in terms of upward mobility but also for exit and downward mobility, characterize both micro‐establishments and young establishments in Colombia relative to their {US} counterparts. These patterns lead to a more dominant role of small older businesses in accounting for employment. Since dynamic selection among startups is a crucial driver of productivity growth in the {USA}, our findings point to a shortage of high‐growth entrepreneurship and a relative high likelihood of long‐run survival for small, likely unproductive plants, as two key elements at the heart of the development problem. We also show that analysis of establishment lifecycle dynamics based solely on cross‐sectional data substantially underestimates lifecycle growth.}
+      \field{issn}{0013-0427, 1468-0335}
+      \field{journaltitle}{Economica}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{355}
+      \field{shorttitle}{Job Creation in Colombia Versus the {USA}}
+      \field{title}{Job Creation in Colombia Versus the {USA}: ‘Up‐or‐out Dynamics’ Meet ‘The Life Cycle of Plants’}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{89}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{511\bibrangedash 539}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1111/ecca.12418
+      \endverb
       \verb{urlraw}
-      \verb https://www.dane.gov.co/index.php/estadisticas-por-tema/industria/encuesta-anual-manufacturera-enam
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/ecca.12418
       \endverb
       \verb{url}
-      \verb https://www.dane.gov.co/index.php/estadisticas-por-tema/industria/encuesta-anual-manufacturera-enam
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/ecca.12418
       \endverb
     \endentry
     \entry{flabbi_female_2017}{article}{}
@@ -902,35 +998,6 @@
       \verb https://academic.oup.com/ej/article/129/622/2390/5542573
       \endverb
     \endentry
-    \entry{inter-american_development_bank_competelac_2025}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e4da7a831913bc3f149e63cfb538a2b3}{%
-           family={{Inter-American Development Bank}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \strng{fullhash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \strng{bibnamehash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \strng{authorbibnamehash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \strng{authornamehash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \strng{authorfullhash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{CompeteLAC}}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://competelac.fislac.com/
-      \endverb
-      \verb{url}
-      \verb https://competelac.fislac.com/
-      \endverb
-    \endentry
     \entry{lentz_labor_2010}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=01ad4dfe35bb64745e51c8c5222e29fb}{%
@@ -1044,6 +1111,53 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0929119913001120
       \endverb
     \endentry
+    \entry{manning_monopsony_2013}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d348adb11692d69e12aef759f4c55f0}{%
+           family={Manning},
+           familyi={M\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{2d348adb11692d69e12aef759f4c55f0}
+      \strng{fullhash}{2d348adb11692d69e12aef759f4c55f0}
+      \strng{bibnamehash}{2d348adb11692d69e12aef759f4c55f0}
+      \strng{authorbibnamehash}{2d348adb11692d69e12aef759f4c55f0}
+      \strng{authornamehash}{2d348adb11692d69e12aef759f4c55f0}
+      \strng{authorfullhash}{2d348adb11692d69e12aef759f4c55f0}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{3}
+      \field{isbn}{978-1-4008-5067-9 978-0-691-12328-8}
+      \field{month}{12}
+      \field{shorttitle}{Monopsony in Motion}
+      \field{title}{Monopsony in Motion: Imperfect Competition in Labor Markets}
+      \field{urlday}{18}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2307/j.ctt5hhpvk
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/10.2307/j.ctt5hhpvk
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/10.2307/j.ctt5hhpvk
+      \endverb
+    \endentry
     \entry{manning_elusive_2021}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2d348adb11692d69e12aef759f4c55f0}{%
@@ -1059,6 +1173,7 @@
       \strng{authorbibnamehash}{2d348adb11692d69e12aef759f4c55f0}
       \strng{authornamehash}{2d348adb11692d69e12aef759f4c55f0}
       \strng{authorfullhash}{2d348adb11692d69e12aef759f4c55f0}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -2143,6 +2258,67 @@
       \verb http://www.nber.org/papers/w24307.pdf
       \endverb
     \endentry
+    \entry{berger_labor_2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2e440173b97e509d097f39df98e0d26f}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f00251f49441c3187b60cada01ab697}{%
+           family={Herkenhoff},
+           familyi={H\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7c07aca624bba7db6daa218f742dec5}{%
+           family={Mongey},
+           familyi={M\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e37a1d934e799bbedcd28774f5248919}
+      \strng{fullhash}{4a16f7cdefbf916030faef47e492779b}
+      \strng{bibnamehash}{4a16f7cdefbf916030faef47e492779b}
+      \strng{authorbibnamehash}{4a16f7cdefbf916030faef47e492779b}
+      \strng{authornamehash}{e37a1d934e799bbedcd28774f5248919}
+      \strng{authorfullhash}{4a16f7cdefbf916030faef47e492779b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We develop, estimate, and test a tractable general equilibrium model of oligopsony with differentiated jobs and concentrated labor markets. We estimate key model parameters by matching new evidence on the relationship between firms’ local labor market share and their employment and wage responses to state corporate tax changes. The model quantitatively replicates quasi-experimental evidence on imperfect productivity-wage pass-through and strategic wage setting of dominant employers. Relative to the efficient allocation, welfare losses from labor market power are 7.6 percent, while output is 20.9 percent lower. Lastly, declining local concentration added 4 percentage points to labor’s share of income between 1977 and 2013. ({JEL} E25, H71, J24, J31, J42, R23)}
+      \field{day}{1}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{American Economic Review}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Labor Market Power}
+      \field{urlday}{18}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{112}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1147\bibrangedash 1193}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1257/aer.20191521
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.aeaweb.org/doi/10.1257/aer.20191521
+      \endverb
+      \verb{url}
+      \verb https://pubs.aeaweb.org/doi/10.1257/aer.20191521
+      \endverb
+    \endentry
     \entry{caldwell_outside_2024}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=57bd957bcec0333425def126252964c0}{%
@@ -2379,30 +2555,65 @@
       \verb https://academic.oup.com/qje/article/135/2/561/5714769
       \endverb
     \endentry
-    \entry{departamento_administrativo_nacional_de_estadistica_dane_encuesta_nodate}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=90640cd1397af437eded0413d714d6a8}{%
-           family={{Departamento Administrativo Nacional de Estadística (DANE)}},
-           familyi={D\bibinitperiod}}}%
+    \entry{eslava_job_2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=de36477a0fa0b23254d598b41269e834}{%
+           family={Eslava},
+           familyi={E\bibinitperiod},
+           given={Marcela},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=257092f41f9099a5701f0a29ae3f32b7}{%
+           family={Haltiwanger},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19a4e1c456c95c0e6f2b7eff01ed6439}{%
+           family={Pinzón},
+           familyi={P\bibinitperiod},
+           given={Álvaro},
+           giveni={Á\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{90640cd1397af437eded0413d714d6a8}
-      \strng{fullhash}{90640cd1397af437eded0413d714d6a8}
-      \strng{bibnamehash}{90640cd1397af437eded0413d714d6a8}
-      \strng{authorbibnamehash}{90640cd1397af437eded0413d714d6a8}
-      \strng{authornamehash}{90640cd1397af437eded0413d714d6a8}
-      \strng{authorfullhash}{90640cd1397af437eded0413d714d6a8}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labeldatesource}{nodate}
+      \strng{namehash}{fba7b5255101469d08c2854bcd62719f}
+      \strng{fullhash}{1fd40a82d7ac42a631244628513243fc}
+      \strng{bibnamehash}{1fd40a82d7ac42a631244628513243fc}
+      \strng{authorbibnamehash}{1fd40a82d7ac42a631244628513243fc}
+      \strng{authornamehash}{fba7b5255101469d08c2854bcd62719f}
+      \strng{authorfullhash}{1fd40a82d7ac42a631244628513243fc}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Encuesta Anual Manufacturera ({EAM})}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{One of the most striking contrasts between the anatomies of the business sectors in higher‐ versus lower‐income economies is the overwhelming dominance of very small production units in the latter. Contrasting manufacturing sector data for Colombia and the {USA}, we show that weaker ‘up‐or‐out’ dynamics are behind this pattern and behind weaker average lifecycle growth. Dampened growth dynamics, not only in terms of upward mobility but also for exit and downward mobility, characterize both micro‐establishments and young establishments in Colombia relative to their {US} counterparts. These patterns lead to a more dominant role of small older businesses in accounting for employment. Since dynamic selection among startups is a crucial driver of productivity growth in the {USA}, our findings point to a shortage of high‐growth entrepreneurship and a relative high likelihood of long‐run survival for small, likely unproductive plants, as two key elements at the heart of the development problem. We also show that analysis of establishment lifecycle dynamics based solely on cross‐sectional data substantially underestimates lifecycle growth.}
+      \field{issn}{0013-0427, 1468-0335}
+      \field{journaltitle}{Economica}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{355}
+      \field{shorttitle}{Job Creation in Colombia Versus the {USA}}
+      \field{title}{Job Creation in Colombia Versus the {USA}: ‘Up‐or‐out Dynamics’ Meet ‘The Life Cycle of Plants’}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{89}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{511\bibrangedash 539}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1111/ecca.12418
+      \endverb
       \verb{urlraw}
-      \verb https://www.dane.gov.co/index.php/estadisticas-por-tema/industria/encuesta-anual-manufacturera-enam
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/ecca.12418
       \endverb
       \verb{url}
-      \verb https://www.dane.gov.co/index.php/estadisticas-por-tema/industria/encuesta-anual-manufacturera-enam
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/ecca.12418
       \endverb
     \endentry
     \entry{flabbi_female_2019}{article}{}
@@ -2540,35 +2751,6 @@
       \verb http://www.emerald.com/ijm/article/38/6/790-818/144206
       \endverb
     \endentry
-    \entry{inter-american_development_bank_competelac_2025}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e4da7a831913bc3f149e63cfb538a2b3}{%
-           family={{Inter-American Development Bank}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \strng{fullhash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \strng{bibnamehash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \strng{authorbibnamehash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \strng{authornamehash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \strng{authorfullhash}{e4da7a831913bc3f149e63cfb538a2b3}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{CompeteLAC}}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://competelac.fislac.com/
-      \endverb
-      \verb{url}
-      \verb https://competelac.fislac.com/
-      \endverb
-    \endentry
     \entry{lentz_labor_2010}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=01ad4dfe35bb64745e51c8c5222e29fb}{%
@@ -2682,6 +2864,53 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0929119913001120
       \endverb
     \endentry
+    \entry{manning_monopsony_2013}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d348adb11692d69e12aef759f4c55f0}{%
+           family={Manning},
+           familyi={M\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{2d348adb11692d69e12aef759f4c55f0}
+      \strng{fullhash}{2d348adb11692d69e12aef759f4c55f0}
+      \strng{bibnamehash}{2d348adb11692d69e12aef759f4c55f0}
+      \strng{authorbibnamehash}{2d348adb11692d69e12aef759f4c55f0}
+      \strng{authornamehash}{2d348adb11692d69e12aef759f4c55f0}
+      \strng{authorfullhash}{2d348adb11692d69e12aef759f4c55f0}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{3}
+      \field{isbn}{978-1-4008-5067-9 978-0-691-12328-8}
+      \field{month}{12}
+      \field{shorttitle}{Monopsony in Motion}
+      \field{title}{Monopsony in Motion: Imperfect Competition in Labor Markets}
+      \field{urlday}{18}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2307/j.ctt5hhpvk
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/10.2307/j.ctt5hhpvk
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/10.2307/j.ctt5hhpvk
+      \endverb
+    \endentry
     \entry{manning_elusive_2021}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2d348adb11692d69e12aef759f4c55f0}{%
@@ -2697,6 +2926,7 @@
       \strng{authorbibnamehash}{2d348adb11692d69e12aef759f4c55f0}
       \strng{authornamehash}{2d348adb11692d69e12aef759f4c55f0}
       \strng{authorfullhash}{2d348adb11692d69e12aef759f4c55f0}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
