@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1777135308.23353 "c:/Users/k_the/main/01_ECMIC_paper/latex/01_econometrics_presentation.tex" "01_econometrics_presentation.pdf" "01_econometrics_presentation" 1777135310.14574 0
-  "01_econometrics_presentation.aux" 1777135309 1693 cb308629db8bf8e5fac415efaddb1521 "pdflatex"
-  "01_econometrics_presentation.nav" 1777135309 1011 83c4ff004b77303d878240d0bcc95e05 "pdflatex"
-  "01_econometrics_presentation.out" 1777135309 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "01_econometrics_presentation.tex" 1777135307 9429 e45edfaa6c24d57d9ac7dda92f3f200c ""
+["pdflatex"] 1777135946.7637 "c:/Users/k_the/main/01_ECMIC_paper/latex/01_econometrics_presentation.tex" "01_econometrics_presentation.pdf" "01_econometrics_presentation" 1777135948.82991 0
+  "01_econometrics_presentation.aux" 1777135948 1828 520699e7cd4a536a713efce1f2d0ebe2 "pdflatex"
+  "01_econometrics_presentation.nav" 1777135948 1109 07396102f9d82bf25877ba7d82798efb "pdflatex"
+  "01_econometrics_presentation.out" 1777135947 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "01_econometrics_presentation.tex" 1777135946 9549 1101f33c9f12dc5ca7892162c1210ccb ""
   "C:/Users/k_the/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776826836 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/k_the/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcss0900.pk" 1776905939 9548 e640eec88fd39607d325a659e7ea3dd6 ""
   "C:/Users/k_the/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1775230388 24225045 f3a64ab037fc9143d7da63cc7d4eba2e ""
@@ -243,7 +243,8 @@
   "C:/Users/k_the/AppData/Local/Programs/MiKTeX/tex/latex/translator/translator.sty" 1622471510 8765 56d370785f0143111ff9898b5adfe08e ""
   "C:/Users/k_the/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/k_the/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/k_the/main/01_ECMIC_paper/latex/01_econometrics_presentation.tex" 1777135307 9429 e45edfaa6c24d57d9ac7dda92f3f200c ""
+  "c:/Users/k_the/main/01_ECMIC_paper/latex/01_econometrics_presentation.tex" 1777135946 9549 1101f33c9f12dc5ca7892162c1210ccb ""
+  "lm_diagnostics.png" 1776739858 596057 7495a5b8c7f1603a1aece3930924adf7 ""
   "violin_markdown_ownwshare.png" 1776701253 174294 3fa7ae8cf5acbee3a32156fde635ca63 ""
   (generated)
   "01_econometrics_presentation.aux"

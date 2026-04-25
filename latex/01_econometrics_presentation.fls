@@ -453,6 +453,13 @@ INPUT C:\Users\k_the\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.
 INPUT C:\Users\k_the\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\k_the\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssi9.tfm
 INPUT C:\Users\k_the\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssi8.tfm
+INPUT .\lm_diagnostics.png
+INPUT .\lm_diagnostics.png
+INPUT .\lm_diagnostics.png
+INPUT .\lm_diagnostics.png
+INPUT .\lm_diagnostics.png
+INPUT .\lm_diagnostics.png
+INPUT .\lm_diagnostics.png
 OUTPUT 01_econometrics_presentation.nav
 OUTPUT 01_econometrics_presentation.toc
 OUTPUT 01_econometrics_presentation.snm

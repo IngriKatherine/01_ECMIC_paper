@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.3)  25 APR 2026 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.4.3)  25 APR 2026 12:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,31 +849,43 @@ Overfull \hbox (2.58115pt too wide) detected at line 179
 <violin_markdown_ownwshare.png, id=168, 578.16pt x 361.35pt>
 File: violin_markdown_ownwshare.png Graphic file (type png)
 <use violin_markdown_ownwshare.png>
-Package pdftex.def Info: violin_markdown_ownwshare.png  used on input line 189.
-(pdftex.def)             Requested size: 282.32164pt x 176.45102pt.
+Package pdftex.def Info: violin_markdown_ownwshare.png  used on input line 185.
+(pdftex.def)             Requested size: 342.8229pt x 214.26431pt.
  [6
 
  <./violin_markdown_ownwshare.png>]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 210.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 206.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 210.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 206.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 210.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 206.
  [7
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 246.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 242.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 246.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 242.
 
-Overfull \vbox (7.26335pt too high) detected at line 246
+Overfull \vbox (7.26335pt too high) detected at line 242
  []
 
 [8
 
-] [9
+]
+<lm_diagnostics.png, id=251, 867.24pt x 650.43pt>
+File: lm_diagnostics.png Graphic file (type png)
+<use lm_diagnostics.png>
+Package pdftex.def Info: lm_diagnostics.png  used on input line 248.
+(pdftex.def)             Requested size: 302.4799pt x 226.85992pt.
+
+Overfull \vbox (7.32253pt too high) detected at line 248
+ []
+
+[9
+
+ <./lm_diagnostics.png>] [10
 
 ]
 \tf@nav=\write6
@@ -894,17 +906,17 @@ Package rerunfilecheck Info: File `01_econometrics_presentation.out' has not cha
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24958 strings out of 474486
- 482875 string characters out of 5743756
- 1943542 words of memory out of 5000000
- 46703 multiletter control sequences out of 15000+600000
+ 24964 strings out of 474486
+ 482982 string characters out of 5743756
+ 1942542 words of memory out of 5000000
+ 46707 multiletter control sequences out of 15000+600000
  578316 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,1066b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\k_the\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0900.pk><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/k_the/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 01_econometrics_presentation.pdf (9 pages, 412490 bytes).
+Output written on 01_econometrics_presentation.pdf (10 pages, 1002846 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 15956 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 384 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 15961 words of extra memory for PDF output out of 17280 (max. 10000000)
 
